@@ -1,0 +1,1456 @@
+Body,Head,Head_Coverage,Standard_Confidence,PCA_Confidence,Support,Body Size,Pca Body Size,Functional_variable
+?a  drug  Carboplatin  ?a  smokingHabit  NonSmoker   ,?a  ageCategory  old,0.051,0.653846,0.653846,51,78,78,?a
+?a  comorbidity  Cardiopathy  ?a  smokingHabit  CurrentSmoker   ,?a  hasRelapse  No,0.064,0.653061,0.653061,64,98,98,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Nivolumab   ,?a  sex  female,0.071,0.63964,0.63964,71,111,111,?a
+?a  drug  Vinorelbine  ?a  smokingHabit  PreviousSmoker   ,?a  hasRelapse  No,0.053,0.638554,0.638554,53,83,83,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Vinorelbine   ,?a  sex  female,0.071,0.633929,0.633929,71,112,112,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  CurrentSmoker   ,?a  sex  female,0.056,0.629213,0.629213,56,89,89,?a
+?a  drug  Afatinib  ?a  smokingHabit  CurrentSmoker   ,?a  ageCategory  old,0.046,0.621622,0.621622,46,74,74,?a
+?a  biomarker  ALK_Positive  ?a  biomarker  EGFR_Positive   ,?a  ageCategory  young,0.045,0.608108,0.608108,45,74,74,?a
+?a  biomarker  ALK_Positive  ?a  biomarker  EGFR_Positive   ,?a  sex  female,0.045,0.608108,0.608108,45,74,74,?a
+?a  biomarker  EGFR_Positive  ?a  smokingHabit  PreviousSmoker   ,?a  sex  female,0.044,0.60274,0.60274,44,73,73,?a
+?a  drug  Carboplatin  ?a  drug  Nivolumab   ,?a  hasRelapse  No,0.059,0.602041,0.602041,59,98,98,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Cardiopathy   ,?a  hasRelapse  No,0.079,0.598485,0.598485,79,132,132,?a
+?a  ageCategory  young  ?a  smokingHabit  CurrentSmoker   ,?a  biomarker  ROS1_Positive,0.057714,0.409449,0.597701,52,127,87,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Nivolumab   ,?a  ageCategory  young,0.083,0.597122,0.597122,83,139,139,?a
+?a  drug  Cisplatin  ?a  drug  Vinorelbine   ,?a  biomarker  EGFR_Positive,0.037736,0.382022,0.596491,34,89,57,?a
+?a  biomarker  ALK_Positive  ?a  drug  Cisplatin   ,?a  ageCategory  young,0.059,0.59596,0.59596,59,99,99,?a
+?a  drug  Cisplatin  ?a  drug  Vinorelbine   ,?a  hasRelapse  No,0.053,0.595506,0.595506,53,89,89,?a
+?a  biomarker  EGFR_Positive  ?a  biomarker  ROS1_Positive   ,?a  hasRelapse  Yes,0.053,0.595506,0.595506,53,89,89,?a
+?a  biomarker  ALK_Positive  ?a  comorbidity  Cardiopathy   ,?a  ageCategory  young,0.072,0.595041,0.595041,72,121,121,?a
+?a  drug  Nivolumab  ?a  drug  Vinorelbine   ,?a  sex  female,0.051,0.593023,0.593023,51,86,86,?a
+?a  biomarker  EGFR_Positive  ?a  smokingHabit  CurrentSmoker   ,?a  sex  female,0.045,0.592105,0.592105,45,76,76,?a
+?a  comorbidity  Cardiopathy  ?a  smokingHabit  CurrentSmoker   ,?a  ageCategory  young,0.058,0.591837,0.591837,58,98,98,?a
+?a  comorbidity  Cardiopathy  ?a  smokingHabit  CurrentSmoker   ,?a  biomarker  ROS1_Positive,0.046615,0.428571,0.591549,42,98,71,?a
+?a  drug  Carboplatin  ?a  smokingHabit  CurrentSmoker   ,?a  sex  female,0.055,0.591398,0.591398,55,93,93,?a
+?a  drug  Afatinib  ?a  drug  Carboplatin   ,?a  sex  female,0.052,0.590909,0.590909,52,88,88,?a
+?a  drug  Afatinib  ?a  drug  Vinorelbine   ,?a  ageCategory  old,0.049,0.590361,0.590361,49,83,83,?a
+?a  drug  Carboplatin  ?a  smokingHabit  NonSmoker   ,?a  hasRelapse  No,0.046,0.589744,0.589744,46,78,78,?a
+?a  ageCategory  old  ?a  biomarker  ROS1_Positive   ,?a  sex  female,0.092,0.589744,0.589744,92,156,156,?a
+?a  drug  Carboplatin  ?a  smokingHabit  NonSmoker   ,?a  sex  male,0.046,0.589744,0.589744,46,78,78,?a
+?a  biomarker  ALK_Positive  ?a  sex  male   ,?a  ageCategory  young,0.079,0.589552,0.589552,79,134,134,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Afatinib   ,?a  sex  female,0.063,0.588785,0.588785,63,107,107,?a
+?a  comorbidity  Cardiopathy  ?a  comorbidity  Others   ,?a  ageCategory  young,0.077,0.587786,0.587786,77,131,131,?a
+?a  biomarker  ALK_Positive  ?a  comorbidity  Diabetes_Mellitus   ,?a  ageCategory  young,0.062,0.584906,0.584906,62,106,106,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  CurrentSmoker   ,?a  ageCategory  young,0.052,0.58427,0.58427,52,89,89,?a
+?a  drug  Vinorelbine  ?a  smokingHabit  CurrentSmoker   ,?a  sex  female,0.052,0.58427,0.58427,52,89,89,?a
+?a  biomarker  EGFR_Positive  ?a  biomarker  ROS1_Positive   ,?a  sex  female,0.052,0.58427,0.58427,52,89,89,?a
+?a  biomarker  ALK_Positive  ?a  smokingHabit  PreviousSmoker   ,?a  sex  female,0.042,0.583333,0.583333,42,72,72,?a
+?a  comorbidity  Depression  ?a  comorbidity  Diabetes_Mellitus   ,?a  sex  male,0.081,0.582734,0.582734,81,139,139,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Cisplatin   ,?a  ageCategory  young,0.078,0.58209,0.58209,78,134,134,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Afatinib   ,?a  sex  female,0.061,0.580952,0.580952,61,105,105,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  smokingHabit  NonSmoker   ,?a  sex  male,0.061,0.580952,0.580952,61,105,105,?a
+?a  drug  Cisplatin  ?a  drug  Nivolumab   ,?a  ageCategory  young,0.054,0.580645,0.580645,54,93,93,?a
+?a  drug  Nivolumab  ?a  hasRelapse  Yes   ,?a  sex  female,0.094,0.580247,0.580247,94,162,162,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Vinorelbine   ,?a  hasRelapse  No,0.087,0.58,0.58,87,150,150,?a
+?a  drug  Cisplatin  ?a  hasRelapse  No   ,?a  ageCategory  young,0.098,0.579882,0.579882,98,169,169,?a
+?a  drug  Afatinib  ?a  sex  male   ,?a  comorbidity  Depression,0.052907,0.579618,0.579618,91,157,157,?a
+?a  comorbidity  Cardiopathy  ?a  smokingHabit  PreviousSmoker   ,?a  hasRelapse  No,0.062,0.579439,0.579439,62,107,107,?a
+?a  drug  Carboplatin  ?a  drug  Vinorelbine   ,?a  hasRelapse  No,0.055,0.578947,0.578947,55,95,95,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  PreviousSmoker   ,?a  hasRelapse  No,0.044,0.578947,0.578947,44,76,76,?a
+?a  drug  Carboplatin  ?a  drug  Cisplatin   ,?a  ageCategory  old,0.055,0.578947,0.578947,55,95,95,?a
+?a  drug  Vinorelbine  ?a  hasRelapse  Yes   ,?a  sex  female,0.096,0.578313,0.578313,96,166,166,?a
+?a  comorbidity  Depression  ?a  smokingHabit  CurrentSmoker   ,?a  ageCategory  old,0.067,0.577586,0.577586,67,116,116,?a
+?a  comorbidity  Others  ?a  smokingHabit  CurrentSmoker   ,?a  ageCategory  old,0.06,0.576923,0.576923,60,104,104,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Cardiopathy   ,?a  sex  female,0.076,0.575758,0.575758,76,132,132,?a
+?a  biomarker  ALK_Positive  ?a  biomarker  ROS1_Positive   ,?a  ageCategory  young,0.042,0.575342,0.575342,42,73,73,?a
+?a  biomarker  EGFR_Positive  ?a  smokingHabit  PreviousSmoker   ,?a  ageCategory  old,0.042,0.575342,0.575342,42,73,73,?a
+?a  biomarker  ALK_Positive  ?a  biomarker  ROS1_Positive   ,?a  sex  female,0.042,0.575342,0.575342,42,73,73,?a
+?a  comorbidity  Others  ?a  smokingHabit  NonSmoker   ,?a  ageCategory  young,0.069,0.575,0.575,69,120,120,?a
+?a  drug  Nivolumab  ?a  smokingHabit  PreviousSmoker   ,?a  hasRelapse  No,0.05,0.574713,0.574713,50,87,87,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Cisplatin   ,?a  sex  female,0.077,0.574627,0.574627,77,134,134,?a
+?a  drug  Carboplatin  ?a  smokingHabit  CurrentSmoker   ,?a  biomarker  ROS1_Positive,0.038846,0.376344,0.57377,35,93,61,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Vinorelbine   ,?a  ageCategory  young,0.086,0.573333,0.573333,86,150,150,?a
+?a  biomarker  ALK_Positive  ?a  smokingHabit  NonSmoker   ,?a  ageCategory  young,0.043,0.573333,0.573333,43,75,75,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Vinorelbine   ,?a  sex  female,0.086,0.573333,0.573333,86,150,150,?a
+?a  drug  Cisplatin  ?a  smokingHabit  CurrentSmoker   ,?a  hasRelapse  No,0.051,0.573034,0.573034,51,89,89,?a
+?a  ageCategory  old  ?a  smokingHabit  PreviousSmoker   ,?a  sex  female,0.075,0.572519,0.572519,75,131,131,?a
+?a  biomarker  ROS1_Positive  ?a  hasRelapse  Yes   ,?a  sex  female,0.087,0.572368,0.572368,87,152,152,?a
+?a  ageCategory  old  ?a  hasRelapse  Yes   ,?a  sex  female,0.139,0.572016,0.572016,139,243,243,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  smokingHabit  PreviousSmoker   ,?a  hasRelapse  No,0.056,0.571429,0.571429,56,98,98,?a
+?a  drug  Nivolumab  ?a  drug  Vinorelbine   ,?a  biomarker  ROS1_Positive,0.035516,0.372093,0.571429,32,86,56,?a
+?a  sex  female  ?a  smokingHabit  CurrentSmoker   ,?a  biomarker  ROS1_Positive,0.062153,0.405797,0.571429,56,138,98,?a
+?a  comorbidity  Others  ?a  hasRelapse  Yes   ,?a  sex  female,0.129,0.570796,0.570796,129,226,226,?a
+?a  comorbidity  Depression  ?a  drug  Cisplatin   ,?a  sex  male,0.089,0.570513,0.570513,89,156,156,?a
+?a  ageCategory  old  ?a  biomarker  ALK_Positive   ,?a  sex  female,0.073,0.570313,0.570313,73,128,128,?a
+?a  drug  Afatinib  ?a  drug  Nivolumab   ,?a  comorbidity  Depression,0.030814,0.569892,0.569892,53,93,93,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Carboplatin   ,?a  hasRelapse  No,0.066,0.568966,0.568966,66,116,116,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Nivolumab   ,?a  hasRelapse  No,0.079,0.568345,0.568345,79,139,139,?a
+?a  comorbidity  Cardiopathy  ?a  comorbidity  Depression   ,?a  ageCategory  young,0.088,0.567742,0.567742,88,155,155,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Nivolumab   ,?a  hasRelapse  No,0.063,0.567568,0.567568,63,111,111,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Diabetes_Mellitus   ,?a  sex  female,0.063,0.567568,0.567568,63,111,111,?a
+?a  biomarker  ALK_Positive  ?a  smokingHabit  CurrentSmoker   ,?a  hasRelapse  No,0.038,0.567164,0.567164,38,67,67,?a
+?a  ageCategory  young  ?a  smokingHabit  CurrentSmoker   ,?a  sex  female,0.072,0.566929,0.566929,72,127,127,?a
+?a  drug  Nivolumab  ?a  sex  male   ,?a  hasRelapse  No,0.089,0.566879,0.566879,89,157,157,?a
+?a  drug  Carboplatin  ?a  sex  male   ,?a  hasRelapse  No,0.098,0.566474,0.566474,98,173,173,?a
+?a  comorbidity  Cardiopathy  ?a  sex  female   ,?a  hasRelapse  No,0.124,0.56621,0.56621,124,219,219,?a
+?a  biomarker  EGFR_Positive  ?a  hasRelapse  Yes   ,?a  sex  female,0.09,0.566038,0.566038,90,159,159,?a
+?a  ageCategory  young  ?a  drug  Vinorelbine   ,?a  sex  female,0.103,0.565934,0.565934,103,182,182,?a
+?a  ageCategory  old  ?a  smokingHabit  PreviousSmoker   ,?a  hasRelapse  No,0.074,0.564885,0.564885,74,131,131,?a
+?a  comorbidity  Cardiopathy  ?a  sex  male   ,?a  ageCategory  young,0.11,0.564103,0.564103,110,195,195,?a
+?a  sex  female  ?a  smokingHabit  PreviousSmoker   ,?a  ageCategory  old,0.075,0.56391,0.56391,75,133,133,?a
+?a  biomarker  ROS1_Positive   ,?a  sex  female,0.177,0.563694,0.563694,177,314,314,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  CurrentSmoker   ,?a  sex  female,0.067,0.563025,0.563025,67,119,119,?a
+?a  comorbidity  Depression  ?a  smokingHabit  NonSmoker   ,?a  sex  male,0.067,0.563025,0.563025,67,119,119,?a
+?a  drug  Nivolumab  ?a  smokingHabit  CurrentSmoker   ,?a  biomarker  EGFR_Positive,0.039956,0.4,0.5625,36,90,64,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Carboplatin   ,?a  ageCategory  old,0.081,0.5625,0.5625,81,144,144,?a
+?a  drug  Nivolumab  ?a  smokingHabit  NonSmoker   ,?a  hasRelapse  No,0.05,0.561798,0.561798,50,89,89,?a
+?a  drug  Vinorelbine  ?a  smokingHabit  CurrentSmoker   ,?a  hasRelapse  No,0.05,0.561798,0.561798,50,89,89,?a
+?a  biomarker  EGFR_Positive  ?a  biomarker  ROS1_Positive   ,?a  ageCategory  old,0.05,0.561798,0.561798,50,89,89,?a
+?a  biomarker  ALK_Positive  ?a  hasRelapse  No   ,?a  ageCategory  young,0.082,0.561644,0.561644,82,146,146,?a
+?a  biomarker  ALK_Positive  ?a  hasRelapse  No   ,?a  sex  female,0.082,0.561644,0.561644,82,146,146,?a
+?a  comorbidity  Others  ?a  drug  Afatinib   ,?a  ageCategory  old,0.083,0.560811,0.560811,83,148,148,?a
+?a  comorbidity  Cardiopathy  ?a  smokingHabit  PreviousSmoker   ,?a  ageCategory  young,0.06,0.560748,0.560748,60,107,107,?a
+?a  hasRelapse  No  ?a  smokingHabit  NonSmoker   ,?a  sex  male,0.074,0.560606,0.560606,74,132,132,?a
+?a  comorbidity  Others  ?a  drug  Cisplatin   ,?a  ageCategory  young,0.088,0.56051,0.56051,88,157,157,?a
+?a  comorbidity  Cardiopathy  ?a  comorbidity  Others   ,?a  biomarker  EGFR_Positive,0.056604,0.389313,0.56044,51,131,91,?a
+?a  biomarker  ALK_Positive  ?a  drug  Afatinib   ,?a  comorbidity  Depression,0.032558,0.56,0.56,56,100,100,?a
+?a  biomarker  ALK_Positive  ?a  drug  Afatinib   ,?a  sex  female,0.056,0.56,0.56,56,100,100,?a
+?a  drug  Vinorelbine  ?a  smokingHabit  NonSmoker   ,?a  sex  female,0.056,0.56,0.56,56,100,100,?a
+?a  ageCategory  young  ?a  biomarker  EGFR_Positive   ,?a  sex  female,0.084,0.56,0.56,84,150,150,?a
+?a  drug  Vinorelbine  ?a  sex  male   ,?a  hasRelapse  No,0.089,0.559748,0.559748,89,159,159,?a
+?a  comorbidity  Cardiopathy  ?a  hasRelapse  Yes   ,?a  ageCategory  young,0.104,0.55914,0.55914,104,186,186,?a
+?a  drug  Afatinib  ?a  smokingHabit  PreviousSmoker   ,?a  sex  female,0.052,0.55914,0.55914,52,93,93,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Carboplatin   ,?a  hasRelapse  No,0.086,0.558442,0.558442,86,154,154,?a
+?a  comorbidity  Cardiopathy   ,?a  ageCategory  young,0.231,0.557971,0.557971,231,414,414,?a
+?a  drug  Carboplatin  ?a  drug  Cisplatin   ,?a  hasRelapse  No,0.053,0.557895,0.557895,53,95,95,?a
+?a  drug  Carboplatin  ?a  hasRelapse  Yes   ,?a  biomarker  EGFR_Positive,0.069922,0.377246,0.557522,63,167,113,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  smokingHabit  CurrentSmoker   ,?a  sex  female,0.063,0.557522,0.557522,63,113,113,?a
+?a  drug  Carboplatin  ?a  drug  Nivolumab   ,?a  biomarker  ROS1_Positive,0.037736,0.346939,0.557377,34,98,61,?a
+?a  drug  Afatinib  ?a  drug  Cisplatin   ,?a  hasRelapse  Yes,0.044,0.556962,0.556962,44,79,79,?a
+?a  biomarker  ALK_Positive  ?a  drug  Carboplatin   ,?a  hasRelapse  No,0.049,0.556818,0.556818,49,88,88,?a
+?a  drug  Afatinib  ?a  drug  Carboplatin   ,?a  ageCategory  old,0.049,0.556818,0.556818,49,88,88,?a
+?a  comorbidity  Depression  ?a  drug  Carboplatin   ,?a  ageCategory  old,0.084,0.556291,0.556291,84,151,151,?a
+?a  drug  Afatinib  ?a  drug  Carboplatin   ,?a  biomarker  EGFR_Positive,0.038846,0.397727,0.555556,35,88,63,?a
+?a  drug  Cisplatin  ?a  smokingHabit  NonSmoker   ,?a  ageCategory  young,0.055,0.555556,0.555556,55,99,99,?a
+?a  biomarker  ALK_Positive  ?a  drug  Nivolumab   ,?a  ageCategory  young,0.055,0.555556,0.555556,55,99,99,?a
+?a  drug  Nivolumab  ?a  smokingHabit  CurrentSmoker   ,?a  sex  female,0.05,0.555556,0.555556,50,90,90,?a
+?a  biomarker  ALK_Positive  ?a  drug  Nivolumab   ,?a  sex  female,0.055,0.555556,0.555556,55,99,99,?a
+?a  sex  male  ?a  smokingHabit  PreviousSmoker   ,?a  hasRelapse  No,0.066,0.554622,0.554622,66,119,119,?a
+?a  drug  Vinorelbine  ?a  smokingHabit  PreviousSmoker   ,?a  ageCategory  old,0.046,0.554217,0.554217,46,83,83,?a
+?a  drug  Afatinib  ?a  smokingHabit  CurrentSmoker   ,?a  hasRelapse  No,0.041,0.554054,0.554054,41,74,74,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Nivolumab   ,?a  sex  female,0.077,0.553957,0.553957,77,139,139,?a
+?a  comorbidity  Others  ?a  smokingHabit  PreviousSmoker   ,?a  hasRelapse  No,0.062,0.553571,0.553571,62,112,112,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Carboplatin   ,?a  hasRelapse  Yes,0.063,0.552632,0.552632,63,114,114,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  PreviousSmoker   ,?a  ageCategory  old,0.042,0.552632,0.552632,42,76,76,?a
+?a  biomarker  ALK_Positive  ?a  drug  Vinorelbine   ,?a  ageCategory  young,0.053,0.552083,0.552083,53,96,96,?a
+?a  ageCategory  old  ?a  comorbidity  Cardiopathy   ,?a  hasRelapse  No,0.101,0.551913,0.551913,101,183,183,?a
+?a  drug  Cisplatin  ?a  sex  female   ,?a  ageCategory  young,0.096,0.551724,0.551724,96,174,174,?a
+?a  comorbidity  Depression  ?a  drug  Afatinib   ,?a  sex  male,0.091,0.551515,0.551515,91,165,165,?a
+?a  biomarker  EGFR_Positive   ,?a  sex  female,0.167,0.551155,0.551155,167,303,303,?a
+?a  comorbidity  Cardiopathy  ?a  smokingHabit  CurrentSmoker   ,?a  sex  female,0.054,0.55102,0.55102,54,98,98,?a
+?a  drug  Carboplatin  ?a  hasRelapse  Yes   ,?a  sex  female,0.092,0.550898,0.550898,92,167,167,?a
+?a  drug  Vinorelbine   ,?a  sex  female,0.195,0.550847,0.550847,195,354,354,?a
+?a  comorbidity  Cardiopathy   ,?a  hasRelapse  No,0.228,0.550725,0.550725,228,414,414,?a
+?a  drug  Cisplatin  ?a  smokingHabit  CurrentSmoker   ,?a  ageCategory  young,0.049,0.550562,0.550562,49,89,89,?a
+?a  drug  Nivolumab  ?a  smokingHabit  NonSmoker   ,?a  sex  female,0.049,0.550562,0.550562,49,89,89,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Others   ,?a  hasRelapse  Yes,0.082,0.550336,0.550336,82,149,149,?a
+?a  smokingHabit  CurrentSmoker   ,?a  sex  female,0.138,0.549801,0.549801,138,251,251,?a
+?a  ageCategory  young  ?a  smokingHabit  NonSmoker   ,?a  hasRelapse  No,0.072,0.549618,0.549618,72,131,131,?a
+?a  biomarker  ALK_Positive   ,?a  ageCategory  young,0.156,0.549296,0.549296,156,284,284,?a
+?a  drug  Cisplatin   ,?a  ageCategory  young,0.19,0.549133,0.549133,190,346,346,?a
+?a  drug  Carboplatin  ?a  sex  male   ,?a  ageCategory  old,0.095,0.549133,0.549133,95,173,173,?a
+?a  comorbidity  Others  ?a  sex  female   ,?a  hasRelapse  Yes,0.129,0.548936,0.548936,129,235,235,?a
+?a  drug  Carboplatin  ?a  drug  Vinorelbine   ,?a  biomarker  ROS1_Positive,0.037736,0.357895,0.548387,34,95,62,?a
+?a  sex  male  ?a  smokingHabit  NonSmoker   ,?a  hasRelapse  No,0.074,0.548148,0.548148,74,135,135,?a
+?a  drug  Cisplatin  ?a  smokingHabit  PreviousSmoker   ,?a  biomarker  ALK_Positive,0.032186,0.376623,0.54717,29,77,53,?a
+?a  biomarker  ALK_Positive  ?a  sex  female   ,?a  hasRelapse  No,0.082,0.546667,0.546667,82,150,150,?a
+?a  comorbidity  Others  ?a  drug  Vinorelbine   ,?a  ageCategory  young,0.088,0.546584,0.546584,88,161,161,?a
+?a  ageCategory  young  ?a  comorbidity  Depression   ,?a  sex  male,0.124,0.546256,0.546256,124,227,227,?a
+?a  drug  Nivolumab  ?a  sex  female   ,?a  biomarker  ROS1_Positive,0.078801,0.37766,0.546154,71,188,130,?a
+?a  drug  Vinorelbine  ?a  sex  female   ,?a  biomarker  ROS1_Positive,0.078801,0.364103,0.546154,71,195,130,?a
+?a  comorbidity  Cardiopathy  ?a  comorbidity  Diabetes_Mellitus   ,?a  sex  female,0.077,0.546099,0.546099,77,141,141,?a
+?a  biomarker  ALK_Positive  ?a  drug  Cisplatin   ,?a  hasRelapse  No,0.054,0.545455,0.545455,54,99,99,?a
+?a  biomarker  ALK_Positive  ?a  comorbidity  Others   ,?a  hasRelapse  Yes,0.066,0.545455,0.545455,66,121,121,?a
+?a  hasRelapse  No  ?a  smokingHabit  NonSmoker   ,?a  ageCategory  young,0.072,0.545455,0.545455,72,132,132,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Carboplatin   ,?a  sex  female,0.084,0.545455,0.545455,84,154,154,?a
+?a  drug  Cisplatin  ?a  smokingHabit  PreviousSmoker   ,?a  sex  female,0.042,0.545455,0.545455,42,77,77,?a
+?a  ageCategory  young  ?a  drug  Nivolumab   ,?a  sex  female,0.096,0.545455,0.545455,96,176,176,?a
+?a  drug  Nivolumab   ,?a  sex  female,0.188,0.544928,0.544928,188,345,345,?a
+?a  ageCategory  old  ?a  drug  Cisplatin   ,?a  hasRelapse  Yes,0.085,0.544872,0.544872,85,156,156,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Vinorelbine   ,?a  hasRelapse  No,0.061,0.544643,0.544643,61,112,112,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Vinorelbine   ,?a  ageCategory  old,0.061,0.544643,0.544643,61,112,112,?a
+?a  hasRelapse  No  ?a  smokingHabit  PreviousSmoker   ,?a  ageCategory  old,0.074,0.544118,0.544118,74,136,136,?a
+?a  ageCategory  old  ?a  sex  male   ,?a  hasRelapse  No,0.124,0.54386,0.54386,124,228,228,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Carboplatin   ,?a  ageCategory  old,0.062,0.54386,0.54386,62,114,114,?a
+?a  comorbidity  Cardiopathy  ?a  hasRelapse  No   ,?a  sex  female,0.124,0.54386,0.54386,124,228,228,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  CurrentSmoker   ,?a  biomarker  ROS1_Positive,0.048835,0.369748,0.54321,44,119,81,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Carboplatin   ,?a  ageCategory  old,0.063,0.543103,0.543103,63,116,116,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  PreviousSmoker   ,?a  sex  female,0.063,0.543103,0.543103,63,116,116,?a
+?a  comorbidity  Others  ?a  hasRelapse  Yes   ,?a  biomarker  EGFR_Positive,0.09101,0.362832,0.543046,82,226,151,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  smokingHabit  NonSmoker   ,?a  hasRelapse  Yes,0.057,0.542857,0.542857,57,105,105,?a
+?a  comorbidity  Cardiopathy  ?a  smokingHabit  NonSmoker   ,?a  biomarker  EGFR_Positive,0.042175,0.38,0.542857,38,100,70,?a
+?a  hasRelapse  Yes   ,?a  sex  female,0.269,0.542339,0.542339,269,496,496,?a
+?a  comorbidity  Depression  ?a  sex  female   ,?a  ageCategory  old,0.122,0.542222,0.542222,122,225,225,?a
+?a  drug  Afatinib  ?a  drug  Vinorelbine   ,?a  hasRelapse  No,0.045,0.542169,0.542169,45,83,83,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Nivolumab   ,?a  hasRelapse  No,0.071,0.541985,0.541985,71,131,131,?a
+?a  hasRelapse  Yes  ?a  sex  male   ,?a  ageCategory  young,0.123,0.54185,0.54185,123,227,227,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Carboplatin   ,?a  sex  female,0.078,0.541667,0.541667,78,144,144,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  smokingHabit  PreviousSmoker   ,?a  sex  male,0.053,0.540816,0.540816,53,98,98,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Diabetes_Mellitus   ,?a  hasRelapse  Yes,0.06,0.540541,0.540541,60,111,111,?a
+?a  biomarker  ALK_Positive  ?a  biomarker  EGFR_Positive   ,?a  comorbidity  Cardiopathy,0.023256,0.540541,0.540541,40,74,74,?a
+?a  comorbidity  Others  ?a  drug  Carboplatin   ,?a  biomarker  EGFR_Positive,0.066593,0.361446,0.540541,60,166,111,?a
+?a  comorbidity  Others  ?a  drug  Afatinib   ,?a  sex  female,0.08,0.540541,0.540541,80,148,148,?a
+?a  comorbidity  Others  ?a  drug  Vinorelbine   ,?a  hasRelapse  No,0.087,0.540373,0.540373,87,161,161,?a
+?a  ageCategory  old  ?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Depression,0.038953,0.540323,0.540323,67,124,124,?a
+?a  drug  Carboplatin  ?a  smokingHabit  PreviousSmoker   ,?a  ageCategory  old,0.047,0.54023,0.54023,47,87,87,?a
+?a  sex  male  ?a  smokingHabit  CurrentSmoker   ,?a  hasRelapse  No,0.061,0.539823,0.539823,61,113,113,?a
+?a  smokingHabit  PreviousSmoker   ,?a  hasRelapse  No,0.136,0.539683,0.539683,136,252,252,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Afatinib   ,?a  ageCategory  old,0.068,0.539683,0.539683,68,126,126,?a
+?a  ageCategory  old  ?a  comorbidity  Others   ,?a  sex  female,0.116,0.539535,0.539535,116,215,215,?a
+?a  biomarker  EGFR_Positive  ?a  smokingHabit  CurrentSmoker   ,?a  ageCategory  old,0.041,0.539474,0.539474,41,76,76,?a
+?a  biomarker  EGFR_Positive  ?a  sex  female   ,?a  hasRelapse  Yes,0.09,0.538922,0.538922,90,167,167,?a
+?a  drug  Carboplatin  ?a  hasRelapse  Yes   ,?a  ageCategory  old,0.09,0.538922,0.538922,90,167,167,?a
+?a  ageCategory  old  ?a  sex  female   ,?a  hasRelapse  Yes,0.139,0.53876,0.53876,139,258,258,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Others   ,?a  ageCategory  old,0.077,0.538462,0.538462,77,143,143,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Vinorelbine   ,?a  ageCategory  old,0.056,0.538462,0.538462,56,104,104,?a
+?a  drug  Carboplatin   ,?a  ageCategory  old,0.191,0.538028,0.538028,191,355,355,?a
+?a  drug  Afatinib  ?a  drug  Nivolumab   ,?a  ageCategory  old,0.05,0.537634,0.537634,50,93,93,?a
+?a  hasRelapse  Yes  ?a  sex  male   ,?a  comorbidity  Depression,0.07093,0.537445,0.537445,122,227,227,?a
+?a  biomarker  ALK_Positive  ?a  comorbidity  Cardiopathy   ,?a  sex  female,0.065,0.53719,0.53719,65,121,121,?a
+?a  biomarker  ALK_Positive  ?a  comorbidity  Others   ,?a  sex  female,0.065,0.53719,0.53719,65,121,121,?a
+?a  hasRelapse  No  ?a  sex  female   ,?a  ageCategory  young,0.138,0.536965,0.536965,138,257,257,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Vinorelbine   ,?a  hasRelapse  No,0.073,0.536765,0.536765,73,136,136,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  comorbidity  Others   ,?a  hasRelapse  Yes,0.073,0.536765,0.536765,73,136,136,?a
+?a  drug  Carboplatin  ?a  hasRelapse  No   ,?a  biomarker  ROS1_Positive,0.073252,0.351064,0.536585,66,188,123,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Cisplatin   ,?a  hasRelapse  Yes,0.082,0.535948,0.535948,82,153,153,?a
+?a  comorbidity  Others  ?a  sex  male   ,?a  hasRelapse  No,0.112,0.535885,0.535885,112,209,209,?a
+?a  comorbidity  Others  ?a  smokingHabit  PreviousSmoker   ,?a  ageCategory  old,0.06,0.535714,0.535714,60,112,112,?a
+?a  drug  Afatinib  ?a  hasRelapse  No   ,?a  sex  female,0.09,0.535714,0.535714,90,168,168,?a
+?a  comorbidity  Others  ?a  smokingHabit  PreviousSmoker   ,?a  sex  female,0.06,0.535714,0.535714,60,112,112,?a
+?a  ageCategory  old  ?a  comorbidity  Cardiopathy   ,?a  sex  female,0.098,0.535519,0.535519,98,183,183,?a
+?a  ageCategory  young  ?a  smokingHabit  CurrentSmoker   ,?a  hasRelapse  No,0.068,0.535433,0.535433,68,127,127,?a
+?a  biomarker  ALK_Positive  ?a  drug  Nivolumab   ,?a  hasRelapse  No,0.053,0.535354,0.535354,53,99,99,?a
+?a  biomarker  ALK_Positive  ?a  drug  Cisplatin   ,?a  sex  female,0.053,0.535354,0.535354,53,99,99,?a
+?a  drug  Cisplatin  ?a  smokingHabit  NonSmoker   ,?a  sex  male,0.053,0.535354,0.535354,53,99,99,?a
+?a  ageCategory  old  ?a  comorbidity  Diabetes_Mellitus   ,?a  sex  female,0.107,0.535,0.535,107,200,200,?a
+?a  biomarker  EGFR_Positive  ?a  smokingHabit  NonSmoker   ,?a  sex  male,0.046,0.534884,0.534884,46,86,86,?a
+?a  comorbidity  Cardiopathy  ?a  comorbidity  Others   ,?a  sex  female,0.07,0.534351,0.534351,70,131,131,?a
+?a  biomarker  ALK_Positive  ?a  biomarker  ROS1_Positive   ,?a  hasRelapse  No,0.039,0.534247,0.534247,39,73,73,?a
+?a  comorbidity  Depression  ?a  drug  Vinorelbine   ,?a  ageCategory  old,0.086,0.534161,0.534161,86,161,161,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Cisplatin   ,?a  hasRelapse  Yes,0.056,0.533333,0.533333,56,105,105,?a
+?a  ageCategory  young  ?a  biomarker  EGFR_Positive   ,?a  hasRelapse  Yes,0.08,0.533333,0.533333,80,150,150,?a
+?a  drug  Nivolumab  ?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Depression,0.027907,0.533333,0.533333,48,90,90,?a
+?a  ageCategory  young  ?a  drug  Vinorelbine   ,?a  hasRelapse  No,0.097,0.532967,0.532967,97,182,182,?a
+?a  biomarker  ROS1_Positive  ?a  sex  male   ,?a  ageCategory  young,0.073,0.532847,0.532847,73,137,137,?a
+?a  comorbidity  Depression  ?a  drug  Nivolumab   ,?a  hasRelapse  No,0.09,0.532544,0.532544,90,169,169,?a
+?a  ageCategory  old  ?a  drug  Nivolumab   ,?a  hasRelapse  No,0.09,0.532544,0.532544,90,169,169,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Others,0.023837,0.532468,0.532468,41,77,77,?a
+?a  drug  Afatinib  ?a  smokingHabit  NonSmoker   ,?a  sex  male,0.041,0.532468,0.532468,41,77,77,?a
+?a  comorbidity  Depression  ?a  drug  Cisplatin   ,?a  hasRelapse  Yes,0.083,0.532051,0.532051,83,156,156,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  NonSmoker   ,?a  ageCategory  old,0.067,0.531746,0.531746,67,126,126,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Afatinib   ,?a  sex  female,0.067,0.531746,0.531746,67,126,126,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Diabetes_Mellitus   ,?a  ageCategory  old,0.059,0.531532,0.531532,59,111,111,?a
+?a  biomarker  ALK_Positive  ?a  drug  Vinorelbine   ,?a  hasRelapse  No,0.051,0.53125,0.53125,51,96,96,?a
+?a  drug  Vinorelbine   ,?a  hasRelapse  No,0.188,0.531073,0.531073,188,354,354,?a
+?a  ageCategory  old   ,?a  sex  female,0.258,0.530864,0.530864,258,486,486,?a
+?a  drug  Carboplatin  ?a  drug  Nivolumab   ,?a  ageCategory  young,0.052,0.530612,0.530612,52,98,98,?a
+?a  ageCategory  young  ?a  drug  Carboplatin   ,?a  hasRelapse  No,0.087,0.530488,0.530488,87,164,164,?a
+?a  drug  Afatinib  ?a  hasRelapse  Yes   ,?a  ageCategory  old,0.087,0.530488,0.530488,87,164,164,?a
+?a  drug  Nivolumab   ,?a  hasRelapse  No,0.183,0.530435,0.530435,183,345,345,?a
+?a  comorbidity  Depression  ?a  hasRelapse  Yes   ,?a  sex  male,0.122,0.530435,0.530435,122,230,230,?a
+?a  drug  Cisplatin  ?a  smokingHabit  NonSmoker   ,?a  biomarker  EGFR_Positive,0.038846,0.353535,0.530303,35,99,66,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  sex  male   ,?a  ageCategory  young,0.105,0.530303,0.530303,105,198,198,?a
+?a  comorbidity  Others  ?a  drug  Carboplatin   ,?a  hasRelapse  No,0.088,0.53012,0.53012,88,166,166,?a
+?a  drug  Vinorelbine  ?a  smokingHabit  PreviousSmoker   ,?a  sex  male,0.044,0.53012,0.53012,44,83,83,?a
+?a  ageCategory  old  ?a  comorbidity  Diabetes_Mellitus   ,?a  hasRelapse  Yes,0.106,0.53,0.53,106,200,200,?a
+?a  comorbidity  Cardiopathy  ?a  smokingHabit  NonSmoker   ,?a  sex  male,0.053,0.53,0.53,53,100,100,?a
+?a  comorbidity  Depression  ?a  sex  male   ,?a  ageCategory  young,0.124,0.529915,0.529915,124,234,234,?a
+?a  comorbidity  Depression  ?a  drug  Carboplatin   ,?a  hasRelapse  No,0.08,0.529801,0.529801,80,151,151,?a
+?a  comorbidity  Depression  ?a  drug  Carboplatin   ,?a  sex  male,0.08,0.529801,0.529801,80,151,151,?a
+?a  drug  Carboplatin   ,?a  hasRelapse  No,0.188,0.529577,0.529577,188,355,355,?a
+?a  sex  male  ?a  smokingHabit  PreviousSmoker   ,?a  ageCategory  young,0.063,0.529412,0.529412,63,119,119,?a
+?a  comorbidity  Others   ,?a  sex  female,0.235,0.529279,0.529279,235,444,444,?a
+?a  comorbidity  Cardiopathy   ,?a  sex  female,0.219,0.528986,0.528986,219,414,414,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Vinorelbine   ,?a  comorbidity  Others,0.031977,0.528846,0.528846,55,104,104,?a
+?a  drug  Nivolumab  ?a  smokingHabit  PreviousSmoker   ,?a  ageCategory  old,0.046,0.528736,0.528736,46,87,87,?a
+?a  ageCategory  young  ?a  hasRelapse  No   ,?a  sex  female,0.138,0.528736,0.528736,138,261,261,?a
+?a  drug  Carboplatin  ?a  smokingHabit  PreviousSmoker   ,?a  sex  female,0.046,0.528736,0.528736,46,87,87,?a
+?a  sex  female  ?a  smokingHabit  NonSmoker   ,?a  hasRelapse  Yes,0.065,0.528455,0.528455,65,123,123,?a
+?a  comorbidity  Depression  ?a  comorbidity  Others   ,?a  biomarker  EGFR_Positive,0.072142,0.396341,0.528455,65,164,123,?a
+?a  drug  Afatinib  ?a  drug  Cisplatin   ,?a  biomarker  ALK_Positive,0.031077,0.35443,0.528302,28,79,53,?a
+?a  biomarker  ALK_Positive  ?a  comorbidity  Diabetes_Mellitus   ,?a  hasRelapse  Yes,0.056,0.528302,0.528302,56,106,106,?a
+?a  drug  Afatinib  ?a  smokingHabit  NonSmoker   ,?a  biomarker  EGFR_Positive,0.031077,0.363636,0.528302,28,77,53,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Nivolumab   ,?a  ageCategory  young,0.056,0.528302,0.528302,56,106,106,?a
+?a  biomarker  ALK_Positive  ?a  comorbidity  Diabetes_Mellitus   ,?a  sex  male,0.056,0.528302,0.528302,56,106,106,?a
+?a  drug  Vinorelbine  ?a  sex  female   ,?a  ageCategory  young,0.103,0.528205,0.528205,103,195,195,?a
+?a  biomarker  ALK_Positive   ,?a  sex  female,0.15,0.528169,0.528169,150,284,284,?a
+?a  smokingHabit  PreviousSmoker   ,?a  sex  female,0.133,0.527778,0.527778,133,252,252,?a
+?a  ageCategory  old  ?a  smokingHabit  NonSmoker   ,?a  hasRelapse  Yes,0.067,0.527559,0.527559,67,127,127,?a
+?a  ageCategory  old  ?a  smokingHabit  NonSmoker   ,?a  sex  male,0.067,0.527559,0.527559,67,127,127,?a
+?a  comorbidity  Depression  ?a  smokingHabit  PreviousSmoker   ,?a  ageCategory  old,0.058,0.527273,0.527273,58,110,110,?a
+?a  drug  Afatinib   ,?a  sex  female,0.175,0.527108,0.527108,175,332,332,?a
+?a  drug  Afatinib  ?a  smokingHabit  PreviousSmoker   ,?a  ageCategory  old,0.049,0.526882,0.526882,49,93,93,?a
+?a  ageCategory  young  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Others,0.040116,0.526718,0.526718,69,131,131,?a
+?a  biomarker  EGFR_Positive  ?a  smokingHabit  CurrentSmoker   ,?a  hasRelapse  Yes,0.04,0.526316,0.526316,40,76,76,?a
+?a  biomarker  EGFR_Positive  ?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Depression,0.023256,0.526316,0.526316,40,76,76,?a
+?a  comorbidity  Others  ?a  sex  male   ,?a  ageCategory  young,0.11,0.526316,0.526316,110,209,209,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Carboplatin   ,?a  comorbidity  Others,0.034884,0.526316,0.526316,60,114,114,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Others,0.023256,0.526316,0.526316,40,76,76,?a
+?a  smokingHabit  CurrentSmoker   ,?a  hasRelapse  No,0.132,0.525896,0.525896,132,251,251,?a
+?a  drug  Afatinib  ?a  sex  female   ,?a  ageCategory  old,0.092,0.525714,0.525714,92,175,175,?a
+?a  ageCategory  young  ?a  biomarker  ALK_Positive   ,?a  hasRelapse  No,0.082,0.525641,0.525641,82,156,156,?a
+?a  biomarker  ROS1_Positive  ?a  sex  male   ,?a  hasRelapse  No,0.072,0.525547,0.525547,72,137,137,?a
+?a  drug  Cisplatin  ?a  smokingHabit  CurrentSmoker   ,?a  biomarker  ROS1_Positive,0.034406,0.348315,0.525424,31,89,59,?a
+?a  biomarker  ALK_Positive  ?a  drug  Cisplatin   ,?a  comorbidity  Depression,0.030233,0.525253,0.525253,52,99,99,?a
+?a  biomarker  ALK_Positive  ?a  drug  Nivolumab   ,?a  comorbidity  Depression,0.030233,0.525253,0.525253,52,99,99,?a
+?a  comorbidity  Depression  ?a  comorbidity  Diabetes_Mellitus   ,?a  hasRelapse  Yes,0.073,0.52518,0.52518,73,139,139,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Diabetes_Mellitus   ,?a  ageCategory  old,0.063,0.525,0.525,63,120,120,?a
+?a  biomarker  EGFR_Positive   ,?a  hasRelapse  Yes,0.159,0.524752,0.524752,159,303,303,?a
+?a  drug  Vinorelbine  ?a  smokingHabit  CurrentSmoker   ,?a  biomarker  ROS1_Positive,0.035516,0.359551,0.52459,32,89,61,?a
+?a  ageCategory  young  ?a  drug  Carboplatin   ,?a  sex  female,0.086,0.52439,0.52439,86,164,164,?a
+?a  drug  Afatinib   ,?a  ageCategory  old,0.174,0.524096,0.524096,174,332,332,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Carboplatin   ,?a  biomarker  ROS1_Positive,0.061043,0.357143,0.52381,55,154,105,?a
+?a  comorbidity  Depression  ?a  smokingHabit  NonSmoker   ,?a  biomarker  EGFR_Positive,0.048835,0.369748,0.52381,44,119,84,?a
+?a  comorbidity  Others  ?a  drug  Nivolumab   ,?a  ageCategory  old,0.077,0.52381,0.52381,77,147,147,?a
+?a  smokingHabit  NonSmoker   ,?a  sex  male,0.135,0.523256,0.523256,135,258,258,?a
+?a  biomarker  EGFR_Positive  ?a  smokingHabit  NonSmoker   ,?a  ageCategory  young,0.045,0.523256,0.523256,45,86,86,?a
+?a  biomarker  ALK_Positive  ?a  sex  male   ,?a  hasRelapse  Yes,0.07,0.522388,0.522388,70,134,134,?a
+?a  biomarker  ALK_Positive  ?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.020349,0.522388,0.522388,35,67,67,?a
+?a  comorbidity  Others  ?a  hasRelapse  Yes   ,?a  ageCategory  young,0.118,0.522124,0.522124,118,226,226,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Vinorelbine   ,?a  sex  male,0.071,0.522059,0.522059,71,136,136,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  sex  female   ,?a  ageCategory  old,0.107,0.521951,0.521951,107,205,205,?a
+?a  sex  female  ?a  smokingHabit  CurrentSmoker   ,?a  ageCategory  young,0.072,0.521739,0.521739,72,138,138,?a
+?a  ageCategory  young   ,?a  sex  female,0.268,0.521401,0.521401,268,514,514,?a
+?a  comorbidity  Depression  ?a  sex  male   ,?a  hasRelapse  Yes,0.122,0.521368,0.521368,122,234,234,?a
+?a  drug  Carboplatin  ?a  hasRelapse  No   ,?a  sex  male,0.098,0.521277,0.521277,98,188,188,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Depression   ,?a  ageCategory  old,0.074,0.521127,0.521127,74,142,142,?a
+?a  sex  male   ,?a  hasRelapse  No,0.247,0.521097,0.521097,247,474,474,?a
+?a  drug  Carboplatin  ?a  sex  female   ,?a  biomarker  EGFR_Positive,0.068812,0.340659,0.521008,62,182,119,?a
+?a  comorbidity  Depression  ?a  drug  Carboplatin   ,?a  biomarker  EGFR_Positive,0.055494,0.331126,0.520833,50,151,96,?a
+?a  ageCategory  young  ?a  smokingHabit  PreviousSmoker   ,?a  sex  male,0.063,0.520661,0.520661,63,121,121,?a
+?a  smokingHabit  CurrentSmoker   ,?a  biomarker  ROS1_Positive,0.098779,0.354582,0.520468,89,251,171,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  hasRelapse  No   ,?a  ageCategory  young,0.102,0.520408,0.520408,102,196,196,?a
+?a  drug  Carboplatin  ?a  drug  Nivolumab   ,?a  comorbidity  Others,0.029651,0.520408,0.520408,51,98,98,?a
+?a  comorbidity  Others  ?a  drug  Afatinib   ,?a  hasRelapse  Yes,0.077,0.52027,0.52027,77,148,148,?a
+?a  comorbidity  Depression  ?a  sex  female   ,?a  hasRelapse  No,0.117,0.52,0.52,117,225,225,?a
+?a  comorbidity  Cardiopathy  ?a  smokingHabit  NonSmoker   ,?a  hasRelapse  Yes,0.052,0.52,0.52,52,100,100,?a
+?a  smokingHabit  PreviousSmoker   ,?a  ageCategory  old,0.131,0.519841,0.519841,131,252,252,?a
+?a  biomarker  ROS1_Positive  ?a  sex  female   ,?a  ageCategory  old,0.092,0.519774,0.519774,92,177,177,?a
+?a  drug  Afatinib  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Depression,0.023256,0.519481,0.519481,40,77,77,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  NonSmoker   ,?a  ageCategory  old,0.04,0.519481,0.519481,40,77,77,?a
+?a  ageCategory  old  ?a  biomarker  ROS1_Positive   ,?a  hasRelapse  No,0.081,0.519231,0.519231,81,156,156,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Vinorelbine   ,?a  comorbidity  Depression,0.031395,0.519231,0.519231,54,104,104,?a
+?a  comorbidity  Others  ?a  drug  Cisplatin   ,?a  biomarker  EGFR_Positive,0.059933,0.343949,0.519231,54,157,104,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Nivolumab   ,?a  ageCategory  young,0.068,0.519084,0.519084,68,131,131,?a
+?a  sex  male   ,?a  ageCategory  young,0.246,0.518987,0.518987,246,474,474,?a
+?a  comorbidity  Others  ?a  drug  Vinorelbine   ,?a  biomarker  EGFR_Positive,0.061043,0.341615,0.518868,55,161,106,?a
+?a  hasRelapse  No   ,?a  ageCategory  young,0.261,0.517857,0.517857,261,504,504,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Others   ,?a  hasRelapse  No,0.074,0.517483,0.517483,74,143,143,?a
+?a  drug  Cisplatin  ?a  sex  male   ,?a  comorbidity  Depression,0.051744,0.517442,0.517442,89,172,172,?a
+?a  ageCategory  young  ?a  comorbidity  Diabetes_Mellitus   ,?a  sex  male,0.105,0.517241,0.517241,105,203,203,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Carboplatin   ,?a  sex  male,0.06,0.517241,0.517241,60,116,116,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  sex  female   ,?a  hasRelapse  Yes,0.106,0.517073,0.517073,106,205,205,?a
+?a  ageCategory  old  ?a  drug  Vinorelbine   ,?a  biomarker  ROS1_Positive,0.067703,0.354651,0.516949,61,172,118,?a
+?a  drug  Nivolumab  ?a  smokingHabit  NonSmoker   ,?a  ageCategory  old,0.046,0.516854,0.516854,46,89,89,?a
+?a  biomarker  EGFR_Positive  ?a  biomarker  ROS1_Positive   ,?a  comorbidity  Others,0.026744,0.516854,0.516854,46,89,89,?a
+?a  drug  Cisplatin  ?a  smokingHabit  CurrentSmoker   ,?a  sex  male,0.046,0.516854,0.516854,46,89,89,?a
+?a  ageCategory  young  ?a  comorbidity  Others   ,?a  biomarker  EGFR_Positive,0.085461,0.336245,0.516779,77,229,149,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Others   ,?a  ageCategory  young,0.077,0.516779,0.516779,77,149,149,?a
+?a  hasRelapse  Yes  ?a  sex  female   ,?a  ageCategory  old,0.139,0.516729,0.516729,139,269,269,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Diabetes_Mellitus   ,?a  hasRelapse  Yes,0.062,0.516667,0.516667,62,120,120,?a
+?a  drug  Cisplatin  ?a  drug  Nivolumab   ,?a  comorbidity  Depression,0.027907,0.516129,0.516129,48,93,93,?a
+?a  drug  Afatinib  ?a  drug  Nivolumab   ,?a  sex  male,0.048,0.516129,0.516129,48,93,93,?a
+?a  biomarker  ROS1_Positive   ,?a  hasRelapse  No,0.162,0.515924,0.515924,162,314,314,?a
+?a  comorbidity  Others  ?a  drug  Cisplatin   ,?a  hasRelapse  Yes,0.081,0.515924,0.515924,81,157,157,?a
+?a  comorbidity  Others  ?a  sex  female   ,?a  biomarker  EGFR_Positive,0.0899,0.344681,0.515924,81,235,157,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Afatinib   ,?a  hasRelapse  Yes,0.065,0.515873,0.515873,65,126,126,?a
+?a  ageCategory  young  ?a  drug  Cisplatin   ,?a  hasRelapse  No,0.098,0.515789,0.515789,98,190,190,?a
+?a  comorbidity  Others   ,?a  ageCategory  young,0.229,0.515766,0.515766,229,444,444,?a
+?a  biomarker  EGFR_Positive  ?a  hasRelapse  Yes   ,?a  comorbidity  Others,0.047674,0.515723,0.515723,82,159,159,?a
+?a  ageCategory  young  ?a  comorbidity  Others   ,?a  hasRelapse  Yes,0.118,0.515284,0.515284,118,229,229,?a
+?a  comorbidity  Depression  ?a  hasRelapse  No   ,?a  ageCategory  old,0.118,0.515284,0.515284,118,229,229,?a
+?a  comorbidity  Depression  ?a  drug  Afatinib   ,?a  hasRelapse  No,0.085,0.515152,0.515152,85,165,165,?a
+?a  biomarker  ALK_Positive  ?a  comorbidity  Depression   ,?a  hasRelapse  No,0.068,0.515152,0.515152,68,132,132,?a
+?a  ageCategory  young  ?a  sex  female   ,?a  hasRelapse  No,0.138,0.514925,0.514925,138,268,268,?a
+?a  ageCategory  old  ?a  drug  Nivolumab   ,?a  comorbidity  Depression,0.050581,0.514793,0.514793,87,169,169,?a
+?a  comorbidity  Depression  ?a  drug  Nivolumab   ,?a  ageCategory  old,0.087,0.514793,0.514793,87,169,169,?a
+?a  biomarker  EGFR_Positive  ?a  sex  male   ,?a  comorbidity  Depression,0.040698,0.514706,0.514706,70,136,136,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Vinorelbine   ,?a  ageCategory  young,0.07,0.514706,0.514706,70,136,136,?a
+?a  biomarker  EGFR_Positive  ?a  sex  male   ,?a  ageCategory  old,0.07,0.514706,0.514706,70,136,136,?a
+?a  drug  Afatinib  ?a  sex  female   ,?a  hasRelapse  No,0.09,0.514286,0.514286,90,175,175,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Depression   ,?a  hasRelapse  Yes,0.072,0.514286,0.514286,72,140,140,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Afatinib   ,?a  ageCategory  young,0.054,0.514286,0.514286,54,105,105,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Depression   ,?a  ageCategory  old,0.072,0.514286,0.514286,72,140,140,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Afatinib   ,?a  comorbidity  Others,0.031395,0.514286,0.514286,54,105,105,?a
+?a  drug  Vinorelbine   ,?a  ageCategory  young,0.182,0.514124,0.514124,182,354,354,?a
+?a  biomarker  ALK_Positive   ,?a  hasRelapse  No,0.146,0.514085,0.514085,146,284,284,?a
+?a  ageCategory  old  ?a  drug  Cisplatin   ,?a  biomarker  EGFR_Positive,0.061043,0.352564,0.514019,55,156,107,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Cisplatin   ,?a  ageCategory  old,0.055,0.514019,0.514019,55,107,107,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Cisplatin   ,?a  sex  male,0.055,0.514019,0.514019,55,107,107,?a
+?a  biomarker  EGFR_Positive  ?a  hasRelapse  No   ,?a  ageCategory  old,0.074,0.513889,0.513889,74,144,144,?a
+?a  comorbidity  Others  ?a  hasRelapse  No   ,?a  sex  male,0.112,0.513761,0.513761,112,218,218,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  hasRelapse  Yes,0.207,0.513648,0.513648,207,403,403,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Nivolumab   ,?a  ageCategory  young,0.057,0.513514,0.513514,57,111,111,?a
+?a  ageCategory  young  ?a  biomarker  EGFR_Positive   ,?a  comorbidity  Others,0.044767,0.513333,0.513333,77,150,150,?a
+?a  sex  male  ?a  smokingHabit  CurrentSmoker   ,?a  ageCategory  old,0.058,0.513274,0.513274,58,113,113,?a
+?a  comorbidity  Others  ?a  smokingHabit  PreviousSmoker   ,?a  biomarker  ROS1_Positive,0.044395,0.357143,0.512821,40,112,78,?a
+?a  drug  Carboplatin  ?a  sex  male   ,?a  biomarker  ROS1_Positive,0.066593,0.346821,0.512821,60,173,117,?a
+?a  drug  Carboplatin   ,?a  sex  female,0.182,0.512676,0.512676,182,355,355,?a
+?a  ageCategory  young  ?a  drug  Afatinib   ,?a  hasRelapse  No,0.081,0.512658,0.512658,81,158,158,?a
+?a  comorbidity  Depression  ?a  smokingHabit  NonSmoker   ,?a  hasRelapse  No,0.061,0.512605,0.512605,61,119,119,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Nivolumab   ,?a  biomarker  EGFR_Positive,0.045505,0.312977,0.5125,41,131,80,?a
+?a  drug  Nivolumab  ?a  hasRelapse  Yes   ,?a  ageCategory  young,0.083,0.512346,0.512346,83,162,162,?a
+?a  comorbidity  Cardiopathy  ?a  hasRelapse  Yes   ,?a  biomarker  EGFR_Positive,0.069922,0.33871,0.512195,63,186,123,?a
+?a  sex  female  ?a  smokingHabit  NonSmoker   ,?a  ageCategory  young,0.063,0.512195,0.512195,63,123,123,?a
+?a  comorbidity  Depression  ?a  comorbidity  Others   ,?a  ageCategory  old,0.084,0.512195,0.512195,84,164,164,?a
+?a  comorbidity  Depression  ?a  comorbidity  Others   ,?a  sex  male,0.084,0.512195,0.512195,84,164,164,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  hasRelapse  Yes   ,?a  ageCategory  old,0.106,0.512077,0.512077,106,207,207,?a
+?a  comorbidity  Others  ?a  drug  Carboplatin   ,?a  sex  male,0.085,0.512048,0.512048,85,166,166,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Vinorelbine   ,?a  biomarker  ROS1_Positive,0.047725,0.316176,0.511905,43,136,84,?a
+?a  smokingHabit  NonSmoker   ,?a  hasRelapse  No,0.132,0.511628,0.511628,132,258,258,?a
+?a  drug  Cisplatin  ?a  sex  male   ,?a  hasRelapse  Yes,0.088,0.511628,0.511628,88,172,172,?a
+?a  biomarker  EGFR_Positive  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Depression,0.025581,0.511628,0.511628,44,86,86,?a
+?a  comorbidity  Others  ?a  smokingHabit  NonSmoker   ,?a  biomarker  EGFR_Positive,0.048835,0.366667,0.511628,44,120,86,?a
+?a  drug  Nivolumab  ?a  drug  Vinorelbine   ,?a  ageCategory  old,0.044,0.511628,0.511628,44,86,86,?a
+?a  biomarker  EGFR_Positive  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Others,0.025581,0.511628,0.511628,44,86,86,?a
+?a  drug  Cisplatin   ,?a  hasRelapse  Yes,0.177,0.511561,0.511561,177,346,346,?a
+?a  sex  female   ,?a  hasRelapse  Yes,0.269,0.511407,0.511407,269,526,526,?a
+?a  ageCategory  old  ?a  sex  female   ,?a  biomarker  ROS1_Positive,0.102109,0.356589,0.511111,92,258,180,?a
+?a  drug  Nivolumab  ?a  smokingHabit  CurrentSmoker   ,?a  ageCategory  young,0.046,0.511111,0.511111,46,90,90,?a
+?a  ageCategory  young  ?a  comorbidity  Depression   ,?a  hasRelapse  Yes,0.116,0.511013,0.511013,116,227,227,?a
+?a  comorbidity  Depression  ?a  hasRelapse  No   ,?a  sex  female,0.117,0.510917,0.510917,117,229,229,?a
+?a  drug  Nivolumab  ?a  sex  female   ,?a  ageCategory  young,0.096,0.510638,0.510638,96,188,188,?a
+?a  biomarker  ALK_Positive  ?a  drug  Vinorelbine   ,?a  comorbidity  Others,0.028488,0.510417,0.510417,49,96,96,?a
+?a  ageCategory  old  ?a  hasRelapse  No   ,?a  sex  male,0.124,0.510288,0.510288,124,243,243,?a
+?a  drug  Nivolumab   ,?a  ageCategory  young,0.176,0.510145,0.510145,176,345,345,?a
+?a  hasRelapse  Yes   ,?a  ageCategory  young,0.253,0.510081,0.510081,253,496,496,?a
+?a  comorbidity  Others  ?a  drug  Nivolumab   ,?a  biomarker  EGFR_Positive,0.056604,0.346939,0.51,51,147,100,?a
+?a  ageCategory  old  ?a  comorbidity  Others   ,?a  biomarker  ROS1_Positive,0.085461,0.35814,0.509934,77,215,151,?a
+?a  hasRelapse  No   ,?a  sex  female,0.257,0.509921,0.509921,257,504,504,?a
+?a  comorbidity  Depression   ,?a  sex  male,0.234,0.509804,0.509804,234,459,459,?a
+?a  comorbidity  Others  ?a  smokingHabit  CurrentSmoker   ,?a  hasRelapse  Yes,0.053,0.509615,0.509615,53,104,104,?a
+?a  sex  female   ,?a  ageCategory  young,0.268,0.509506,0.509506,268,526,526,?a
+?a  comorbidity  Others   ,?a  hasRelapse  Yes,0.226,0.509009,0.509009,226,444,444,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  sex  female,0.205,0.508685,0.508685,205,403,403,?a
+?a  ageCategory  old  ?a  comorbidity  Depression   ,?a  hasRelapse  No,0.118,0.508621,0.508621,118,232,232,?a
+?a  drug  Carboplatin  ?a  smokingHabit  PreviousSmoker   ,?a  biomarker  ROS1_Positive,0.033296,0.344828,0.508475,30,87,59,?a
+?a  hasRelapse  Yes  ?a  sex  female   ,?a  biomarker  EGFR_Positive,0.099889,0.334572,0.508475,90,269,177,?a
+?a  ageCategory  young   ,?a  hasRelapse  No,0.261,0.507782,0.507782,261,514,514,?a
+?a  smokingHabit  NonSmoker   ,?a  ageCategory  young,0.131,0.507752,0.507752,131,258,258,?a
+?a  drug  Carboplatin  ?a  drug  Cisplatin   ,?a  biomarker  EGFR_Positive,0.037736,0.357895,0.507463,34,95,67,?a
+?a  biomarker  ALK_Positive  ?a  hasRelapse  Yes   ,?a  sex  male,0.07,0.507246,0.507246,70,138,138,?a
+?a  comorbidity  Cardiopathy  ?a  smokingHabit  PreviousSmoker   ,?a  biomarker  ALK_Positive,0.039956,0.336449,0.507042,36,107,71,?a
+?a  biomarker  ALK_Positive  ?a  smokingHabit  NonSmoker   ,?a  hasRelapse  Yes,0.038,0.506667,0.506667,38,75,75,?a
+?a  drug  Afatinib  ?a  smokingHabit  NonSmoker   ,?a  hasRelapse  Yes,0.039,0.506494,0.506494,39,77,77,?a
+?a  ageCategory  young  ?a  biomarker  ALK_Positive   ,?a  sex  male,0.079,0.50641,0.50641,79,156,156,?a
+?a  drug  Afatinib  ?a  drug  Cisplatin   ,?a  sex  male,0.04,0.506329,0.506329,40,79,79,?a
+?a  comorbidity  Depression  ?a  comorbidity  Others   ,?a  hasRelapse  No,0.083,0.506098,0.506098,83,164,164,?a
+?a  drug  Afatinib   ,?a  hasRelapse  No,0.168,0.506024,0.506024,168,332,332,?a
+?a  drug  Afatinib  ?a  drug  Vinorelbine   ,?a  comorbidity  Depression,0.024419,0.506024,0.506024,42,83,83,?a
+?a  smokingHabit  CurrentSmoker   ,?a  ageCategory  young,0.127,0.505976,0.505976,127,251,251,?a
+?a  drug  Afatinib  ?a  hasRelapse  No   ,?a  comorbidity  Depression,0.049419,0.505952,0.505952,85,168,168,?a
+?a  drug  Carboplatin  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Others,0.025581,0.505747,0.505747,44,87,87,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Afatinib   ,?a  smokingHabit  PreviousSmoker,0.059133,0.357143,0.505618,45,126,89,?a
+?a  hasRelapse  No  ?a  sex  female   ,?a  biomarker  ROS1_Positive,0.099889,0.350195,0.505618,90,257,178,?a
+?a  drug  Vinorelbine  ?a  smokingHabit  CurrentSmoker   ,?a  ageCategory  old,0.045,0.505618,0.505618,45,89,89,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Cisplatin   ,?a  biomarker  EGFR_Positive,0.051054,0.343284,0.505495,46,134,91,?a
+?a  comorbidity  Depression   ,?a  ageCategory  old,0.232,0.505447,0.505447,232,459,459,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Nivolumab   ,?a  biomarker  EGFR_Positive,0.052164,0.338129,0.505376,47,139,93,?a
+?a  drug  Cisplatin  ?a  drug  Nivolumab   ,?a  sex  male,0.047,0.505376,0.505376,47,93,93,?a
+?a  drug  Carboplatin  ?a  drug  Cisplatin   ,?a  sex  male,0.048,0.505263,0.505263,48,95,95,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Vinorelbine   ,?a  biomarker  ROS1_Positive,0.055494,0.333333,0.505051,50,150,99,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Vinorelbine   ,?a  biomarker  EGFR_Positive,0.055494,0.333333,0.505051,50,150,99,?a
+?a  drug  Cisplatin  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Others,0.02907,0.505051,0.505051,50,99,99,?a
+?a  biomarker  EGFR_Positive   ,?a  ageCategory  old,0.153,0.50495,0.50495,153,303,303,?a
+?a  comorbidity  Others  ?a  drug  Afatinib   ,?a  biomarker  EGFR_Positive,0.059933,0.364865,0.504673,54,148,107,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Cisplatin   ,?a  comorbidity  Others,0.031395,0.504673,0.504673,54,107,107,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  smokingHabit  CurrentSmoker   ,?a  ageCategory  old,0.057,0.504425,0.504425,57,113,113,?a
+?a  drug  Cisplatin  ?a  sex  female   ,?a  biomarker  ROS1_Positive,0.064373,0.333333,0.504348,58,174,115,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  CurrentSmoker   ,?a  ageCategory  old,0.06,0.504202,0.504202,60,119,119,?a
+?a  ageCategory  young  ?a  sex  male   ,?a  comorbidity  Depression,0.072093,0.504065,0.504065,124,246,246,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  ageCategory  young,0.203,0.503722,0.503722,203,403,403,?a
+?a  biomarker  ROS1_Positive  ?a  sex  male   ,?a  comorbidity  Depression,0.040116,0.50365,0.50365,69,137,137,?a
+?a  comorbidity  Cardiopathy  ?a  sex  female   ,?a  biomarker  ROS1_Positive,0.084351,0.347032,0.503311,76,219,151,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Cisplatin   ,?a  sex  male,0.077,0.503268,0.503268,77,153,153,?a
+?a  biomarker  ROS1_Positive   ,?a  ageCategory  young,0.158,0.503185,0.503185,158,314,314,?a
+?a  comorbidity  Cardiopathy  ?a  hasRelapse  No   ,?a  biomarker  ROS1_Positive,0.08768,0.346491,0.503185,79,228,157,?a
+?a  comorbidity  Others  ?a  sex  female   ,?a  biomarker  ROS1_Positive,0.08768,0.33617,0.503185,79,235,157,?a
+?a  drug  Afatinib  ?a  sex  male   ,?a  hasRelapse  Yes,0.079,0.503185,0.503185,79,157,157,?a
+?a  ageCategory  old  ?a  hasRelapse  Yes   ,?a  biomarker  EGFR_Positive,0.08768,0.325103,0.503185,79,243,157,?a
+?a  comorbidity  Others  ?a  drug  Cisplatin   ,?a  sex  male,0.079,0.503185,0.503185,79,157,157,?a
+?a  drug  Vinorelbine  ?a  sex  male   ,?a  ageCategory  old,0.08,0.503145,0.503145,80,159,159,?a
+?a  comorbidity  Depression  ?a  drug  Vinorelbine   ,?a  hasRelapse  Yes,0.081,0.503106,0.503106,81,161,161,?a
+?a  drug  Cisplatin   ,?a  sex  female,0.174,0.50289,0.50289,174,346,346,?a
+?a  hasRelapse  No  ?a  sex  male   ,?a  ageCategory  old,0.124,0.502024,0.502024,124,247,247,?a
+?a  comorbidity  Depression   ,?a  hasRelapse  Yes,0.23,0.501089,0.501089,230,459,459,?a
+?a  ageCategory  old   ,?a  hasRelapse  No,0.243,0.5,0.5,243,486,486,?a
+?a  ageCategory  old   ,?a  hasRelapse  Yes,0.243,0.5,0.5,243,486,486,?a
+?a  ageCategory  young  ?a  drug  Cisplatin   ,?a  biomarker  ALK_Positive,0.065483,0.310526,0.5,59,190,118,?a
+?a  comorbidity  Others  ?a  drug  Cisplatin   ,?a  biomarker  ROS1_Positive,0.057714,0.33121,0.5,52,157,104,?a
+?a  drug  Vinorelbine  ?a  smokingHabit  PreviousSmoker   ,?a  biomarker  ROS1_Positive,0.029967,0.325301,0.5,27,83,54,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  smokingHabit  PreviousSmoker   ,?a  biomarker  ROS1_Positive,0.034406,0.316327,0.5,31,98,62,?a
+?a  sex  male  ?a  smokingHabit  PreviousSmoker   ,?a  biomarker  ROS1_Positive,0.042175,0.319328,0.5,38,119,76,?a
+?a  drug  Nivolumab  ?a  smokingHabit  CurrentSmoker   ,?a  hasRelapse  Yes,0.045,0.5,0.5,45,90,90,?a
+?a  drug  Afatinib  ?a  drug  Carboplatin   ,?a  hasRelapse  Yes,0.044,0.5,0.5,44,88,88,?a
+?a  ageCategory  young  ?a  sex  male   ,?a  hasRelapse  Yes,0.123,0.5,0.5,123,246,246,?a
+?a  biomarker  ALK_Positive  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Cardiopathy,0.02093,0.5,0.5,36,72,72,?a
+?a  ageCategory  old  ?a  drug  Vinorelbine   ,?a  comorbidity  Depression,0.05,0.5,0.5,86,172,172,?a
+?a  ageCategory  young  ?a  drug  Afatinib   ,?a  comorbidity  Depression,0.04593,0.5,0.5,79,158,158,?a
+?a  comorbidity  Depression  ?a  drug  Vinorelbine   ,?a  biomarker  EGFR_Positive,0.059933,0.335404,0.5,54,161,108,?a
+?a  comorbidity  Depression  ?a  smokingHabit  CurrentSmoker   ,?a  biomarker  EGFR_Positive,0.044395,0.344828,0.5,40,116,80,?a
+?a  drug  Cisplatin  ?a  sex  male   ,?a  biomarker  EGFR_Positive,0.061043,0.319767,0.5,55,172,110,?a
+?a  biomarker  ROS1_Positive  ?a  hasRelapse  No   ,?a  ageCategory  old,0.081,0.5,0.5,81,162,162,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  comorbidity  Others   ,?a  ageCategory  old,0.068,0.5,0.5,68,136,136,?a
+?a  ageCategory  young  ?a  drug  Carboplatin   ,?a  comorbidity  Others,0.047674,0.5,0.5,82,164,164,?a
+?a  biomarker  EGFR_Positive  ?a  sex  male   ,?a  comorbidity  Others,0.039535,0.5,0.5,68,136,136,?a
+?a  biomarker  ALK_Positive  ?a  biomarker  EGFR_Positive   ,?a  comorbidity  Others,0.021512,0.5,0.5,37,74,74,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  comorbidity  Others   ,?a  sex  male,0.068,0.5,0.5,68,136,136,?a
+?a  ageCategory  old  ?a  drug  Cisplatin   ,?a  sex  male,0.078,0.5,0.5,78,156,156,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  PreviousSmoker   ,?a  sex  male,0.038,0.5,0.5,38,76,76,?a
+?a  comorbidity  Depression   ,?a  hasRelapse  No,0.229,0.498911,0.498911,229,459,459,?a
+?a  sex  female   ,?a  biomarker  ROS1_Positive,0.196448,0.336502,0.498592,177,526,355,?a
+?a  ageCategory  old  ?a  drug  Carboplatin   ,?a  sex  male,0.095,0.497382,0.497382,95,191,191,?a
+?a  drug  Cisplatin  ?a  hasRelapse  Yes   ,?a  sex  male,0.088,0.497175,0.497175,88,177,177,?a
+?a  drug  Cisplatin   ,?a  sex  male,0.172,0.49711,0.49711,172,346,346,?a
+?a  drug  Afatinib   ,?a  comorbidity  Depression,0.09593,0.496988,0.496988,165,332,332,?a
+?a  biomarker  ROS1_Positive   ,?a  ageCategory  old,0.156,0.496815,0.496815,156,314,314,?a
+?a  drug  Nivolumab  ?a  sex  male   ,?a  comorbidity  Depression,0.045349,0.496815,0.496815,78,157,157,?a
+?a  comorbidity  Others   ,?a  biomarker  EGFR_Positive,0.165372,0.335586,0.496667,149,444,300,?a
+?a  comorbidity  Others  ?a  hasRelapse  No   ,?a  biomarker  ROS1_Positive,0.082131,0.33945,0.496644,74,218,149,?a
+?a  sex  male  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Depression,0.038953,0.496296,0.496296,67,135,135,?a
+?a  sex  male  ?a  smokingHabit  NonSmoker   ,?a  ageCategory  old,0.067,0.496296,0.496296,67,135,135,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  ageCategory  old,0.2,0.496278,0.496278,200,403,403,?a
+?a  ageCategory  old  ?a  drug  Carboplatin   ,?a  biomarker  ROS1_Positive,0.069922,0.329843,0.496063,63,191,127,?a
+?a  ageCategory  old  ?a  comorbidity  Diabetes_Mellitus   ,?a  biomarker  ROS1_Positive,0.069922,0.315,0.496063,63,200,127,?a
+?a  ageCategory  old  ?a  comorbidity  Cardiopathy   ,?a  biomarker  EGFR_Positive,0.069922,0.344262,0.496063,63,183,127,?a
+?a  ageCategory  young  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Cardiopathy,0.034884,0.495868,0.495868,60,121,121,?a
+?a  sex  male  ?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Depression,0.032558,0.495575,0.495575,56,113,113,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Cisplatin   ,?a  hasRelapse  No,0.053,0.495327,0.495327,53,107,107,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Cisplatin   ,?a  comorbidity  Others,0.030233,0.495238,0.495238,52,105,105,?a
+?a  biomarker  EGFR_Positive   ,?a  ageCategory  young,0.15,0.49505,0.49505,150,303,303,?a
+?a  drug  Nivolumab  ?a  sex  male   ,?a  biomarker  EGFR_Positive,0.055494,0.318471,0.49505,50,157,101,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  hasRelapse  No   ,?a  sex  male,0.097,0.494898,0.494898,97,196,196,?a
+?a  drug  Carboplatin  ?a  drug  Vinorelbine   ,?a  comorbidity  Cardiopathy,0.027326,0.494737,0.494737,47,95,95,?a
+?a  drug  Carboplatin  ?a  drug  Cisplatin   ,?a  comorbidity  Others,0.027326,0.494737,0.494737,47,95,95,?a
+?a  comorbidity  Depression   ,?a  ageCategory  young,0.227,0.494553,0.494553,227,459,459,?a
+?a  hasRelapse  No  ?a  smokingHabit  PreviousSmoker   ,?a  biomarker  ROS1_Positive,0.048835,0.323529,0.494382,44,136,89,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  comorbidity  Others   ,?a  biomarker  ROS1_Positive,0.048835,0.323529,0.494382,44,136,89,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  CurrentSmoker   ,?a  hasRelapse  Yes,0.044,0.494382,0.494382,44,89,89,?a
+?a  drug  Cisplatin  ?a  drug  Vinorelbine   ,?a  comorbidity  Others,0.025581,0.494382,0.494382,44,89,89,?a
+?a  drug  Nivolumab  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Depression,0.025,0.494253,0.494253,43,87,87,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  NonSmoker   ,?a  biomarker  EGFR_Positive,0.047725,0.34127,0.494253,43,126,87,?a
+?a  smokingHabit  CurrentSmoker   ,?a  ageCategory  old,0.124,0.494024,0.494024,124,251,251,?a
+?a  drug  Afatinib   ,?a  hasRelapse  Yes,0.164,0.493976,0.493976,164,332,332,?a
+?a  drug  Vinorelbine  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Depression,0.023837,0.493976,0.493976,41,83,83,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  CurrentSmoker   ,?a  biomarker  EGFR_Positive,0.044395,0.336134,0.493827,40,119,81,?a
+?a  sex  male   ,?a  comorbidity  Depression,0.136047,0.493671,0.493671,234,474,474,?a
+?a  drug  Afatinib  ?a  drug  Cisplatin   ,?a  comorbidity  Others,0.022674,0.493671,0.493671,39,79,79,?a
+?a  comorbidity  Others  ?a  sex  female   ,?a  ageCategory  old,0.116,0.493617,0.493617,116,235,235,?a
+?a  ageCategory  old  ?a  biomarker  ROS1_Positive   ,?a  comorbidity  Others,0.044767,0.49359,0.49359,77,156,156,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  NonSmoker   ,?a  hasRelapse  Yes,0.038,0.493506,0.493506,38,77,77,?a
+?a  smokingHabit  NonSmoker   ,?a  ageCategory  old,0.127,0.492248,0.492248,127,258,258,?a
+?a  ageCategory  young   ,?a  hasRelapse  Yes,0.253,0.492218,0.492218,253,514,514,?a
+?a  drug  Vinorelbine  ?a  hasRelapse  No   ,?a  biomarker  ROS1_Positive,0.067703,0.324468,0.491935,61,188,124,?a
+?a  drug  Afatinib  ?a  drug  Vinorelbine   ,?a  biomarker  ROS1_Positive,0.033296,0.361446,0.491803,30,83,61,?a
+?a  drug  Nivolumab  ?a  hasRelapse  No   ,?a  comorbidity  Depression,0.052326,0.491803,0.491803,90,183,183,?a
+?a  drug  Afatinib  ?a  drug  Vinorelbine   ,?a  biomarker  EGFR_Positive,0.033296,0.361446,0.491803,30,83,61,?a
+?a  drug  Nivolumab  ?a  hasRelapse  No   ,?a  ageCategory  old,0.09,0.491803,0.491803,90,183,183,?a
+?a  biomarker  EGFR_Positive   ,?a  comorbidity  Others,0.086628,0.491749,0.491749,149,303,303,?a
+?a  drug  Carboplatin   ,?a  biomarker  ROS1_Positive,0.128746,0.326761,0.491525,116,355,236,?a
+?a  drug  Cisplatin  ?a  drug  Nivolumab   ,?a  biomarker  ROS1_Positive,0.032186,0.311828,0.491525,29,93,59,?a
+?a  drug  Carboplatin  ?a  sex  male   ,?a  comorbidity  Others,0.049419,0.491329,0.491329,85,173,173,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  sex  male,0.198,0.491315,0.491315,198,403,403,?a
+?a  drug  Cisplatin  ?a  hasRelapse  Yes   ,?a  biomarker  ROS1_Positive,0.062153,0.316384,0.491228,56,177,114,?a
+?a  comorbidity  Others   ,?a  hasRelapse  No,0.218,0.490991,0.490991,218,444,444,?a
+?a  ageCategory  old  ?a  drug  Nivolumab   ,?a  biomarker  ROS1_Positive,0.059933,0.319527,0.490909,54,169,110,?a
+?a  comorbidity  Others  ?a  hasRelapse  No   ,?a  ageCategory  old,0.107,0.490826,0.490826,107,218,218,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Nivolumab   ,?a  comorbidity  Depression,0.030233,0.490566,0.490566,52,106,106,?a
+?a  drug  Carboplatin  ?a  smokingHabit  NonSmoker   ,?a  biomarker  EGFR_Positive,0.028857,0.333333,0.490566,26,78,53,?a
+?a  sex  female   ,?a  ageCategory  old,0.258,0.490494,0.490494,258,526,526,?a
+?a  drug  Nivolumab  ?a  sex  male   ,?a  ageCategory  old,0.077,0.490446,0.490446,77,157,157,?a
+?a  comorbidity  Depression   ,?a  sex  female,0.225,0.490196,0.490196,225,459,459,?a
+?a  drug  Nivolumab  ?a  hasRelapse  Yes   ,?a  biomarker  EGFR_Positive,0.055494,0.308642,0.490196,50,162,102,?a
+?a  hasRelapse  No   ,?a  sex  male,0.247,0.490079,0.490079,247,504,504,?a
+?a  hasRelapse  Yes   ,?a  ageCategory  old,0.243,0.489919,0.489919,243,496,496,?a
+?a  drug  Nivolumab   ,?a  comorbidity  Depression,0.098256,0.489855,0.489855,169,345,345,?a
+?a  drug  Nivolumab   ,?a  ageCategory  old,0.169,0.489855,0.489855,169,345,345,?a
+?a  sex  male  ?a  smokingHabit  NonSmoker   ,?a  biomarker  EGFR_Positive,0.051054,0.340741,0.489362,46,135,94,?a
+?a  comorbidity  Cardiopathy  ?a  hasRelapse  Yes   ,?a  sex  male,0.091,0.489247,0.489247,91,186,186,?a
+?a  hasRelapse  Yes   ,?a  biomarker  EGFR_Positive,0.176471,0.320565,0.489231,159,496,325,?a
+?a  ageCategory  young  ?a  smokingHabit  NonSmoker   ,?a  biomarker  EGFR_Positive,0.049945,0.343511,0.48913,45,131,92,?a
+?a  smokingHabit  NonSmoker   ,?a  biomarker  EGFR_Positive,0.09545,0.333333,0.488636,86,258,176,?a
+?a  biomarker  ALK_Positive  ?a  drug  Carboplatin   ,?a  comorbidity  Others,0.025,0.488636,0.488636,43,88,88,?a
+?a  biomarker  ALK_Positive  ?a  drug  Carboplatin   ,?a  sex  male,0.043,0.488636,0.488636,43,88,88,?a
+?a  sex  female   ,?a  hasRelapse  No,0.257,0.488593,0.488593,257,526,526,?a
+?a  drug  Cisplatin   ,?a  hasRelapse  No,0.169,0.488439,0.488439,169,346,346,?a
+?a  smokingHabit  NonSmoker   ,?a  hasRelapse  Yes,0.126,0.488372,0.488372,126,258,258,?a
+?a  drug  Nivolumab  ?a  hasRelapse  No   ,?a  biomarker  ROS1_Positive,0.069922,0.344262,0.488372,63,183,129,?a
+?a  drug  Nivolumab  ?a  drug  Vinorelbine   ,?a  hasRelapse  Yes,0.042,0.488372,0.488372,42,86,86,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  sex  female   ,?a  biomarker  EGFR_Positive,0.069922,0.307317,0.488372,63,205,129,?a
+?a  ageCategory  young  ?a  comorbidity  Diabetes_Mellitus   ,?a  biomarker  ALK_Positive,0.068812,0.305419,0.488189,62,203,127,?a
+?a  ageCategory  old  ?a  drug  Carboplatin   ,?a  biomarker  EGFR_Positive,0.068812,0.324607,0.488189,62,191,127,?a
+?a  ageCategory  old  ?a  smokingHabit  CurrentSmoker   ,?a  biomarker  EGFR_Positive,0.045505,0.330645,0.488095,41,124,84,?a
+?a  drug  Vinorelbine  ?a  hasRelapse  Yes   ,?a  comorbidity  Depression,0.047093,0.487952,0.487952,81,166,166,?a
+?a  biomarker  ROS1_Positive  ?a  hasRelapse  No   ,?a  comorbidity  Cardiopathy,0.04593,0.487654,0.487654,79,162,162,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Nivolumab   ,?a  biomarker  ROS1_Positive,0.043285,0.29771,0.4875,39,131,80,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.033721,0.487395,0.487395,58,119,119,?a
+?a  drug  Carboplatin   ,?a  sex  male,0.173,0.487324,0.487324,173,355,355,?a
+?a  ageCategory  old  ?a  drug  Cisplatin   ,?a  comorbidity  Depression,0.044186,0.487179,0.487179,76,156,156,?a
+?a  ageCategory  young  ?a  hasRelapse  No   ,?a  comorbidity  Cardiopathy,0.073837,0.48659,0.48659,127,261,261,?a
+?a  drug  Cisplatin  ?a  hasRelapse  No   ,?a  biomarker  ALK_Positive,0.059933,0.319527,0.486486,54,169,111,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  hasRelapse  No,0.196,0.486352,0.486352,196,403,403,?a
+?a  ageCategory  young  ?a  hasRelapse  Yes   ,?a  sex  male,0.123,0.486166,0.486166,123,253,253,?a
+?a  biomarker  EGFR_Positive  ?a  hasRelapse  No   ,?a  comorbidity  Cardiopathy,0.040698,0.486111,0.486111,70,144,144,?a
+?a  biomarker  ALK_Positive  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Depression,0.020349,0.486111,0.486111,35,72,72,?a
+?a  biomarker  ALK_Positive   ,?a  hasRelapse  Yes,0.138,0.485915,0.485915,138,284,284,?a
+?a  drug  Vinorelbine   ,?a  ageCategory  old,0.172,0.485876,0.485876,172,354,354,?a
+?a  ageCategory  old  ?a  hasRelapse  No   ,?a  comorbidity  Depression,0.068605,0.485597,0.485597,118,243,243,?a
+?a  drug  Vinorelbine   ,?a  biomarker  ROS1_Positive,0.124306,0.316384,0.484848,112,354,231,?a
+?a  drug  Cisplatin  ?a  smokingHabit  NonSmoker   ,?a  biomarker  ROS1_Positive,0.035516,0.323232,0.484848,32,99,66,?a
+?a  drug  Afatinib  ?a  smokingHabit  PreviousSmoker   ,?a  biomarker  ROS1_Positive,0.035516,0.344086,0.484848,32,93,66,?a
+?a  hasRelapse  No  ?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Cardiopathy,0.037209,0.484848,0.484848,64,132,132,?a
+?a  ageCategory  young  ?a  sex  male   ,?a  biomarker  ALK_Positive,0.08768,0.321138,0.484663,79,246,163,?a
+?a  ageCategory  old  ?a  biomarker  ALK_Positive   ,?a  comorbidity  Depression,0.036047,0.484375,0.484375,62,128,128,?a
+?a  drug  Vinorelbine  ?a  sex  male   ,?a  comorbidity  Others,0.044767,0.484277,0.484277,77,159,159,?a
+?a  comorbidity  Others   ,?a  ageCategory  old,0.215,0.484234,0.484234,215,444,444,?a
+?a  biomarker  ROS1_Positive   ,?a  hasRelapse  Yes,0.152,0.484076,0.484076,152,314,314,?a
+?a  drug  Nivolumab  ?a  smokingHabit  NonSmoker   ,?a  biomarker  ALK_Positive,0.033296,0.337079,0.483871,30,89,62,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Nivolumab   ,?a  biomarker  ROS1_Positive,0.049945,0.323741,0.483871,45,139,93,?a
+?a  drug  Carboplatin  ?a  smokingHabit  CurrentSmoker   ,?a  hasRelapse  Yes,0.045,0.483871,0.483871,45,93,93,?a
+?a  drug  Afatinib  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Cardiopathy,0.026163,0.483871,0.483871,45,93,93,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Carboplatin   ,?a  biomarker  EGFR_Positive,0.049945,0.3125,0.483871,45,144,93,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Afatinib   ,?a  biomarker  EGFR_Positive,0.049945,0.357143,0.483871,45,126,93,?a
+?a  ageCategory  old  ?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Others,0.034884,0.483871,0.483871,60,124,124,?a
+?a  ageCategory  old  ?a  biomarker  EGFR_Positive   ,?a  comorbidity  Depression,0.043023,0.48366,0.48366,74,153,153,?a
+?a  sex  female  ?a  smokingHabit  PreviousSmoker   ,?a  biomarker  EGFR_Positive,0.048835,0.330827,0.483516,44,133,91,?a
+?a  ageCategory  young  ?a  drug  Vinorelbine   ,?a  comorbidity  Others,0.051163,0.483516,0.483516,88,182,182,?a
+?a  drug  Cisplatin  ?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.025,0.483146,0.483146,43,89,89,?a
+?a  drug  Carboplatin   ,?a  biomarker  EGFR_Positive,0.126526,0.321127,0.483051,114,355,236,?a
+?a  comorbidity  Depression  ?a  comorbidity  Diabetes_Mellitus   ,?a  biomarker  ROS1_Positive,0.046615,0.302158,0.482759,42,139,87,?a
+?a  drug  Carboplatin  ?a  smokingHabit  PreviousSmoker   ,?a  hasRelapse  Yes,0.042,0.482759,0.482759,42,87,87,?a
+?a  drug  Nivolumab  ?a  smokingHabit  PreviousSmoker   ,?a  sex  male,0.042,0.482759,0.482759,42,87,87,?a
+?a  hasRelapse  No  ?a  sex  female   ,?a  comorbidity  Cardiopathy,0.072093,0.48249,0.48249,124,257,257,?a
+?a  ageCategory  young  ?a  hasRelapse  No   ,?a  biomarker  ALK_Positive,0.09101,0.314176,0.482353,82,261,170,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Afatinib   ,?a  biomarker  ROS1_Positive,0.045505,0.325397,0.482353,41,126,85,?a
+?a  hasRelapse  No   ,?a  ageCategory  old,0.243,0.482143,0.482143,243,504,504,?a
+?a  drug  Vinorelbine  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Others,0.023256,0.481928,0.481928,40,83,83,?a
+?a  drug  Afatinib  ?a  hasRelapse  Yes   ,?a  sex  male,0.079,0.481707,0.481707,79,164,164,?a
+?a  sex  male   ,?a  ageCategory  old,0.228,0.481013,0.481013,228,474,474,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Vinorelbine   ,?a  comorbidity  Cardiopathy,0.02907,0.480769,0.480769,50,104,104,?a
+?a  drug  Nivolumab   ,?a  biomarker  ROS1_Positive,0.123196,0.321739,0.480519,111,345,231,?a
+?a  drug  Afatinib  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Others,0.021512,0.480519,0.480519,37,77,77,?a
+?a  ageCategory  young  ?a  comorbidity  Others   ,?a  sex  male,0.11,0.480349,0.480349,110,229,229,?a
+?a  smokingHabit  PreviousSmoker   ,?a  ageCategory  young,0.121,0.480159,0.480159,121,252,252,?a
+?a  ageCategory  young  ?a  sex  female   ,?a  biomarker  EGFR_Positive,0.09323,0.313433,0.48,84,268,175,?a
+?a  biomarker  ALK_Positive  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Others,0.02093,0.48,0.48,36,75,75,?a
+?a  sex  female  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Others,0.034302,0.479675,0.479675,59,123,123,?a
+?a  hasRelapse  Yes  ?a  sex  female   ,?a  comorbidity  Others,0.075,0.479554,0.479554,129,269,269,?a
+?a  biomarker  EGFR_Positive  ?a  hasRelapse  No   ,?a  comorbidity  Depression,0.040116,0.479167,0.479167,69,144,144,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Depression,0.03314,0.478992,0.478992,57,119,119,?a
+?a  sex  male   ,?a  hasRelapse  Yes,0.227,0.478903,0.478903,227,474,474,?a
+?a  ageCategory  young   ,?a  sex  male,0.246,0.478599,0.478599,246,514,514,?a
+?a  biomarker  ALK_Positive  ?a  hasRelapse  Yes   ,?a  comorbidity  Others,0.038372,0.478261,0.478261,66,138,138,?a
+?a  comorbidity  Others  ?a  drug  Vinorelbine   ,?a  sex  male,0.077,0.478261,0.478261,77,161,161,?a
+?a  ageCategory  old  ?a  hasRelapse  Yes   ,?a  biomarker  ROS1_Positive,0.083241,0.308642,0.477707,75,243,157,?a
+?a  drug  Cisplatin  ?a  hasRelapse  No   ,?a  biomarker  EGFR_Positive,0.058824,0.313609,0.477477,53,169,111,?a
+?a  ageCategory  old   ,?a  comorbidity  Depression,0.134884,0.477366,0.477366,232,486,486,?a
+?a  drug  Afatinib  ?a  drug  Carboplatin   ,?a  comorbidity  Others,0.024419,0.477273,0.477273,42,88,88,?a
+?a  ageCategory  old   ,?a  biomarker  ROS1_Positive,0.173141,0.320988,0.477064,156,486,327,?a
+?a  comorbidity  Depression  ?a  drug  Cisplatin   ,?a  biomarker  ALK_Positive,0.057714,0.333333,0.477064,52,156,109,?a
+?a  ageCategory  old  ?a  drug  Afatinib   ,?a  comorbidity  Others,0.048256,0.477011,0.477011,83,174,174,?a
+?a  comorbidity  Cardiopathy  ?a  sex  female   ,?a  biomarker  EGFR_Positive,0.079911,0.328767,0.476821,72,219,151,?a
+?a  smokingHabit  NonSmoker   ,?a  sex  female,0.123,0.476744,0.476744,123,258,258,?a
+?a  comorbidity  Others  ?a  smokingHabit  NonSmoker   ,?a  biomarker  ROS1_Positive,0.045505,0.341667,0.476744,41,120,86,?a
+?a  comorbidity  Others   ,?a  biomarker  ROS1_Positive,0.158713,0.322072,0.476667,143,444,300,?a
+?a  comorbidity  Cardiopathy  ?a  smokingHabit  PreviousSmoker   ,?a  sex  male,0.051,0.476636,0.476636,51,107,107,?a
+?a  hasRelapse  No   ,?a  biomarker  ROS1_Positive,0.1798,0.321429,0.476471,162,504,340,?a
+?a  ageCategory  old  ?a  sex  male   ,?a  biomarker  EGFR_Positive,0.077691,0.307018,0.47619,70,228,147,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Others,0.034884,0.47619,0.47619,60,126,126,?a
+?a  drug  Afatinib   ,?a  ageCategory  young,0.158,0.475904,0.475904,158,332,332,?a
+?a  drug  Cisplatin   ,?a  biomarker  EGFR_Positive,0.118757,0.309249,0.475556,107,346,225,?a
+?a  biomarker  EGFR_Positive   ,?a  hasRelapse  No,0.144,0.475248,0.475248,144,303,303,?a
+?a  comorbidity  Cardiopathy   ,?a  biomarker  EGFR_Positive,0.147614,0.321256,0.475,133,414,280,?a
+?a  drug  Cisplatin  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Depression,0.027326,0.474747,0.474747,47,99,99,?a
+?a  ageCategory  young  ?a  drug  Cisplatin   ,?a  biomarker  ROS1_Positive,0.062153,0.294737,0.474576,56,190,118,?a
+?a  ageCategory  old  ?a  drug  Vinorelbine   ,?a  biomarker  EGFR_Positive,0.062153,0.325581,0.474576,56,172,118,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Carboplatin   ,?a  comorbidity  Cardiopathy,0.031977,0.474138,0.474138,55,116,116,?a
+?a  smokingHabit  CurrentSmoker   ,?a  hasRelapse  Yes,0.119,0.474104,0.474104,119,251,251,?a
+?a  ageCategory  young  ?a  smokingHabit  PreviousSmoker   ,?a  biomarker  ALK_Positive,0.039956,0.297521,0.473684,36,121,76,?a
+?a  biomarker  ROS1_Positive  ?a  hasRelapse  Yes   ,?a  comorbidity  Depression,0.04186,0.473684,0.473684,72,152,152,?a
+?a  drug  Carboplatin  ?a  drug  Cisplatin   ,?a  comorbidity  Diabetes_Mellitus,0.026163,0.473684,0.473684,45,95,95,?a
+?a  biomarker  EGFR_Positive  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Nivolumab,0.020785,0.473684,0.473684,36,76,76,?a
+?a  drug  Carboplatin  ?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Others,0.025581,0.473118,0.473118,44,93,93,?a
+?a  hasRelapse  Yes  ?a  sex  male   ,?a  biomarker  ALK_Positive,0.077691,0.30837,0.472973,70,227,148,?a
+?a  drug  Afatinib   ,?a  sex  male,0.157,0.472892,0.472892,157,332,332,?a
+?a  ageCategory  young  ?a  drug  Vinorelbine   ,?a  comorbidity  Cardiopathy,0.05,0.472527,0.472527,86,182,182,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  biomarker  ROS1_Positive,0.133185,0.297767,0.472441,120,403,254,?a
+?a  smokingHabit  PreviousSmoker   ,?a  sex  male,0.119,0.472222,0.472222,119,252,252,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Cardiopathy,0.024419,0.47191,0.47191,42,89,89,?a
+?a  biomarker  ALK_Positive   ,?a  sex  male,0.134,0.471831,0.471831,134,284,284,?a
+?a  drug  Afatinib  ?a  drug  Cisplatin   ,?a  biomarker  ROS1_Positive,0.027747,0.316456,0.471698,25,79,53,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Nivolumab   ,?a  sex  male,0.05,0.471698,0.471698,50,106,106,?a
+?a  ageCategory  young  ?a  drug  Nivolumab   ,?a  comorbidity  Cardiopathy,0.048256,0.471591,0.471591,83,176,176,?a
+?a  comorbidity  Cardiopathy   ,?a  biomarker  ROS1_Positive,0.146504,0.318841,0.471429,132,414,280,?a
+?a  comorbidity  Cardiopathy  ?a  smokingHabit  NonSmoker   ,?a  biomarker  ALK_Positive,0.036626,0.33,0.471429,33,100,70,?a
+?a  comorbidity  Others  ?a  smokingHabit  CurrentSmoker   ,?a  sex  male,0.049,0.471154,0.471154,49,104,104,?a
+?a  comorbidity  Cardiopathy   ,?a  sex  male,0.195,0.471014,0.471014,195,414,414,?a
+?a  comorbidity  Others   ,?a  sex  male,0.209,0.470721,0.470721,209,444,444,?a
+?a  ageCategory  young  ?a  comorbidity  Cardiopathy   ,?a  biomarker  ALK_Positive,0.079911,0.311688,0.470588,72,231,153,?a
+?a  drug  Carboplatin   ,?a  hasRelapse  Yes,0.167,0.470423,0.470423,167,355,355,?a
+?a  sex  female   ,?a  biomarker  EGFR_Positive,0.18535,0.31749,0.470423,167,526,355,?a
+?a  drug  Nivolumab   ,?a  hasRelapse  Yes,0.162,0.469565,0.469565,162,345,345,?a
+?a  drug  Afatinib  ?a  hasRelapse  Yes   ,?a  comorbidity  Others,0.044767,0.469512,0.469512,77,164,164,?a
+?a  ageCategory  old   ,?a  sex  male,0.228,0.469136,0.469136,228,486,486,?a
+?a  ageCategory  young  ?a  drug  Vinorelbine   ,?a  biomarker  ALK_Positive,0.058824,0.291209,0.469027,53,182,113,?a
+?a  drug  Vinorelbine   ,?a  hasRelapse  Yes,0.166,0.468927,0.468927,166,354,354,?a
+?a  drug  Cisplatin  ?a  hasRelapse  Yes   ,?a  comorbidity  Depression,0.048256,0.468927,0.468927,83,177,177,?a
+?a  biomarker  EGFR_Positive   ,?a  comorbidity  Depression,0.082558,0.468647,0.468647,142,303,303,?a
+?a  drug  Carboplatin  ?a  hasRelapse  No   ,?a  comorbidity  Others,0.051163,0.468085,0.468085,88,188,188,?a
+?a  ageCategory  old   ,?a  biomarker  EGFR_Positive,0.169811,0.314815,0.46789,153,486,327,?a
+?a  hasRelapse  Yes   ,?a  biomarker  ROS1_Positive,0.168701,0.306452,0.467692,152,496,325,?a
+?a  drug  Carboplatin   ,?a  comorbidity  Others,0.096512,0.467606,0.467606,166,355,355,?a
+?a  ageCategory  young   ,?a  biomarker  ROS1_Positive,0.175361,0.307393,0.467456,158,514,338,?a
+?a  ageCategory  young  ?a  smokingHabit  NonSmoker   ,?a  biomarker  ALK_Positive,0.047725,0.328244,0.467391,43,131,92,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Afatinib   ,?a  comorbidity  Others,0.02907,0.46729,0.46729,50,107,107,?a
+?a  biomarker  ROS1_Positive  ?a  sex  male   ,?a  comorbidity  Others,0.037209,0.467153,0.467153,64,137,137,?a
+?a  drug  Cisplatin   ,?a  biomarker  ROS1_Positive,0.116537,0.303468,0.466667,105,346,225,?a
+?a  ageCategory  young  ?a  biomarker  EGFR_Positive   ,?a  comorbidity  Cardiopathy,0.040698,0.466667,0.466667,70,150,150,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Cisplatin   ,?a  comorbidity  Depression,0.028488,0.466667,0.466667,49,105,105,?a
+?a  ageCategory  young  ?a  hasRelapse  Yes   ,?a  comorbidity  Others,0.068605,0.466403,0.466403,118,253,253,?a
+?a  biomarker  ALK_Positive  ?a  biomarker  ROS1_Positive   ,?a  comorbidity  Cardiopathy,0.019767,0.465753,0.465753,34,73,73,?a
+?a  biomarker  ALK_Positive  ?a  hasRelapse  No   ,?a  comorbidity  Depression,0.039535,0.465753,0.465753,68,146,146,?a
+?a  ageCategory  young  ?a  drug  Afatinib   ,?a  biomarker  EGFR_Positive,0.059933,0.341772,0.465517,54,158,116,?a
+?a  drug  Vinorelbine  ?a  sex  male   ,?a  biomarker  EGFR_Positive,0.052164,0.295597,0.465347,47,159,101,?a
+?a  smokingHabit  NonSmoker   ,?a  comorbidity  Others,0.069767,0.465116,0.465116,120,258,258,?a
+?a  biomarker  ALK_Positive   ,?a  comorbidity  Depression,0.076744,0.464789,0.464789,132,284,284,?a
+?a  drug  Cisplatin  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.026744,0.464646,0.464646,46,99,99,?a
+?a  hasRelapse  Yes   ,?a  comorbidity  Depression,0.133721,0.46371,0.46371,230,496,496,?a
+?a  comorbidity  Cardiopathy  ?a  hasRelapse  Yes   ,?a  biomarker  ALK_Positive,0.063263,0.306452,0.463415,57,186,123,?a
+?a  ageCategory  young  ?a  drug  Carboplatin   ,?a  comorbidity  Cardiopathy,0.044186,0.463415,0.463415,76,164,164,?a
+?a  drug  Cisplatin  ?a  hasRelapse  Yes   ,?a  comorbidity  Diabetes_Mellitus,0.047674,0.463277,0.463277,82,177,177,?a
+?a  ageCategory  young  ?a  drug  Cisplatin   ,?a  comorbidity  Others,0.051163,0.463158,0.463158,88,190,190,?a
+?a  ageCategory  young  ?a  drug  Nivolumab   ,?a  biomarker  EGFR_Positive,0.062153,0.318182,0.46281,56,176,121,?a
+?a  drug  Vinorelbine  ?a  hasRelapse  No   ,?a  comorbidity  Cardiopathy,0.050581,0.462766,0.462766,87,188,188,?a
+?a  drug  Vinorelbine  ?a  hasRelapse  No   ,?a  comorbidity  Others,0.050581,0.462766,0.462766,87,188,188,?a
+?a  comorbidity  Others  ?a  drug  Vinorelbine   ,?a  biomarker  ALK_Positive,0.054384,0.304348,0.462264,49,161,106,?a
+?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Depression,0.067442,0.462151,0.462151,116,251,251,?a
+?a  hasRelapse  No  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Depression,0.035465,0.462121,0.462121,61,132,132,?a
+?a  drug  Carboplatin   ,?a  ageCategory  young,0.164,0.461972,0.461972,164,355,355,?a
+?a  ageCategory  young   ,?a  biomarker  ALK_Positive,0.173141,0.303502,0.461538,156,514,338,?a
+?a  drug  Nivolumab  ?a  smokingHabit  PreviousSmoker   ,?a  biomarker  ALK_Positive,0.026637,0.275862,0.461538,24,87,52,?a
+?a  sex  female  ?a  smokingHabit  PreviousSmoker   ,?a  biomarker  ALK_Positive,0.046615,0.315789,0.461538,42,133,91,?a
+?a  drug  Carboplatin  ?a  sex  female   ,?a  comorbidity  Cardiopathy,0.048837,0.461538,0.461538,84,182,182,?a
+?a  ageCategory  young  ?a  biomarker  ALK_Positive   ,?a  comorbidity  Cardiopathy,0.04186,0.461538,0.461538,72,156,156,?a
+?a  drug  Carboplatin  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Depression,0.02093,0.461538,0.461538,36,78,78,?a
+?a  ageCategory  old  ?a  drug  Cisplatin   ,?a  comorbidity  Diabetes_Mellitus,0.04186,0.461538,0.461538,72,156,156,?a
+?a  smokingHabit  NonSmoker   ,?a  comorbidity  Depression,0.069186,0.46124,0.46124,119,258,258,?a
+?a  drug  Cisplatin  ?a  sex  female   ,?a  biomarker  ALK_Positive,0.058824,0.304598,0.46087,53,174,115,?a
+?a  hasRelapse  No  ?a  sex  female   ,?a  biomarker  ALK_Positive,0.09101,0.319066,0.460674,82,257,178,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  smokingHabit  CurrentSmoker   ,?a  biomarker  ALK_Positive,0.038846,0.309735,0.460526,35,113,76,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Depression,0.020349,0.460526,0.460526,35,76,76,?a
+?a  smokingHabit  PreviousSmoker   ,?a  hasRelapse  Yes,0.116,0.460317,0.460317,116,252,252,?a
+?a  ageCategory  old  ?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.03314,0.459677,0.459677,57,124,124,?a
+?a  drug  Cisplatin  ?a  sex  male   ,?a  comorbidity  Others,0.04593,0.459302,0.459302,79,172,172,?a
+?a  drug  Nivolumab   ,?a  biomarker  EGFR_Positive,0.117647,0.307246,0.458874,106,345,231,?a
+?a  ageCategory  old  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Others,0.034884,0.458015,0.458015,60,131,131,?a
+?a  hasRelapse  Yes   ,?a  sex  male,0.227,0.457661,0.457661,227,496,496,?a
+?a  drug  Cisplatin  ?a  hasRelapse  Yes   ,?a  comorbidity  Others,0.047093,0.457627,0.457627,81,177,177,?a
+?a  drug  Carboplatin  ?a  hasRelapse  No   ,?a  comorbidity  Cardiopathy,0.05,0.457447,0.457447,86,188,188,?a
+?a  drug  Afatinib   ,?a  biomarker  ROS1_Positive,0.118757,0.322289,0.457265,107,332,234,?a
+?a  drug  Afatinib  ?a  sex  female   ,?a  comorbidity  Others,0.046512,0.457143,0.457143,80,175,175,?a
+?a  biomarker  ROS1_Positive  ?a  hasRelapse  No   ,?a  comorbidity  Others,0.043023,0.45679,0.45679,74,162,162,?a
+?a  ageCategory  young  ?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Cardiopathy,0.033721,0.456693,0.456693,58,127,127,?a
+?a  sex  female  ?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.036628,0.456522,0.456522,63,138,138,?a
+?a  drug  Cisplatin  ?a  drug  Vinorelbine   ,?a  smokingHabit  NonSmoker,0.040736,0.348315,0.455882,31,89,68,?a
+?a  hasRelapse  No  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Cardiopathy,0.036047,0.455882,0.455882,62,136,136,?a
+?a  hasRelapse  No  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Others,0.036047,0.455882,0.455882,62,136,136,?a
+?a  ageCategory  young  ?a  biomarker  ROS1_Positive   ,?a  comorbidity  Cardiopathy,0.04186,0.455696,0.455696,72,158,158,?a
+?a  hasRelapse  Yes   ,?a  comorbidity  Others,0.131395,0.455645,0.455645,226,496,496,?a
+?a  ageCategory  old  ?a  drug  Nivolumab   ,?a  comorbidity  Others,0.044767,0.455621,0.455621,77,169,169,?a
+?a  biomarker  ROS1_Positive   ,?a  comorbidity  Others,0.08314,0.455414,0.455414,143,314,314,?a
+?a  sex  female  ?a  smokingHabit  NonSmoker   ,?a  drug  Vinorelbine,0.032333,0.455285,0.455285,56,123,123,?a
+?a  hasRelapse  No  ?a  sex  female   ,?a  comorbidity  Depression,0.068023,0.455253,0.455253,117,257,257,?a
+?a  smokingHabit  PreviousSmoker   ,?a  biomarker  ROS1_Positive,0.084351,0.301587,0.45509,76,252,167,?a
+?a  drug  Nivolumab   ,?a  sex  male,0.157,0.455072,0.455072,157,345,345,?a
+?a  drug  Vinorelbine   ,?a  comorbidity  Depression,0.093605,0.454802,0.454802,161,354,354,?a
+?a  drug  Vinorelbine   ,?a  comorbidity  Others,0.093605,0.454802,0.454802,161,354,354,?a
+?a  comorbidity  Depression  ?a  smokingHabit  PreviousSmoker   ,?a  biomarker  ALK_Positive,0.038846,0.318182,0.454545,35,110,77,?a
+?a  drug  Afatinib  ?a  smokingHabit  PreviousSmoker   ,?a  biomarker  EGFR_Positive,0.033296,0.322581,0.454545,30,93,66,?a
+?a  hasRelapse  No   ,?a  comorbidity  Depression,0.13314,0.454365,0.454365,229,504,504,?a
+?a  drug  Cisplatin   ,?a  comorbidity  Others,0.091279,0.453757,0.453757,157,346,346,?a
+?a  hasRelapse  No  ?a  sex  male   ,?a  comorbidity  Others,0.065116,0.453441,0.453441,112,247,247,?a
+?a  ageCategory  old  ?a  biomarker  ALK_Positive   ,?a  comorbidity  Others,0.033721,0.453125,0.453125,58,128,128,?a
+?a  hasRelapse  No   ,?a  comorbidity  Cardiopathy,0.132558,0.452381,0.452381,228,504,504,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.03314,0.452381,0.452381,57,126,126,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Vinorelbine   ,?a  sex  male,0.047,0.451923,0.451923,47,104,104,?a
+?a  sex  male  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.035465,0.451852,0.451852,61,135,135,?a
+?a  comorbidity  Depression  ?a  drug  Afatinib   ,?a  biomarker  ALK_Positive,0.062153,0.339394,0.451613,56,165,124,?a
+?a  drug  Afatinib  ?a  drug  Nivolumab   ,?a  comorbidity  Others,0.024419,0.451613,0.451613,42,93,93,?a
+?a  ageCategory  young  ?a  sex  female   ,?a  comorbidity  Cardiopathy,0.070349,0.451493,0.451493,121,268,268,?a
+?a  sex  female  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Others,0.034884,0.451128,0.451128,60,133,133,?a
+?a  drug  Nivolumab  ?a  hasRelapse  Yes   ,?a  biomarker  ALK_Positive,0.051054,0.283951,0.45098,46,162,102,?a
+?a  drug  Cisplatin   ,?a  comorbidity  Depression,0.090698,0.450867,0.450867,156,346,346,?a
+?a  drug  Cisplatin   ,?a  ageCategory  old,0.156,0.450867,0.450867,156,346,346,?a
+?a  biomarker  ALK_Positive   ,?a  ageCategory  old,0.128,0.450704,0.450704,128,284,284,?a
+?a  comorbidity  Cardiopathy  ?a  comorbidity  Others   ,?a  biomarker  ALK_Positive,0.045505,0.312977,0.450549,41,131,91,?a
+?a  drug  Vinorelbine   ,?a  biomarker  EGFR_Positive,0.115427,0.293785,0.450216,104,354,231,?a
+?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.065698,0.450199,0.450199,113,251,251,?a
+?a  smokingHabit  CurrentSmoker   ,?a  sex  male,0.113,0.450199,0.450199,113,251,251,?a
+?a  drug  Vinorelbine  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Cardiopathy,0.026163,0.45,0.45,45,100,100,?a
+?a  comorbidity  Cardiopathy  ?a  smokingHabit  NonSmoker   ,?a  drug  Vinorelbine,0.025982,0.45,0.45,45,100,100,?a
+?a  ageCategory  old  ?a  sex  female   ,?a  comorbidity  Others,0.067442,0.449612,0.449612,116,258,258,?a
+?a  drug  Cisplatin  ?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Cardiopathy,0.023256,0.449438,0.449438,40,89,89,?a
+?a  ageCategory  young   ,?a  comorbidity  Cardiopathy,0.134302,0.449416,0.449416,231,514,514,?a
+?a  comorbidity  Cardiopathy   ,?a  hasRelapse  Yes,0.186,0.449275,0.449275,186,414,414,?a
+?a  drug  Vinorelbine   ,?a  sex  male,0.159,0.449153,0.449153,159,354,354,?a
+?a  biomarker  EGFR_Positive   ,?a  sex  male,0.136,0.448845,0.448845,136,303,303,?a
+?a  drug  Afatinib   ,?a  biomarker  EGFR_Positive,0.116537,0.316265,0.448718,105,332,234,?a
+?a  biomarker  EGFR_Positive  ?a  sex  male   ,?a  comorbidity  Cardiopathy,0.035465,0.448529,0.448529,61,136,136,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  sex  male   ,?a  biomarker  ALK_Positive,0.062153,0.282828,0.448,56,198,125,?a
+?a  comorbidity  Depression   ,?a  biomarker  EGFR_Positive,0.157603,0.309368,0.44795,142,459,317,?a
+?a  drug  Cisplatin  ?a  sex  male   ,?a  comorbidity  Diabetes_Mellitus,0.044767,0.447674,0.447674,77,172,172,?a
+?a  ageCategory  young  ?a  sex  male   ,?a  comorbidity  Others,0.063953,0.447154,0.447154,110,246,246,?a
+?a  sex  female   ,?a  comorbidity  Others,0.136628,0.446768,0.446768,235,526,526,?a
+?a  drug  Vinorelbine  ?a  sex  male   ,?a  comorbidity  Diabetes_Mellitus,0.041279,0.446541,0.446541,71,159,159,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Vinorelbine   ,?a  comorbidity  Cardiopathy,0.02907,0.446429,0.446429,50,112,112,?a
+?a  biomarker  ROS1_Positive   ,?a  comorbidity  Depression,0.081395,0.44586,0.44586,140,314,314,?a
+?a  drug  Afatinib   ,?a  comorbidity  Others,0.086047,0.445783,0.445783,148,332,332,?a
+?a  ageCategory  young   ,?a  comorbidity  Others,0.13314,0.445525,0.445525,229,514,514,?a
+?a  sex  male  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.030814,0.445378,0.445378,53,119,119,?a
+?a  hasRelapse  Yes  ?a  sex  male   ,?a  comorbidity  Diabetes_Mellitus,0.058721,0.444934,0.444934,101,227,227,?a
+?a  smokingHabit  CurrentSmoker   ,?a  biomarker  EGFR_Positive,0.084351,0.302789,0.444444,76,251,171,?a
+?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Others,0.065116,0.444444,0.444444,112,252,252,?a
+?a  ageCategory  young   ,?a  biomarker  EGFR_Positive,0.166482,0.291829,0.443787,150,514,338,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Nivolumab   ,?a  comorbidity  Cardiopathy,0.027326,0.443396,0.443396,47,106,106,?a
+?a  biomarker  ALK_Positive  ?a  drug  Carboplatin   ,?a  comorbidity  Cardiopathy,0.022674,0.443182,0.443182,39,88,88,?a
+?a  drug  Cisplatin  ?a  sex  female   ,?a  comorbidity  Cardiopathy,0.044767,0.442529,0.442529,77,174,174,?a
+?a  ageCategory  old   ,?a  comorbidity  Others,0.125,0.442387,0.442387,215,486,486,?a
+?a  drug  Cisplatin   ,?a  comorbidity  Diabetes_Mellitus,0.088953,0.442197,0.442197,153,346,346,?a
+?a  comorbidity  Cardiopathy   ,?a  ageCategory  old,0.183,0.442029,0.442029,183,414,414,?a
+?a  sex  male   ,?a  biomarker  ROS1_Positive,0.152053,0.28903,0.441935,137,474,310,?a
+?a  drug  Nivolumab  ?a  drug  Vinorelbine   ,?a  comorbidity  Cardiopathy,0.022093,0.44186,0.44186,38,86,86,?a
+?a  biomarker  EGFR_Positive  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Cardiopathy,0.022093,0.44186,0.44186,38,86,86,?a
+?a  comorbidity  Depression   ,?a  biomarker  ROS1_Positive,0.155383,0.305011,0.44164,140,459,317,?a
+?a  ageCategory  young   ,?a  comorbidity  Depression,0.131977,0.441634,0.441634,227,514,514,?a
+?a  drug  Vinorelbine  ?a  sex  female   ,?a  comorbidity  Cardiopathy,0.05,0.441026,0.441026,86,195,195,?a
+?a  sex  male   ,?a  comorbidity  Others,0.121512,0.440928,0.440928,209,474,474,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Afatinib   ,?a  biomarker  ALK_Positive,0.045505,0.325397,0.44086,41,126,93,?a
+?a  drug  Cisplatin  ?a  drug  Nivolumab   ,?a  biomarker  ALK_Positive,0.028857,0.27957,0.440678,26,93,59,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Cisplatin   ,?a  biomarker  ALK_Positive,0.041065,0.24183,0.440476,37,153,84,?a
+?a  drug  Cisplatin   ,?a  biomarker  ALK_Positive,0.109878,0.286127,0.44,99,346,225,?a
+?a  biomarker  ALK_Positive  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Cardiopathy,0.019186,0.44,0.44,33,75,75,?a
+?a  drug  Afatinib  ?a  drug  Nivolumab   ,?a  biomarker  ALK_Positive,0.032186,0.311828,0.439394,29,93,66,?a
+?a  sex  female  ?a  smokingHabit  NonSmoker   ,?a  biomarker  ALK_Positive,0.039956,0.292683,0.439024,36,123,82,?a
+?a  biomarker  EGFR_Positive   ,?a  comorbidity  Cardiopathy,0.077326,0.438944,0.438944,133,303,303,?a
+?a  sex  male   ,?a  biomarker  EGFR_Positive,0.150943,0.28692,0.43871,136,474,310,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  smokingHabit  NonSmoker   ,?a  drug  Cisplatin,0.026559,0.438095,0.438095,46,105,105,?a
+?a  biomarker  ROS1_Positive  ?a  sex  male   ,?a  drug  Carboplatin,0.034642,0.437956,0.437956,60,137,137,?a
+?a  smokingHabit  NonSmoker   ,?a  biomarker  ROS1_Positive,0.085461,0.29845,0.4375,77,258,176,?a
+?a  smokingHabit  PreviousSmoker   ,?a  biomarker  EGFR_Positive,0.081021,0.289683,0.437126,73,252,167,?a
+?a  comorbidity  Others  ?a  hasRelapse  Yes   ,?a  biomarker  ALK_Positive,0.073252,0.292035,0.437086,66,226,151,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  biomarker  EGFR_Positive,0.123196,0.275434,0.437008,111,403,254,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  NonSmoker   ,?a  biomarker  ALK_Positive,0.042175,0.301587,0.436782,38,126,87,?a
+?a  drug  Nivolumab  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Cardiopathy,0.022093,0.436782,0.436782,38,87,87,?a
+?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Depression,0.063953,0.436508,0.436508,110,252,252,?a
+?a  biomarker  ROS1_Positive   ,?a  sex  male,0.137,0.436306,0.436306,137,314,314,?a
+?a  ageCategory  old  ?a  hasRelapse  Yes   ,?a  comorbidity  Diabetes_Mellitus,0.061628,0.436214,0.436214,106,243,243,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  PreviousSmoker   ,?a  biomarker  ALK_Positive,0.037736,0.293103,0.435897,34,116,78,?a
+?a  drug  Carboplatin  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Cardiopathy,0.019767,0.435897,0.435897,34,78,78,?a
+?a  drug  Nivolumab  ?a  sex  male   ,?a  biomarker  ALK_Positive,0.048835,0.280255,0.435644,44,157,101,?a
+?a  drug  Vinorelbine  ?a  sex  male   ,?a  biomarker  ALK_Positive,0.048835,0.27673,0.435644,44,159,101,?a
+?a  comorbidity  Cardiopathy  ?a  sex  male   ,?a  biomarker  ALK_Positive,0.062153,0.287179,0.434109,56,195,129,?a
+?a  biomarker  EGFR_Positive  ?a  sex  male   ,?a  smokingHabit  NonSmoker,0.060447,0.338235,0.433962,46,136,106,?a
+?a  drug  Carboplatin   ,?a  comorbidity  Cardiopathy,0.089535,0.433803,0.433803,154,355,355,?a
+?a  comorbidity  Depression  ?a  drug  Nivolumab   ,?a  biomarker  ALK_Positive,0.057714,0.307692,0.433333,52,169,120,?a
+?a  biomarker  ALK_Positive  ?a  sex  female   ,?a  comorbidity  Cardiopathy,0.037791,0.433333,0.433333,65,150,150,?a
+?a  drug  Nivolumab  ?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Others,0.022674,0.433333,0.433333,39,90,90,?a
+?a  comorbidity  Depression  ?a  hasRelapse  No   ,?a  biomarker  ALK_Positive,0.075472,0.296943,0.433121,68,229,157,?a
+?a  hasRelapse  No   ,?a  comorbidity  Others,0.126744,0.43254,0.43254,218,504,504,?a
+?a  sex  male   ,?a  biomarker  ALK_Positive,0.148724,0.2827,0.432258,134,474,310,?a
+?a  comorbidity  Cardiopathy   ,?a  biomarker  ALK_Positive,0.134295,0.292271,0.432143,121,414,280,?a
+?a  comorbidity  Depression  ?a  sex  female   ,?a  biomarker  ALK_Positive,0.076582,0.306667,0.43125,69,225,160,?a
+?a  smokingHabit  PreviousSmoker   ,?a  biomarker  ALK_Positive,0.079911,0.285714,0.431138,72,252,167,?a
+?a  hasRelapse  No   ,?a  biomarker  ALK_Positive,0.162042,0.289683,0.429412,146,504,340,?a
+?a  biomarker  ROS1_Positive  ?a  sex  female   ,?a  comorbidity  Cardiopathy,0.044186,0.429379,0.429379,76,177,177,?a
+?a  drug  Nivolumab   ,?a  biomarker  ALK_Positive,0.109878,0.286957,0.428571,99,345,231,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Cardiopathy   ,?a  smokingHabit  CurrentSmoker,0.055191,0.318182,0.428571,42,132,98,?a
+?a  sex  male  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Cardiopathy,0.029651,0.428571,0.428571,51,119,119,?a
+?a  drug  Afatinib  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.019186,0.428571,0.428571,33,77,77,?a
+?a  drug  Carboplatin  ?a  sex  female   ,?a  comorbidity  Diabetes_Mellitus,0.045349,0.428571,0.428571,78,182,182,?a
+?a  sex  female   ,?a  comorbidity  Depression,0.130814,0.427757,0.427757,225,526,526,?a
+?a  drug  Afatinib  ?a  sex  female   ,?a  biomarker  ALK_Positive,0.062153,0.32,0.427481,56,175,131,?a
+?a  drug  Afatinib   ,?a  biomarker  ALK_Positive,0.110988,0.301205,0.42735,100,332,234,?a
+?a  biomarker  EGFR_Positive  ?a  biomarker  ROS1_Positive   ,?a  drug  Cisplatin,0.02194,0.426966,0.426966,38,89,89,?a
+?a  ageCategory  young  ?a  sex  male   ,?a  comorbidity  Diabetes_Mellitus,0.061047,0.426829,0.426829,105,246,246,?a
+?a  ageCategory  old  ?a  comorbidity  Cardiopathy   ,?a  drug  Carboplatin,0.045035,0.42623,0.42623,78,183,183,?a
+?a  smokingHabit  NonSmoker   ,?a  biomarker  ALK_Positive,0.083241,0.290698,0.426136,75,258,176,?a
+?a  drug  Nivolumab   ,?a  comorbidity  Others,0.085465,0.426087,0.426087,147,345,345,?a
+?a  biomarker  ALK_Positive   ,?a  comorbidity  Cardiopathy,0.070349,0.426056,0.426056,121,284,284,?a
+?a  biomarker  ALK_Positive   ,?a  comorbidity  Others,0.070349,0.426056,0.426056,121,284,284,?a
+?a  drug  Carboplatin   ,?a  comorbidity  Depression,0.087791,0.425352,0.425352,151,355,355,?a
+?a  hasRelapse  Yes   ,?a  biomarker  ALK_Positive,0.153163,0.278226,0.424615,138,496,325,?a
+?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Cardiopathy,0.062209,0.424603,0.424603,107,252,252,?a
+?a  drug  Carboplatin  ?a  drug  Cisplatin   ,?a  smokingHabit  CurrentSmoker,0.036794,0.294737,0.424242,28,95,66,?a
+?a  biomarker  ALK_Positive  ?a  comorbidity  Depression   ,?a  drug  Afatinib,0.032333,0.424242,0.424242,56,132,132,?a
+?a  ageCategory  old  ?a  drug  Carboplatin   ,?a  comorbidity  Diabetes_Mellitus,0.047093,0.424084,0.424084,81,191,191,?a
+?a  drug  Vinorelbine   ,?a  comorbidity  Cardiopathy,0.087209,0.423729,0.423729,150,354,354,?a
+?a  comorbidity  Others  ?a  drug  Cisplatin   ,?a  smokingHabit  NonSmoker,0.065703,0.318471,0.423729,50,157,118,?a
+?a  hasRelapse  No   ,?a  biomarker  EGFR_Positive,0.159822,0.285714,0.423529,144,504,340,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Nivolumab   ,?a  smokingHabit  CurrentSmoker,0.047306,0.339623,0.423529,36,106,85,?a
+?a  drug  Carboplatin  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.019186,0.423077,0.423077,33,78,78,?a
+?a  comorbidity  Others  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Carboplatin,0.025404,0.423077,0.423077,44,104,104,?a
+?a  ageCategory  young  ?a  biomarker  ROS1_Positive   ,?a  smokingHabit  CurrentSmoker,0.068331,0.329114,0.422764,52,158,123,?a
+?a  sex  female   ,?a  biomarker  ALK_Positive,0.166482,0.285171,0.422535,150,526,355,?a
+?a  drug  Carboplatin  ?a  drug  Vinorelbine   ,?a  smokingHabit  CurrentSmoker,0.039422,0.315789,0.422535,30,95,71,?a
+?a  biomarker  EGFR_Positive  ?a  biomarker  ROS1_Positive   ,?a  smokingHabit  CurrentSmoker,0.039422,0.337079,0.422535,30,89,71,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Afatinib,0.018476,0.421053,0.421053,32,76,76,?a
+?a  comorbidity  Cardiopathy  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Afatinib,0.025982,0.420561,0.420561,45,107,107,?a
+?a  biomarker  ROS1_Positive   ,?a  comorbidity  Cardiopathy,0.076744,0.420382,0.420382,132,314,314,?a
+?a  ageCategory  young  ?a  smokingHabit  NonSmoker   ,?a  drug  Cisplatin,0.031755,0.419847,0.419847,55,131,131,?a
+?a  drug  Carboplatin  ?a  drug  Nivolumab   ,?a  comorbidity  Diabetes_Mellitus,0.023837,0.418367,0.418367,41,98,98,?a
+?a  ageCategory  young  ?a  comorbidity  Others   ,?a  smokingHabit  NonSmoker,0.09067,0.30131,0.418182,69,229,165,?a
+?a  biomarker  ROS1_Positive  ?a  sex  female   ,?a  smokingHabit  CurrentSmoker,0.073587,0.316384,0.41791,56,177,134,?a
+?a  biomarker  ALK_Positive  ?a  sex  male   ,?a  comorbidity  Diabetes_Mellitus,0.032558,0.41791,0.41791,56,134,134,?a
+?a  sex  male   ,?a  comorbidity  Diabetes_Mellitus,0.115116,0.417722,0.417722,198,474,474,?a
+?a  drug  Afatinib  ?a  drug  Cisplatin   ,?a  comorbidity  Cardiopathy,0.019186,0.417722,0.417722,33,79,79,?a
+?a  hasRelapse  Yes   ,?a  comorbidity  Diabetes_Mellitus,0.120349,0.417339,0.417339,207,496,496,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  biomarker  ALK_Positive,0.117647,0.263027,0.417323,106,403,254,?a
+?a  drug  Afatinib  ?a  drug  Vinorelbine   ,?a  smokingHabit  PreviousSmoker,0.032852,0.301205,0.416667,25,83,60,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Cisplatin   ,?a  smokingHabit  NonSmoker,0.045992,0.327103,0.416667,35,107,84,?a
+?a  comorbidity  Others  ?a  smokingHabit  NonSmoker   ,?a  drug  Cisplatin,0.028868,0.416667,0.416667,50,120,120,?a
+?a  ageCategory  old  ?a  sex  male   ,?a  drug  Carboplatin,0.05485,0.416667,0.416667,95,228,228,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Cardiopathy   ,?a  drug  Carboplatin,0.031755,0.416667,0.416667,55,132,132,?a
+?a  comorbidity  Depression   ,?a  biomarker  ALK_Positive,0.146504,0.287582,0.416404,132,459,317,?a
+?a  sex  female   ,?a  comorbidity  Cardiopathy,0.127326,0.41635,0.41635,219,526,526,?a
+?a  ageCategory  old  ?a  hasRelapse  No   ,?a  drug  Carboplatin,0.058314,0.415638,0.415638,101,243,243,?a
+?a  drug  Vinorelbine   ,?a  biomarker  ALK_Positive,0.106548,0.271186,0.415584,96,354,231,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  NonSmoker   ,?a  drug  Cisplatin,0.018476,0.415584,0.415584,32,77,77,?a
+?a  ageCategory  old  ?a  sex  female   ,?a  comorbidity  Diabetes_Mellitus,0.062209,0.414729,0.414729,107,258,258,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  sex  female   ,?a  smokingHabit  CurrentSmoker,0.082786,0.307317,0.414474,63,205,152,?a
+?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Others,0.060465,0.414343,0.414343,104,251,251,?a
+?a  drug  Carboplatin  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.02093,0.413793,0.413793,36,87,87,?a
+?a  comorbidity  Depression  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Nivolumab,0.027714,0.413793,0.413793,48,116,116,?a
+?a  drug  Carboplatin  ?a  sex  female   ,?a  smokingHabit  CurrentSmoker,0.072273,0.302198,0.413534,55,182,133,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Cardiopathy,0.030233,0.412698,0.412698,52,126,126,?a
+?a  biomarker  ALK_Positive  ?a  comorbidity  Diabetes_Mellitus   ,?a  smokingHabit  CurrentSmoker,0.045992,0.330189,0.411765,35,106,85,?a
+?a  biomarker  ALK_Positive  ?a  biomarker  EGFR_Positive   ,?a  smokingHabit  NonSmoker,0.027595,0.283784,0.411765,21,74,51,?a
+?a  hasRelapse  No  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.032558,0.411765,0.411765,56,136,136,?a
+?a  ageCategory  old   ,?a  comorbidity  Diabetes_Mellitus,0.116279,0.411523,0.411523,200,486,486,?a
+?a  sex  male   ,?a  comorbidity  Cardiopathy,0.113372,0.411392,0.411392,195,474,474,?a
+?a  biomarker  EGFR_Positive  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Afatinib,0.017321,0.410959,0.410959,30,73,73,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Afatinib   ,?a  smokingHabit  PreviousSmoker,0.04205,0.299065,0.410256,32,107,78,?a
+?a  drug  Vinorelbine  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.019767,0.409639,0.409639,34,83,83,?a
+?a  comorbidity  Depression  ?a  drug  Cisplatin   ,?a  smokingHabit  NonSmoker,0.061761,0.301282,0.408696,47,156,115,?a
+?a  comorbidity  Cardiopathy  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Cisplatin,0.023095,0.408163,0.408163,40,98,98,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.018023,0.407895,0.407895,31,76,76,?a
+?a  biomarker  ROS1_Positive  ?a  hasRelapse  No   ,?a  drug  Carboplatin,0.038106,0.407407,0.407407,66,162,162,?a
+?a  sex  male  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Cisplatin,0.026559,0.40708,0.40708,46,113,113,?a
+?a  smokingHabit  NonSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.061047,0.406977,0.406977,105,258,258,?a
+?a  biomarker  EGFR_Positive  ?a  smokingHabit  NonSmoker   ,?a  drug  Cisplatin,0.020208,0.406977,0.406977,35,86,86,?a
+?a  comorbidity  Others  ?a  sex  male   ,?a  drug  Carboplatin,0.049076,0.406699,0.406699,85,209,209,?a
+?a  drug  Afatinib  ?a  sex  female   ,?a  smokingHabit  PreviousSmoker,0.068331,0.297143,0.40625,52,175,128,?a
+?a  drug  Carboplatin   ,?a  comorbidity  Diabetes_Mellitus,0.083721,0.405634,0.405634,144,355,355,?a
+?a  ageCategory  young  ?a  biomarker  EGFR_Positive   ,?a  smokingHabit  NonSmoker,0.059133,0.3,0.405405,45,150,111,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Diabetes_Mellitus   ,?a  drug  Carboplatin,0.025982,0.405405,0.405405,45,111,111,?a
+?a  ageCategory  old  ?a  biomarker  EGFR_Positive   ,?a  drug  Carboplatin,0.035797,0.405229,0.405229,62,153,153,?a
+?a  drug  Vinorelbine  ?a  hasRelapse  Yes   ,?a  smokingHabit  NonSmoker,0.061761,0.283133,0.405172,47,166,116,?a
+?a  ageCategory  old  ?a  comorbidity  Diabetes_Mellitus   ,?a  drug  Carboplatin,0.046767,0.405,0.405,81,200,200,?a
+?a  biomarker  ALK_Positive  ?a  comorbidity  Others   ,?a  drug  Vinorelbine,0.028291,0.404959,0.404959,49,121,121,?a
+?a  comorbidity  Cardiopathy  ?a  comorbidity  Others   ,?a  drug  Vinorelbine,0.0306,0.40458,0.40458,53,131,131,?a
+?a  biomarker  EGFR_Positive  ?a  biomarker  ROS1_Positive   ,?a  drug  Carboplatin,0.020785,0.404494,0.404494,36,89,89,?a
+?a  comorbidity  Depression  ?a  sex  female   ,?a  drug  Nivolumab,0.05254,0.404444,0.404444,91,225,225,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  comorbidity  Others   ,?a  drug  Cisplatin,0.031755,0.404412,0.404412,55,136,136,?a
+?a  biomarker  EGFR_Positive  ?a  sex  male   ,?a  drug  Cisplatin,0.031755,0.404412,0.404412,55,136,136,?a
+?a  drug  Cisplatin  ?a  smokingHabit  NonSmoker   ,?a  comorbidity  Cardiopathy,0.023256,0.40404,0.40404,40,99,99,?a
+?a  ageCategory  old  ?a  biomarker  ROS1_Positive   ,?a  drug  Carboplatin,0.036374,0.403846,0.403846,63,156,156,?a
+?a  comorbidity  Others  ?a  hasRelapse  No   ,?a  drug  Carboplatin,0.050808,0.40367,0.40367,88,218,218,?a
+?a  comorbidity  Others   ,?a  biomarker  ALK_Positive,0.134295,0.272523,0.403333,121,444,300,?a
+?a  drug  Nivolumab   ,?a  comorbidity  Cardiopathy,0.080814,0.402899,0.402899,139,345,345,?a
+?a  biomarker  ALK_Positive  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Cisplatin,0.016744,0.402778,0.402778,29,72,72,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Others   ,?a  drug  Carboplatin,0.034642,0.402685,0.402685,60,149,149,?a
+?a  ageCategory  old  ?a  smokingHabit  NonSmoker   ,?a  drug  Carboplatin,0.029446,0.401575,0.401575,51,127,127,?a
+?a  hasRelapse  No  ?a  smokingHabit  NonSmoker   ,?a  drug  Vinorelbine,0.0306,0.401515,0.401515,53,132,132,?a
+?a  biomarker  ROS1_Positive  ?a  sex  female   ,?a  drug  Nivolumab,0.040993,0.40113,0.40113,71,177,177,?a
+?a  biomarker  ROS1_Positive  ?a  sex  female   ,?a  drug  Vinorelbine,0.040993,0.40113,0.40113,71,177,177,?a
+?a  biomarker  ALK_Positive  ?a  drug  Afatinib   ,?a  smokingHabit  PreviousSmoker,0.034166,0.26,0.4,26,100,65,?a
+?a  ageCategory  young  ?a  drug  Afatinib   ,?a  smokingHabit  PreviousSmoker,0.057819,0.278481,0.4,44,158,110,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Afatinib   ,?a  smokingHabit  PreviousSmoker,0.039422,0.285714,0.4,30,105,75,?a
+?a  comorbidity  Cardiopathy  ?a  smokingHabit  NonSmoker   ,?a  drug  Cisplatin,0.023095,0.4,0.4,40,100,100,?a
+?a  biomarker  ALK_Positive  ?a  smokingHabit  NonSmoker   ,?a  drug  Nivolumab,0.017321,0.4,0.4,30,75,75,?a
+?a  comorbidity  Others  ?a  hasRelapse  No   ,?a  drug  Vinorelbine,0.050231,0.399083,0.399083,87,218,218,?a
+?a  ageCategory  young  ?a  comorbidity  Diabetes_Mellitus   ,?a  drug  Cisplatin,0.046767,0.399015,0.399015,81,203,203,?a
+?a  sex  female  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Carboplatin,0.031755,0.398551,0.398551,55,138,138,?a
+?a  sex  female  ?a  smokingHabit  NonSmoker   ,?a  drug  Nivolumab,0.028291,0.398374,0.398374,49,123,123,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Nivolumab   ,?a  smokingHabit  CurrentSmoker,0.043364,0.297297,0.39759,33,111,83,?a
+?a  ageCategory  young  ?a  biomarker  ALK_Positive   ,?a  comorbidity  Diabetes_Mellitus,0.036047,0.397436,0.397436,62,156,156,?a
+?a  comorbidity  Cardiopathy  ?a  comorbidity  Diabetes_Mellitus   ,?a  drug  Carboplatin,0.032333,0.397163,0.397163,56,141,141,?a
+?a  comorbidity  Cardiopathy  ?a  hasRelapse  Yes   ,?a  smokingHabit  NonSmoker,0.068331,0.27957,0.396947,52,186,131,?a
+?a  comorbidity  Cardiopathy  ?a  comorbidity  Others   ,?a  drug  Carboplatin,0.030023,0.396947,0.396947,52,131,131,?a
+?a  hasRelapse  No  ?a  sex  male   ,?a  drug  Carboplatin,0.056582,0.396761,0.396761,98,247,247,?a
+?a  ageCategory  young  ?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.027907,0.396694,0.396694,48,121,121,?a
+?a  ageCategory  young  ?a  drug  Carboplatin   ,?a  smokingHabit  CurrentSmoker,0.057819,0.268293,0.396396,44,164,111,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Depression   ,?a  smokingHabit  NonSmoker,0.057819,0.309859,0.396396,44,142,111,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Others   ,?a  smokingHabit  NonSmoker,0.057819,0.295302,0.396396,44,149,111,?a
+?a  biomarker  EGFR_Positive  ?a  hasRelapse  Yes   ,?a  drug  Carboplatin,0.036374,0.396226,0.396226,63,159,159,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  hasRelapse  Yes   ,?a  drug  Cisplatin,0.047344,0.396135,0.396135,82,207,207,?a
+?a  biomarker  ALK_Positive  ?a  comorbidity  Others   ,?a  smokingHabit  NonSmoker,0.047306,0.297521,0.395604,36,121,91,?a
+?a  drug  Cisplatin  ?a  sex  male   ,?a  smokingHabit  NonSmoker,0.069645,0.30814,0.395522,53,172,134,?a
+?a  ageCategory  old  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Carboplatin,0.028291,0.395161,0.395161,49,124,124,?a
+?a  comorbidity  Depression  ?a  smokingHabit  NonSmoker   ,?a  drug  Cisplatin,0.027136,0.394958,0.394958,47,119,119,?a
+?a  ageCategory  young   ,?a  comorbidity  Diabetes_Mellitus,0.118023,0.394942,0.394942,203,514,514,?a
+?a  biomarker  ALK_Positive  ?a  drug  Nivolumab   ,?a  smokingHabit  NonSmoker,0.039422,0.30303,0.394737,30,99,76,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Carboplatin,0.017321,0.394737,0.394737,30,76,76,?a
+?a  biomarker  ALK_Positive  ?a  comorbidity  Depression   ,?a  drug  Cisplatin,0.030023,0.393939,0.393939,52,132,132,?a
+?a  biomarker  ALK_Positive  ?a  comorbidity  Depression   ,?a  drug  Nivolumab,0.030023,0.393939,0.393939,52,132,132,?a
+?a  biomarker  ALK_Positive  ?a  drug  Carboplatin   ,?a  smokingHabit  PreviousSmoker,0.031537,0.272727,0.393443,24,88,61,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Carboplatin   ,?a  smokingHabit  CurrentSmoker,0.045992,0.301724,0.393258,35,116,89,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Carboplatin,0.020208,0.393258,0.393258,35,89,89,?a
+?a  comorbidity  Depression  ?a  hasRelapse  No   ,?a  drug  Nivolumab,0.051963,0.393013,0.393013,90,229,229,?a
+?a  ageCategory  old   ,?a  drug  Carboplatin,0.110277,0.393004,0.393004,191,486,486,?a
+?a  comorbidity  Others  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Carboplatin,0.025404,0.392857,0.392857,44,112,112,?a
+?a  comorbidity  Cardiopathy  ?a  sex  female   ,?a  drug  Vinorelbine,0.049654,0.392694,0.392694,86,219,219,?a
+?a  sex  male  ?a  smokingHabit  NonSmoker   ,?a  drug  Cisplatin,0.0306,0.392593,0.392593,53,135,135,?a
+?a  drug  Cisplatin  ?a  hasRelapse  Yes   ,?a  smokingHabit  NonSmoker,0.064389,0.276836,0.392,49,177,125,?a
+?a  smokingHabit  CurrentSmoker   ,?a  biomarker  ALK_Positive,0.074362,0.266932,0.391813,67,251,171,?a
+?a  ageCategory  old   ,?a  biomarker  ALK_Positive,0.142064,0.263374,0.391437,128,486,327,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Vinorelbine   ,?a  smokingHabit  NonSmoker,0.059133,0.3,0.391304,45,150,115,?a
+?a  comorbidity  Depression  ?a  sex  female   ,?a  drug  Vinorelbine,0.050808,0.391111,0.391111,88,225,225,?a
+?a  ageCategory  old  ?a  biomarker  ROS1_Positive   ,?a  drug  Vinorelbine,0.035219,0.391026,0.391026,61,156,156,?a
+?a  sex  female  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Afatinib,0.030023,0.390977,0.390977,52,133,133,?a
+?a  comorbidity  Depression  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Nivolumab,0.024827,0.390909,0.390909,43,110,110,?a
+?a  smokingHabit  CurrentSmoker   ,?a  comorbidity  Cardiopathy,0.056977,0.390438,0.390438,98,251,251,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Diabetes_Mellitus   ,?a  smokingHabit  CurrentSmoker,0.04205,0.288288,0.390244,32,111,82,?a
+?a  biomarker  ALK_Positive  ?a  sex  male   ,?a  smokingHabit  NonSmoker,0.051248,0.291045,0.39,39,134,100,?a
+?a  sex  female   ,?a  comorbidity  Diabetes_Mellitus,0.119186,0.389734,0.389734,205,526,526,?a
+?a  hasRelapse  No  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Vinorelbine,0.0306,0.389706,0.389706,53,136,136,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  NonSmoker   ,?a  drug  Vinorelbine,0.017321,0.38961,0.38961,30,77,77,?a
+?a  ageCategory  young  ?a  smokingHabit  NonSmoker   ,?a  drug  Vinorelbine,0.029446,0.389313,0.389313,51,131,131,?a
+?a  hasRelapse  No   ,?a  comorbidity  Diabetes_Mellitus,0.113953,0.388889,0.388889,196,504,504,?a
+?a  smokingHabit  PreviousSmoker   ,?a  comorbidity  Diabetes_Mellitus,0.056977,0.388889,0.388889,98,252,252,?a
+?a  comorbidity  Depression  ?a  sex  male   ,?a  drug  Afatinib,0.05254,0.388889,0.388889,91,234,234,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  NonSmoker   ,?a  drug  Cisplatin,0.028291,0.388889,0.388889,49,126,126,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  sex  male   ,?a  drug  Cisplatin,0.044457,0.388889,0.388889,77,198,198,?a
+?a  biomarker  ROS1_Positive  ?a  hasRelapse  No   ,?a  drug  Nivolumab,0.036374,0.388889,0.388889,63,162,162,?a
+?a  biomarker  EGFR_Positive  ?a  hasRelapse  No   ,?a  drug  Nivolumab,0.032333,0.388889,0.388889,56,144,144,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Cisplatin   ,?a  smokingHabit  CurrentSmoker,0.052562,0.298507,0.38835,40,134,103,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Cisplatin   ,?a  smokingHabit  NonSmoker,0.052562,0.298507,0.38835,40,134,103,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  hasRelapse  No   ,?a  drug  Carboplatin,0.04388,0.387755,0.387755,76,196,196,?a
+?a  hasRelapse  Yes  ?a  sex  male   ,?a  drug  Cisplatin,0.050808,0.387665,0.387665,88,227,227,?a
+?a  smokingHabit  NonSmoker   ,?a  comorbidity  Cardiopathy,0.05814,0.387597,0.387597,100,258,258,?a
+?a  smokingHabit  NonSmoker   ,?a  drug  Vinorelbine,0.057737,0.387597,0.387597,100,258,258,?a
+?a  drug  Cisplatin   ,?a  comorbidity  Cardiopathy,0.077907,0.387283,0.387283,134,346,346,?a
+?a  drug  Afatinib  ?a  drug  Carboplatin   ,?a  smokingHabit  PreviousSmoker,0.031537,0.272727,0.387097,24,88,62,?a
+?a  drug  Afatinib  ?a  drug  Nivolumab   ,?a  comorbidity  Diabetes_Mellitus,0.02093,0.387097,0.387097,36,93,93,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Nivolumab   ,?a  comorbidity  Diabetes_Mellitus,0.023837,0.386792,0.386792,41,106,106,?a
+?a  ageCategory  young  ?a  drug  Vinorelbine   ,?a  smokingHabit  NonSmoker,0.067017,0.28022,0.386364,51,182,132,?a
+?a  hasRelapse  No  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Cisplatin,0.029446,0.386364,0.386364,51,132,132,?a
+?a  ageCategory  old  ?a  comorbidity  Others   ,?a  drug  Afatinib,0.047921,0.386047,0.386047,83,215,215,?a
+?a  biomarker  ROS1_Positive  ?a  hasRelapse  Yes   ,?a  smokingHabit  CurrentSmoker,0.057819,0.289474,0.385965,44,152,114,?a
+?a  ageCategory  young  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Cisplatin,0.028291,0.385827,0.385827,49,127,127,?a
+?a  comorbidity  Cardiopathy  ?a  comorbidity  Depression   ,?a  smokingHabit  PreviousSmoker,0.055191,0.270968,0.385321,42,155,109,?a
+?a  hasRelapse  No  ?a  sex  female   ,?a  drug  Vinorelbine,0.057159,0.385214,0.385214,99,257,257,?a
+?a  ageCategory  young  ?a  drug  Cisplatin   ,?a  smokingHabit  NonSmoker,0.072273,0.289474,0.384615,55,190,143,?a
+?a  ageCategory  young  ?a  sex  female   ,?a  drug  Vinorelbine,0.059469,0.384328,0.384328,103,268,268,?a
+?a  ageCategory  young  ?a  comorbidity  Others   ,?a  drug  Cisplatin,0.050808,0.384279,0.384279,88,229,229,?a
+?a  ageCategory  young  ?a  comorbidity  Others   ,?a  drug  Vinorelbine,0.050808,0.384279,0.384279,88,229,229,?a
+?a  drug  Vinorelbine   ,?a  comorbidity  Diabetes_Mellitus,0.07907,0.384181,0.384181,136,354,354,?a
+?a  comorbidity  Depression  ?a  comorbidity  Others   ,?a  drug  Afatinib,0.036374,0.384146,0.384146,63,164,164,?a
+?a  smokingHabit  NonSmoker   ,?a  drug  Cisplatin,0.057159,0.383721,0.383721,99,258,258,?a
+?a  biomarker  ALK_Positive  ?a  biomarker  ROS1_Positive   ,?a  drug  Nivolumab,0.016166,0.383562,0.383562,28,73,73,?a
+?a  biomarker  ALK_Positive  ?a  biomarker  ROS1_Positive   ,?a  drug  Vinorelbine,0.016166,0.383562,0.383562,28,73,73,?a
+?a  comorbidity  Cardiopathy  ?a  sex  female   ,?a  drug  Carboplatin,0.048499,0.383562,0.383562,84,219,219,?a
+?a  comorbidity  Others  ?a  drug  Afatinib   ,?a  smokingHabit  PreviousSmoker,0.053876,0.277027,0.383178,41,148,107,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Afatinib   ,?a  comorbidity  Diabetes_Mellitus,0.023837,0.383178,0.383178,41,107,107,?a
+?a  biomarker  ALK_Positive  ?a  comorbidity  Cardiopathy   ,?a  smokingHabit  PreviousSmoker,0.047306,0.297521,0.382979,36,121,94,?a
+?a  drug  Afatinib  ?a  hasRelapse  No   ,?a  smokingHabit  PreviousSmoker,0.064389,0.291667,0.382813,49,168,128,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  comorbidity  Others   ,?a  drug  Vinorelbine,0.030023,0.382353,0.382353,52,136,136,?a
+?a  biomarker  EGFR_Positive  ?a  sex  male   ,?a  drug  Carboplatin,0.030023,0.382353,0.382353,52,136,136,?a
+?a  biomarker  ROS1_Positive   ,?a  comorbidity  Diabetes_Mellitus,0.069767,0.382166,0.382166,120,314,314,?a
+?a  ageCategory  young  ?a  sex  male   ,?a  drug  Cisplatin,0.054273,0.382114,0.382114,94,246,246,?a
+?a  comorbidity  Depression  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Afatinib,0.024249,0.381818,0.381818,42,110,110,?a
+?a  biomarker  ALK_Positive  ?a  drug  Cisplatin   ,?a  smokingHabit  PreviousSmoker,0.038108,0.292929,0.381579,29,99,76,?a
+?a  comorbidity  Cardiopathy  ?a  hasRelapse  No   ,?a  drug  Vinorelbine,0.050231,0.381579,0.381579,87,228,228,?a
+?a  biomarker  EGFR_Positive  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Carboplatin,0.016744,0.381579,0.381579,29,76,76,?a
+?a  drug  Afatinib   ,?a  smokingHabit  PreviousSmoker,0.122208,0.28012,0.381148,93,332,244,?a
+?a  drug  Vinorelbine  ?a  sex  female   ,?a  smokingHabit  NonSmoker,0.073587,0.287179,0.380952,56,195,147,?a
+?a  comorbidity  Depression  ?a  sex  male   ,?a  smokingHabit  NonSmoker,0.088042,0.286325,0.380682,67,234,176,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Cisplatin,0.024827,0.380531,0.380531,43,113,113,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  sex  female   ,?a  drug  Carboplatin,0.045035,0.380488,0.380488,78,205,205,?a
+?a  comorbidity  Depression  ?a  sex  male   ,?a  drug  Cisplatin,0.051386,0.380342,0.380342,89,234,234,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Depression   ,?a  drug  Vinorelbine,0.031178,0.380282,0.380282,54,142,142,?a
+?a  drug  Nivolumab   ,?a  comorbidity  Diabetes_Mellitus,0.076163,0.37971,0.37971,131,345,345,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  drug  Cisplatin,0.088337,0.379653,0.379653,153,403,403,?a
+?a  comorbidity  Depression  ?a  drug  Carboplatin   ,?a  smokingHabit  CurrentSmoker,0.053876,0.271523,0.37963,41,151,108,?a
+?a  drug  Afatinib   ,?a  comorbidity  Cardiopathy,0.073256,0.379518,0.379518,126,332,332,?a
+?a  drug  Afatinib   ,?a  comorbidity  Diabetes_Mellitus,0.073256,0.379518,0.379518,126,332,332,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Afatinib,0.025404,0.37931,0.37931,44,116,116,?a
+?a  hasRelapse  No  ?a  smokingHabit  NonSmoker   ,?a  drug  Nivolumab,0.028868,0.378788,0.378788,50,132,132,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Cardiopathy   ,?a  drug  Vinorelbine,0.028868,0.378788,0.378788,50,132,132,?a
+?a  hasRelapse  No  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Vinorelbine,0.028868,0.378788,0.378788,50,132,132,?a
+?a  comorbidity  Cardiopathy  ?a  comorbidity  Diabetes_Mellitus   ,?a  smokingHabit  NonSmoker,0.051248,0.276596,0.378641,39,141,103,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Depression   ,?a  drug  Nivolumab,0.0306,0.378571,0.378571,53,140,140,?a
+?a  ageCategory  young  ?a  biomarker  ALK_Positive   ,?a  drug  Cisplatin,0.034065,0.378205,0.378205,59,156,156,?a
+?a  drug  Carboplatin  ?a  hasRelapse  Yes   ,?a  smokingHabit  CurrentSmoker,0.059133,0.269461,0.378151,45,167,119,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Nivolumab,0.025982,0.378151,0.378151,45,119,119,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Carboplatin,0.025982,0.378151,0.378151,45,119,119,?a
+?a  comorbidity  Others  ?a  sex  male   ,?a  drug  Cisplatin,0.045612,0.37799,0.37799,79,209,209,?a
+?a  comorbidity  Cardiopathy  ?a  hasRelapse  No   ,?a  drug  Carboplatin,0.049654,0.377193,0.377193,86,228,228,?a
+?a  comorbidity  Others  ?a  drug  Vinorelbine   ,?a  smokingHabit  NonSmoker,0.060447,0.285714,0.377049,46,161,122,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Cisplatin   ,?a  smokingHabit  NonSmoker,0.060447,0.300654,0.377049,46,153,122,?a
+?a  sex  female  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Vinorelbine,0.030023,0.376812,0.376812,52,138,138,?a
+?a  ageCategory  old   ,?a  comorbidity  Cardiopathy,0.106395,0.376543,0.376543,183,486,486,?a
+?a  comorbidity  Others  ?a  sex  male   ,?a  smokingHabit  NonSmoker,0.080158,0.291866,0.376543,61,209,162,?a
+?a  biomarker  ROS1_Positive  ?a  hasRelapse  No   ,?a  drug  Vinorelbine,0.035219,0.376543,0.376543,61,162,162,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Cisplatin   ,?a  smokingHabit  NonSmoker,0.04205,0.304762,0.376471,32,105,85,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Diabetes_Mellitus   ,?a  smokingHabit  CurrentSmoker,0.045992,0.291667,0.376344,35,120,93,?a
+?a  biomarker  ALK_Positive  ?a  comorbidity  Depression   ,?a  smokingHabit  PreviousSmoker,0.045992,0.265152,0.376344,35,132,93,?a
+?a  biomarker  EGFR_Positive   ,?a  drug  Carboplatin,0.06582,0.376238,0.376238,114,303,303,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Nivolumab   ,?a  smokingHabit  PreviousSmoker,0.049934,0.273381,0.376238,38,139,101,?a
+?a  biomarker  ALK_Positive  ?a  hasRelapse  Yes   ,?a  smokingHabit  NonSmoker,0.049934,0.275362,0.376238,38,138,101,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Cardiopathy   ,?a  drug  Vinorelbine,0.028868,0.37594,0.37594,50,133,133,?a
+?a  comorbidity  Cardiopathy  ?a  comorbidity  Diabetes_Mellitus   ,?a  drug  Vinorelbine,0.0306,0.375887,0.375887,53,141,141,?a
+?a  ageCategory  young  ?a  hasRelapse  No   ,?a  drug  Cisplatin,0.056582,0.375479,0.375479,98,261,261,?a
+?a  hasRelapse  Yes   ,?a  comorbidity  Cardiopathy,0.10814,0.375,0.375,186,496,496,?a
+?a  ageCategory  old  ?a  biomarker  ALK_Positive   ,?a  drug  Afatinib,0.027714,0.375,0.375,48,128,128,?a
+?a  comorbidity  Others  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Nivolumab,0.022517,0.375,0.375,39,104,104,?a
+?a  ageCategory  old  ?a  comorbidity  Depression   ,?a  drug  Nivolumab,0.050231,0.375,0.375,87,232,232,?a
+?a  biomarker  EGFR_Positive  ?a  hasRelapse  No   ,?a  drug  Vinorelbine,0.031178,0.375,0.375,54,144,144,?a
+?a  ageCategory  old  ?a  hasRelapse  No   ,?a  drug  Vinorelbine,0.05254,0.374486,0.374486,91,243,243,?a
+?a  comorbidity  Cardiopathy   ,?a  comorbidity  Depression,0.090116,0.374396,0.374396,155,414,414,?a
+?a  ageCategory  old  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Afatinib,0.028291,0.374046,0.374046,49,131,131,?a
+?a  ageCategory  young  ?a  biomarker  ALK_Positive   ,?a  smokingHabit  NonSmoker,0.056505,0.275641,0.373913,43,156,115,?a
+?a  comorbidity  Others   ,?a  drug  Carboplatin,0.095843,0.373874,0.373874,166,444,444,?a
+?a  ageCategory  old  ?a  hasRelapse  No   ,?a  smokingHabit  PreviousSmoker,0.09724,0.304527,0.373737,74,243,198,?a
+?a  drug  Cisplatin   ,?a  smokingHabit  NonSmoker,0.130092,0.286127,0.373585,99,346,265,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Afatinib   ,?a  smokingHabit  NonSmoker,0.036794,0.266667,0.373333,28,105,75,?a
+?a  biomarker  ALK_Positive  ?a  sex  female   ,?a  drug  Afatinib,0.032333,0.373333,0.373333,56,150,150,?a
+?a  ageCategory  young  ?a  biomarker  EGFR_Positive   ,?a  drug  Nivolumab,0.032333,0.373333,0.373333,56,150,150,?a
+?a  biomarker  ALK_Positive   ,?a  comorbidity  Diabetes_Mellitus,0.061628,0.373239,0.373239,106,284,284,?a
+?a  ageCategory  old  ?a  sex  female   ,?a  smokingHabit  PreviousSmoker,0.098555,0.290698,0.373134,75,258,201,?a
+?a  drug  Nivolumab  ?a  drug  Vinorelbine   ,?a  smokingHabit  NonSmoker,0.032852,0.290698,0.373134,25,86,67,?a
+?a  ageCategory  young  ?a  sex  female   ,?a  smokingHabit  CurrentSmoker,0.094612,0.268657,0.373057,72,268,193,?a
+?a  hasRelapse  No   ,?a  drug  Vinorelbine,0.108545,0.373016,0.373016,188,504,504,?a
+?a  hasRelapse  No   ,?a  drug  Carboplatin,0.108545,0.373016,0.373016,188,504,504,?a
+?a  drug  Carboplatin   ,?a  biomarker  ALK_Positive,0.097669,0.247887,0.372881,88,355,236,?a
+?a  comorbidity  Depression  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Vinorelbine,0.023672,0.372727,0.372727,41,110,110,?a
+?a  ageCategory  young  ?a  comorbidity  Depression   ,?a  smokingHabit  NonSmoker,0.078844,0.264317,0.372671,60,227,161,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Cardiopathy   ,?a  smokingHabit  NonSmoker,0.049934,0.285714,0.372549,38,133,102,?a
+?a  ageCategory  young  ?a  comorbidity  Cardiopathy   ,?a  drug  Vinorelbine,0.049654,0.372294,0.372294,86,231,231,?a
+?a  comorbidity  Cardiopathy   ,?a  drug  Carboplatin,0.088915,0.371981,0.371981,154,414,414,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  sex  male   ,?a  smokingHabit  NonSmoker,0.080158,0.308081,0.371951,61,198,164,?a
+?a  comorbidity  Depression  ?a  comorbidity  Others   ,?a  drug  Vinorelbine,0.035219,0.371951,0.371951,61,164,164,?a
+?a  drug  Nivolumab  ?a  hasRelapse  Yes   ,?a  smokingHabit  CurrentSmoker,0.059133,0.277778,0.371901,45,162,121,?a
+?a  comorbidity  Depression  ?a  hasRelapse  No   ,?a  drug  Afatinib,0.049076,0.371179,0.371179,85,229,229,?a
+?a  ageCategory  old  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Afatinib,0.026559,0.370968,0.370968,46,124,124,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Nivolumab,0.019053,0.370787,0.370787,33,89,89,?a
+?a  sex  female   ,?a  drug  Vinorelbine,0.112587,0.370722,0.370722,195,526,526,?a
+?a  biomarker  EGFR_Positive  ?a  hasRelapse  No   ,?a  smokingHabit  NonSmoker,0.056505,0.298611,0.37069,43,144,116,?a
+?a  ageCategory  old  ?a  comorbidity  Depression   ,?a  drug  Afatinib,0.049654,0.37069,0.37069,86,232,232,?a
+?a  ageCategory  old  ?a  comorbidity  Depression   ,?a  drug  Vinorelbine,0.049654,0.37069,0.37069,86,232,232,?a
+?a  smokingHabit  CurrentSmoker   ,?a  drug  Carboplatin,0.053695,0.370518,0.370518,93,251,251,?a
+?a  ageCategory  old  ?a  hasRelapse  No   ,?a  drug  Nivolumab,0.051963,0.37037,0.37037,90,243,243,?a
+?a  ageCategory  old  ?a  sex  male   ,?a  smokingHabit  NonSmoker,0.088042,0.29386,0.370166,67,228,181,?a
+?a  biomarker  ALK_Positive  ?a  drug  Vinorelbine   ,?a  smokingHabit  NonSmoker,0.03548,0.28125,0.369863,27,96,73,?a
+?a  biomarker  ALK_Positive  ?a  hasRelapse  No   ,?a  drug  Cisplatin,0.031178,0.369863,0.369863,54,146,146,?a
+?a  comorbidity  Others  ?a  drug  Carboplatin   ,?a  smokingHabit  CurrentSmoker,0.057819,0.26506,0.369748,44,166,119,?a
+?a  comorbidity  Others  ?a  drug  Carboplatin   ,?a  smokingHabit  PreviousSmoker,0.057819,0.26506,0.369748,44,166,119,?a
+?a  sex  male  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Vinorelbine,0.025404,0.369748,0.369748,44,119,119,?a
+?a  ageCategory  young   ,?a  drug  Cisplatin,0.1097,0.36965,0.36965,190,514,514,?a
+?a  comorbidity  Cardiopathy  ?a  comorbidity  Others   ,?a  smokingHabit  NonSmoker,0.044678,0.259542,0.369565,34,131,92,?a
+?a  biomarker  ROS1_Positive   ,?a  drug  Carboplatin,0.066975,0.369427,0.369427,116,314,314,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  hasRelapse  Yes   ,?a  smokingHabit  CurrentSmoker,0.076216,0.280193,0.369427,58,207,157,?a
+?a  comorbidity  Others   ,?a  comorbidity  Depression,0.095349,0.369369,0.369369,164,444,444,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Diabetes_Mellitus   ,?a  drug  Nivolumab,0.023672,0.369369,0.369369,41,111,111,?a
+?a  comorbidity  Depression  ?a  drug  Nivolumab   ,?a  smokingHabit  CurrentSmoker,0.063075,0.284024,0.369231,48,169,130,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Others   ,?a  drug  Vinorelbine,0.031755,0.369128,0.369128,55,149,149,?a
+?a  smokingHabit  PreviousSmoker   ,?a  drug  Afatinib,0.053695,0.369048,0.369048,93,252,252,?a
+?a  biomarker  ALK_Positive  ?a  sex  female   ,?a  smokingHabit  PreviousSmoker,0.055191,0.28,0.368421,42,150,114,?a
+?a  biomarker  ROS1_Positive  ?a  hasRelapse  Yes   ,?a  drug  Cisplatin,0.032333,0.368421,0.368421,56,152,152,?a
+?a  biomarker  EGFR_Positive  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Cisplatin,0.016166,0.368421,0.368421,28,76,76,?a
+?a  comorbidity  Others  ?a  sex  male   ,?a  drug  Vinorelbine,0.044457,0.368421,0.368421,77,209,209,?a
+?a  comorbidity  Depression   ,?a  drug  Nivolumab,0.097575,0.368192,0.368192,169,459,459,?a
+?a  hasRelapse  No  ?a  sex  male   ,?a  smokingHabit  NonSmoker,0.09724,0.299595,0.368159,74,247,201,?a
+?a  comorbidity  Others  ?a  hasRelapse  Yes   ,?a  smokingHabit  NonSmoker,0.078844,0.265487,0.368098,60,226,163,?a
+?a  biomarker  EGFR_Positive  ?a  hasRelapse  No   ,?a  drug  Cisplatin,0.0306,0.368056,0.368056,53,144,144,?a
+?a  drug  Carboplatin  ?a  sex  male   ,?a  smokingHabit  NonSmoker,0.060447,0.265896,0.368,46,173,125,?a
+?a  sex  male   ,?a  smokingHabit  NonSmoker,0.177398,0.28481,0.367847,135,474,367,?a
+?a  comorbidity  Cardiopathy  ?a  hasRelapse  No   ,?a  smokingHabit  CurrentSmoker,0.0841,0.280702,0.367816,64,228,174,?a
+?a  biomarker  ROS1_Positive   ,?a  smokingHabit  CurrentSmoker,0.116951,0.283439,0.367769,89,314,242,?a
+?a  drug  Vinorelbine   ,?a  smokingHabit  NonSmoker,0.131406,0.282486,0.367647,100,354,272,?a
+?a  hasRelapse  No  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Nivolumab,0.028868,0.367647,0.367647,50,136,136,?a
+?a  biomarker  EGFR_Positive  ?a  sex  male   ,?a  drug  Nivolumab,0.028868,0.367647,0.367647,50,136,136,?a
+?a  comorbidity  Cardiopathy  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Vinorelbine,0.020785,0.367347,0.367347,36,98,98,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Carboplatin,0.020785,0.367347,0.367347,36,98,98,?a
+?a  comorbidity  Depression  ?a  comorbidity  Others   ,?a  smokingHabit  CurrentSmoker,0.061761,0.286585,0.367188,47,164,128,?a
+?a  biomarker  ALK_Positive  ?a  sex  female   ,?a  drug  Nivolumab,0.031755,0.366667,0.366667,55,150,150,?a
+?a  biomarker  EGFR_Positive   ,?a  comorbidity  Diabetes_Mellitus,0.064535,0.366337,0.366337,111,303,303,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Depression   ,?a  drug  Afatinib,0.030023,0.366197,0.366197,52,142,142,?a
+?a  ageCategory  old  ?a  biomarker  EGFR_Positive   ,?a  drug  Vinorelbine,0.032333,0.366013,0.366013,56,153,153,?a
+?a  biomarker  EGFR_Positive   ,?a  smokingHabit  NonSmoker,0.113009,0.283828,0.365957,86,303,235,?a
+?a  hasRelapse  No  ?a  sex  female   ,?a  drug  Nivolumab,0.054273,0.365759,0.365759,94,257,257,?a
+?a  biomarker  EGFR_Positive  ?a  sex  female   ,?a  drug  Afatinib,0.035219,0.365269,0.365269,61,167,167,?a
+?a  sex  male   ,?a  drug  Carboplatin,0.099885,0.364979,0.364979,173,474,474,?a
+?a  drug  Cisplatin  ?a  hasRelapse  No   ,?a  smokingHabit  CurrentSmoker,0.067017,0.301775,0.364286,51,169,140,?a
+?a  ageCategory  old  ?a  comorbidity  Depression   ,?a  smokingHabit  CurrentSmoker,0.088042,0.288793,0.36413,67,232,184,?a
+?a  ageCategory  old  ?a  hasRelapse  Yes   ,?a  smokingHabit  NonSmoker,0.088042,0.27572,0.36413,67,243,184,?a
+?a  ageCategory  old  ?a  biomarker  ALK_Positive   ,?a  smokingHabit  PreviousSmoker,0.047306,0.28125,0.363636,36,128,99,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Others   ,?a  drug  Cisplatin,0.030023,0.363636,0.363636,52,143,143,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  NonSmoker   ,?a  drug  Nivolumab,0.016166,0.363636,0.363636,28,77,77,?a
+?a  hasRelapse  No   ,?a  drug  Nivolumab,0.105658,0.363095,0.363095,183,504,504,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  hasRelapse  Yes   ,?a  smokingHabit  NonSmoker,0.074901,0.275362,0.363057,57,207,157,?a
+?a  ageCategory  old  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Vinorelbine,0.025982,0.362903,0.362903,45,124,124,?a
+?a  sex  male   ,?a  drug  Cisplatin,0.099307,0.362869,0.362869,172,474,474,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Nivolumab   ,?a  smokingHabit  CurrentSmoker,0.04862,0.282443,0.362745,37,131,102,?a
+?a  comorbidity  Others   ,?a  drug  Vinorelbine,0.092956,0.362613,0.362613,161,444,444,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Others   ,?a  drug  Afatinib,0.031178,0.362416,0.362416,54,149,149,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Others   ,?a  drug  Cisplatin,0.031178,0.362416,0.362416,54,149,149,?a
+?a  comorbidity  Cardiopathy   ,?a  drug  Vinorelbine,0.086605,0.362319,0.362319,150,414,414,?a
+?a  sex  female  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Nivolumab,0.028868,0.362319,0.362319,50,138,138,?a
+?a  ageCategory  old  ?a  smokingHabit  NonSmoker   ,?a  drug  Nivolumab,0.026559,0.362205,0.362205,46,127,127,?a
+?a  ageCategory  young  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Nivolumab,0.026559,0.362205,0.362205,46,127,127,?a
+?a  hasRelapse  Yes  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Carboplatin,0.024249,0.362069,0.362069,42,116,116,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Carboplatin   ,?a  smokingHabit  CurrentSmoker,0.051248,0.270833,0.361111,39,144,108,?a
+?a  biomarker  EGFR_Positive  ?a  hasRelapse  No   ,?a  drug  Afatinib,0.030023,0.361111,0.361111,52,144,144,?a
+?a  comorbidity  Depression  ?a  hasRelapse  Yes   ,?a  drug  Cisplatin,0.047921,0.36087,0.36087,83,230,230,?a
+?a  ageCategory  young  ?a  biomarker  ROS1_Positive   ,?a  drug  Nivolumab,0.03291,0.360759,0.360759,57,158,158,?a
+?a  drug  Carboplatin   ,?a  smokingHabit  CurrentSmoker,0.122208,0.261972,0.360465,93,355,258,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Depression   ,?a  smokingHabit  CurrentSmoker,0.052562,0.28169,0.36036,40,142,111,?a
+?a  ageCategory  young  ?a  drug  Carboplatin   ,?a  smokingHabit  PreviousSmoker,0.052562,0.243902,0.36036,40,164,111,?a
+?a  ageCategory  old  ?a  comorbidity  Cardiopathy   ,?a  smokingHabit  NonSmoker,0.064389,0.26776,0.360294,49,183,136,?a
+?a  ageCategory  young  ?a  biomarker  EGFR_Positive   ,?a  drug  Afatinib,0.031178,0.36,0.36,54,150,150,?a
+?a  ageCategory  old  ?a  sex  male   ,?a  drug  Afatinib,0.047344,0.359649,0.359649,82,228,228,?a
+?a  biomarker  EGFR_Positive  ?a  biomarker  ROS1_Positive   ,?a  drug  Nivolumab,0.018476,0.359551,0.359551,32,89,89,?a
+?a  biomarker  ROS1_Positive  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Vinorelbine,0.018476,0.359551,0.359551,32,89,89,?a
+?a  biomarker  EGFR_Positive  ?a  biomarker  ROS1_Positive   ,?a  drug  Vinorelbine,0.018476,0.359551,0.359551,32,89,89,?a
+?a  comorbidity  Depression   ,?a  drug  Afatinib,0.095266,0.359477,0.359477,165,459,459,?a
+?a  ageCategory  old  ?a  biomarker  EGFR_Positive   ,?a  drug  Cisplatin,0.031755,0.359477,0.359477,55,153,153,?a
+?a  drug  Afatinib  ?a  drug  Nivolumab   ,?a  smokingHabit  NonSmoker,0.030223,0.247312,0.359375,23,93,64,?a
+?a  ageCategory  young  ?a  comorbidity  Cardiopathy   ,?a  drug  Nivolumab,0.047921,0.359307,0.359307,83,231,231,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  sex  male   ,?a  drug  Vinorelbine,0.040993,0.358586,0.358586,71,198,198,?a
+?a  smokingHabit  CurrentSmoker   ,?a  drug  Nivolumab,0.051963,0.358566,0.358566,90,251,251,?a
+?a  ageCategory  old  ?a  comorbidity  Diabetes_Mellitus   ,?a  smokingHabit  CurrentSmoker,0.074901,0.285,0.358491,57,200,159,?a
+?a  comorbidity  Others  ?a  hasRelapse  Yes   ,?a  drug  Cisplatin,0.046767,0.358407,0.358407,81,226,226,?a
+?a  comorbidity  Others  ?a  hasRelapse  No   ,?a  smokingHabit  PreviousSmoker,0.081472,0.284404,0.358382,62,218,173,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Diabetes_Mellitus   ,?a  drug  Vinorelbine,0.024827,0.358333,0.358333,43,120,120,?a
+?a  ageCategory  young  ?a  sex  female   ,?a  drug  Nivolumab,0.055427,0.358209,0.358209,96,268,268,?a
+?a  biomarker  ALK_Positive  ?a  smokingHabit  CurrentSmoker   ,?a  drug  Vinorelbine,0.013857,0.358209,0.358209,24,67,67,?a
+?a  ageCategory  old  ?a  comorbidity  Others   ,?a  drug  Nivolumab,0.044457,0.35814,0.35814,77,215,215,?a
+?a  ageCategory  old   ,?a  drug  Afatinib,0.100462,0.358025,0.358025,174,486,486,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  smokingHabit  CurrentSmoker,0.148489,0.280397,0.357595,113,403,316,?a
+?a  sex  female   ,?a  drug  Nivolumab,0.108545,0.357414,0.357414,188,526,526,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  drug  Carboplatin,0.083141,0.35732,0.35732,144,403,403,?a
+?a  comorbidity  Depression   ,?a  comorbidity  Others,0.095349,0.357298,0.357298,164,459,459,?a
+?a  comorbidity  Others   ,?a  smokingHabit  NonSmoker,0.157687,0.27027,0.357143,120,444,336,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Depression   ,?a  drug  Vinorelbine,0.028868,0.357143,0.357143,50,140,140,?a
+?a  hasRelapse  Yes   ,?a  drug  Cisplatin,0.102194,0.356855,0.356855,177,496,496,?a
+?a  hasRelapse  No  ?a  sex  female   ,?a  smokingHabit  CurrentSmoker,0.093298,0.276265,0.356784,71,257,199,?a
+?a  biomarker  ROS1_Positive   ,?a  drug  Vinorelbine,0.064665,0.356688,0.356688,112,314,314,?a
+?a  comorbidity  Cardiopathy  ?a  sex  female   ,?a  smokingHabit  PreviousSmoker,0.073587,0.255708,0.356688,56,219,157,?a
+?a  ageCategory  young  ?a  hasRelapse  No   ,?a  smokingHabit  NonSmoker,0.094612,0.275862,0.356436,72,261,202,?a
+?a  comorbidity  Cardiopathy  ?a  hasRelapse  No   ,?a  smokingHabit  PreviousSmoker,0.081472,0.27193,0.356322,62,228,174,?a
+?a  biomarker  ROS1_Positive  ?a  sex  female   ,?a  drug  Afatinib,0.036374,0.355932,0.355932,63,177,177,?a
+?a  comorbidity  Depression  ?a  comorbidity  Diabetes_Mellitus   ,?a  smokingHabit  NonSmoker,0.04862,0.266187,0.355769,37,139,104,?a
+?a  comorbidity  Cardiopathy  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Nivolumab,0.02194,0.35514,0.35514,38,107,107,?a
+?a  biomarker  ALK_Positive  ?a  hasRelapse  Yes   ,?a  drug  Afatinib,0.028291,0.355072,0.355072,49,138,138,?a
+?a  comorbidity  Depression  ?a  sex  female   ,?a  smokingHabit  CurrentSmoker,0.078844,0.266667,0.35503,60,225,169,?a
+?a  ageCategory  young  ?a  comorbidity  Cardiopathy   ,?a  smokingHabit  PreviousSmoker,0.078844,0.25974,0.35503,60,231,169,?a
+?a  smokingHabit  CurrentSmoker   ,?a  drug  Cisplatin,0.051386,0.354582,0.354582,89,251,251,?a
+?a  smokingHabit  CurrentSmoker   ,?a  drug  Vinorelbine,0.051386,0.354582,0.354582,89,251,251,?a
+?a  ageCategory  young   ,?a  drug  Vinorelbine,0.105081,0.354086,0.354086,182,514,514,?a
+?a  ageCategory  old   ,?a  drug  Vinorelbine,0.099307,0.353909,0.353909,172,486,486,?a
+?a  ageCategory  young  ?a  drug  Nivolumab   ,?a  smokingHabit  CurrentSmoker,0.060447,0.261364,0.353846,46,176,130,?a
+?a  drug  Vinorelbine  ?a  sex  female   ,?a  smokingHabit  CurrentSmoker,0.068331,0.266667,0.353741,52,195,147,?a
+?a  comorbidity  Others   ,?a  drug  Cisplatin,0.090647,0.353604,0.353604,157,444,444,?a
+?a  biomarker  ROS1_Positive   ,?a  drug  Nivolumab,0.064088,0.353503,0.353503,111,314,314,?a
+?a  biomarker  EGFR_Positive  ?a  comorbidity  Cardiopathy   ,?a  drug  Nivolumab,0.027136,0.353383,0.353383,47,133,133,?a
+?a  biomarker  ALK_Positive  ?a  sex  female   ,?a  drug  Cisplatin,0.0306,0.353333,0.353333,53,150,150,?a
+?a  biomarker  EGFR_Positive   ,?a  drug  Cisplatin,0.061778,0.353135,0.353135,107,303,303,?a
+?a  drug  Carboplatin  ?a  hasRelapse  Yes   ,?a  smokingHabit  PreviousSmoker,0.055191,0.251497,0.352941,42,167,119,?a
+?a  biomarker  ALK_Positive  ?a  biomarker  EGFR_Positive   ,?a  smokingHabit  PreviousSmoker,0.023653,0.243243,0.352941,18,74,51,?a
+?a  ageCategory  old  ?a  biomarker  ROS1_Positive   ,?a  smokingHabit  PreviousSmoker,0.055191,0.269231,0.352941,42,156,119,?a
+?a  sex  male  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Nivolumab,0.024249,0.352941,0.352941,42,119,119,?a
+?a  ageCategory  young  ?a  biomarker  ALK_Positive   ,?a  drug  Nivolumab,0.031755,0.352564,0.352564,55,156,156,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  hasRelapse  No   ,?a  smokingHabit  PreviousSmoker,0.073587,0.285714,0.352201,56,196,159,?a
+?a  comorbidity  Depression  ?a  hasRelapse  Yes   ,?a  drug  Vinorelbine,0.046767,0.352174,0.352174,81,230,230,?a
+?a  biomarker  ALK_Positive   ,?a  drug  Afatinib,0.057737,0.352113,0.352113,100,284,284,?a
+?a  drug  Vinorelbine  ?a  sex  male   ,?a  smokingHabit  PreviousSmoker,0.057819,0.27673,0.352,44,159,125,?a
+?a  biomarker  ROS1_Positive  ?a  sex  male   ,?a  smokingHabit  PreviousSmoker,0.049934,0.277372,0.351852,38,137,108,?a
+?a  hasRelapse  No  ?a  sex  female   ,?a  smokingHabit  PreviousSmoker,0.091984,0.272374,0.351759,70,257,199,?a
+?a  comorbidity  Cardiopathy  ?a  sex  female   ,?a  drug  Cisplatin,0.044457,0.351598,0.351598,77,219,219,?a
+?a  ageCategory  old  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Nivolumab,0.026559,0.351145,0.351145,46,131,131,?a
+?a  biomarker  ALK_Positive  ?a  comorbidity  Cardiopathy   ,?a  smokingHabit  NonSmoker,0.043364,0.272727,0.351064,33,121,94,?a
+?a  ageCategory  old  ?a  comorbidity  Others   ,?a  smokingHabit  CurrentSmoker,0.078844,0.27907,0.350877,60,215,171,?a
+?a  ageCategory  old  ?a  comorbidity  Others   ,?a  smokingHabit  PreviousSmoker,0.078844,0.27907,0.350877,60,215,171,?a
+?a  comorbidity  Cardiopathy   ,?a  smokingHabit  PreviousSmoker,0.140604,0.258454,0.35082,107,414,305,?a
+?a  comorbidity  Depression   ,?a  drug  Vinorelbine,0.092956,0.350763,0.350763,161,459,459,?a
+?a  biomarker  ALK_Positive   ,?a  smokingHabit  NonSmoker,0.098555,0.264085,0.350467,75,284,214,?a
+?a  sex  female   ,?a  smokingHabit  CurrentSmoker,0.18134,0.262357,0.350254,138,526,394,?a
+?a  hasRelapse  No  ?a  sex  female   ,?a  drug  Afatinib,0.051963,0.350195,0.350195,90,257,257,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Depression   ,?a  drug  Cisplatin,0.028291,0.35,0.35,49,140,140,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  comorbidity  Cardiopathy,0.081977,0.349876,0.349876,141,403,403,?a
+?a  biomarker  EGFR_Positive   ,?a  drug  Nivolumab,0.061201,0.349835,0.349835,106,303,303,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Others   ,?a  drug  Afatinib,0.028868,0.34965,0.34965,50,143,143,?a
+?a  hasRelapse  Yes   ,?a  smokingHabit  NonSmoker,0.165572,0.254032,0.34903,126,496,361,?a
+?a  biomarker  ALK_Positive   ,?a  drug  Cisplatin,0.057159,0.348592,0.348592,99,284,284,?a
+?a  biomarker  ALK_Positive   ,?a  drug  Nivolumab,0.057159,0.348592,0.348592,99,284,284,?a
+?a  hasRelapse  Yes  ?a  sex  male   ,?a  drug  Afatinib,0.045612,0.348018,0.348018,79,227,227,?a
+?a  ageCategory  old   ,?a  drug  Nivolumab,0.097575,0.347737,0.347737,169,486,486,?a
+?a  ageCategory  old  ?a  drug  Carboplatin   ,?a  smokingHabit  NonSmoker,0.067017,0.267016,0.346939,51,191,147,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  smokingHabit  PreviousSmoker   ,?a  drug  Vinorelbine,0.01963,0.346939,0.346939,34,98,98,?a
+?a  biomarker  EGFR_Positive   ,?a  drug  Afatinib,0.060624,0.346535,0.346535,105,303,303,?a
+?a  sex  female   ,?a  drug  Carboplatin,0.105081,0.346008,0.346008,182,526,526,?a
+?a  drug  Carboplatin  ?a  sex  female   ,?a  smokingHabit  PreviousSmoker,0.060447,0.252747,0.345865,46,182,133,?a
+?a  ageCategory  young   ,?a  smokingHabit  NonSmoker,0.172142,0.254864,0.345646,131,514,379,?a
+?a  biomarker  EGFR_Positive  ?a  sex  male   ,?a  drug  Vinorelbine,0.027136,0.345588,0.345588,47,136,136,?a
+?a  smokingHabit  PreviousSmoker   ,?a  drug  Nivolumab,0.050231,0.345238,0.345238,87,252,252,?a
+?a  smokingHabit  PreviousSmoker   ,?a  drug  Carboplatin,0.050231,0.345238,0.345238,87,252,252,?a
+?a  smokingHabit  NonSmoker   ,?a  drug  Nivolumab,0.051386,0.344961,0.344961,89,258,258,?a
+?a  comorbidity  Depression   ,?a  smokingHabit  NonSmoker,0.156373,0.259259,0.344928,119,459,345,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  comorbidity  Depression,0.080814,0.344913,0.344913,139,403,403,?a
+?a  comorbidity  Others  ?a  sex  female   ,?a  smokingHabit  PreviousSmoker,0.078844,0.255319,0.344828,60,235,174,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Others   ,?a  smokingHabit  PreviousSmoker,0.052562,0.27972,0.344828,40,143,116,?a
+?a  drug  Nivolumab  ?a  hasRelapse  No   ,?a  smokingHabit  PreviousSmoker,0.065703,0.273224,0.344828,50,183,145,?a
+?a  drug  Nivolumab  ?a  hasRelapse  No   ,?a  smokingHabit  NonSmoker,0.065703,0.273224,0.344828,50,183,145,?a
+?a  drug  Nivolumab  ?a  sex  male   ,?a  smokingHabit  PreviousSmoker,0.055191,0.267516,0.344262,42,157,122,?a
+?a  biomarker  ROS1_Positive  ?a  hasRelapse  No   ,?a  smokingHabit  PreviousSmoker,0.057819,0.271605,0.34375,44,162,128,?a
+?a  comorbidity  Cardiopathy  ?a  comorbidity  Others   ,?a  drug  Nivolumab,0.025982,0.343511,0.343511,45,131,131,?a
+?a  drug  Cisplatin  ?a  sex  male   ,?a  smokingHabit  CurrentSmoker,0.060447,0.267442,0.343284,46,172,134,?a
+?a  ageCategory  old  ?a  drug  Afatinib   ,?a  smokingHabit  CurrentSmoker,0.060447,0.264368,0.343284,46,174,134,?a
+?a  biomarker  EGFR_Positive   ,?a  drug  Vinorelbine,0.060046,0.343234,0.343234,104,303,303,?a
+?a  ageCategory  young  ?a  comorbidity  Cardiopathy   ,?a  smokingHabit  CurrentSmoker,0.076216,0.251082,0.343195,58,231,169,?a
+?a  ageCategory  old   ,?a  smokingHabit  PreviousSmoker,0.172142,0.269547,0.342932,131,486,382,?a
+?a  ageCategory  young  ?a  drug  Cisplatin   ,?a  smokingHabit  CurrentSmoker,0.064389,0.257895,0.342657,49,190,143,?a
+?a  drug  Cisplatin  ?a  drug  Nivolumab   ,?a  smokingHabit  PreviousSmoker,0.032852,0.268817,0.342466,25,93,73,?a
+?a  ageCategory  young   ,?a  drug  Nivolumab,0.101617,0.342412,0.342412,176,514,514,?a
+?a  drug  Carboplatin  ?a  drug  Nivolumab   ,?a  smokingHabit  NonSmoker,0.034166,0.265306,0.342105,26,98,76,?a
+?a  biomarker  ROS1_Positive  ?a  hasRelapse  Yes   ,?a  drug  Afatinib,0.030023,0.342105,0.342105,52,152,152,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Diabetes_Mellitus   ,?a  drug  Afatinib,0.023672,0.341667,0.341667,41,120,120,?a
+?a  comorbidity  Depression  ?a  hasRelapse  Yes   ,?a  smokingHabit  CurrentSmoker,0.074901,0.247826,0.341317,57,230,167,?a
+?a  biomarker  EGFR_Positive  ?a  sex  female   ,?a  smokingHabit  PreviousSmoker,0.057819,0.263473,0.341085,44,167,129,?a
+?a  biomarker  ROS1_Positive   ,?a  drug  Afatinib,0.061778,0.340764,0.340764,107,314,314,?a
+?a  comorbidity  Others  ?a  hasRelapse  Yes   ,?a  drug  Afatinib,0.044457,0.340708,0.340708,77,226,226,?a
+?a  comorbidity  Cardiopathy   ,?a  comorbidity  Diabetes_Mellitus,0.081977,0.34058,0.34058,141,414,414,?a
+?a  comorbidity  Others  ?a  sex  female   ,?a  drug  Afatinib,0.046189,0.340426,0.340426,80,235,235,?a
+?a  drug  Nivolumab  ?a  sex  female   ,?a  smokingHabit  NonSmoker,0.064389,0.260638,0.340278,49,188,144,?a
+?a  hasRelapse  No   ,?a  smokingHabit  PreviousSmoker,0.178712,0.269841,0.34,136,504,400,?a
+?a  comorbidity  Depression   ,?a  drug  Cisplatin,0.090069,0.339869,0.339869,156,459,459,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  comorbidity  Others   ,?a  smokingHabit  PreviousSmoker,0.049934,0.279412,0.339286,38,136,112,?a
+?a  comorbidity  Others  ?a  drug  Nivolumab   ,?a  smokingHabit  CurrentSmoker,0.051248,0.265306,0.33913,39,147,115,?a
+?a  ageCategory  young  ?a  sex  male   ,?a  smokingHabit  PreviousSmoker,0.082786,0.256098,0.33871,63,246,186,?a
+?a  drug  Nivolumab   ,?a  smokingHabit  CurrentSmoker,0.118265,0.26087,0.338346,90,345,266,?a
+?a  drug  Cisplatin  ?a  drug  Vinorelbine   ,?a  smokingHabit  CurrentSmoker,0.030223,0.258427,0.338235,23,89,68,?a
+?a  ageCategory  old  ?a  drug  Nivolumab   ,?a  smokingHabit  NonSmoker,0.060447,0.272189,0.338235,46,169,136,?a
+?a  biomarker  ALK_Positive   ,?a  drug  Vinorelbine,0.055427,0.338028,0.338028,96,284,284,?a
+?a  comorbidity  Depression   ,?a  comorbidity  Cardiopathy,0.090116,0.337691,0.337691,155,459,459,?a
+?a  sex  female   ,?a  smokingHabit  PreviousSmoker,0.17477,0.252852,0.337563,133,526,394,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  drug  Vinorelbine,0.078522,0.337469,0.337469,136,403,403,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  comorbidity  Others,0.07907,0.337469,0.337469,136,403,403,?a
+?a  biomarker  ROS1_Positive  ?a  drug  Nivolumab   ,?a  smokingHabit  NonSmoker,0.036794,0.252252,0.337349,28,111,83,?a
+?a  drug  Carboplatin   ,?a  smokingHabit  PreviousSmoker,0.114323,0.24507,0.337209,87,355,258,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Afatinib   ,?a  smokingHabit  NonSmoker,0.043364,0.261905,0.336735,33,126,98,?a
+?a  hasRelapse  Yes   ,?a  drug  Carboplatin,0.09642,0.336694,0.336694,167,496,496,?a
+?a  ageCategory  young  ?a  hasRelapse  No   ,?a  smokingHabit  CurrentSmoker,0.089356,0.260536,0.336634,68,261,202,?a
+?a  biomarker  ALK_Positive  ?a  hasRelapse  Yes   ,?a  smokingHabit  PreviousSmoker,0.044678,0.246377,0.336634,34,138,101,?a
+?a  biomarker  ALK_Positive   ,?a  smokingHabit  PreviousSmoker,0.094612,0.253521,0.336449,72,284,214,?a
+?a  biomarker  ALK_Positive  ?a  hasRelapse  No   ,?a  smokingHabit  CurrentSmoker,0.049934,0.260274,0.336283,38,146,113,?a
+?a  comorbidity  Depression   ,?a  smokingHabit  CurrentSmoker,0.152431,0.252723,0.336232,116,459,345,?a
+?a  drug  Vinorelbine  ?a  hasRelapse  Yes   ,?a  smokingHabit  CurrentSmoker,0.051248,0.23494,0.336207,39,166,116,?a
+?a  biomarker  EGFR_Positive  ?a  hasRelapse  Yes   ,?a  smokingHabit  CurrentSmoker,0.052562,0.251572,0.336134,40,159,119,?a
+?a  ageCategory  old  ?a  biomarker  ROS1_Positive   ,?a  smokingHabit  NonSmoker,0.052562,0.25641,0.336134,40,156,119,?a
+?a  drug  Cisplatin   ,?a  smokingHabit  CurrentSmoker,0.116951,0.257225,0.335849,89,346,265,?a
+?a  comorbidity  Cardiopathy   ,?a  drug  Nivolumab,0.080254,0.335749,0.335749,139,414,414,?a
+?a  sex  male   ,?a  drug  Vinorelbine,0.091801,0.335443,0.335443,159,474,474,?a
+?a  hasRelapse  No   ,?a  drug  Cisplatin,0.097575,0.335317,0.335317,169,504,504,?a
+?a  ageCategory  young   ,?a  smokingHabit  CurrentSmoker,0.166886,0.247082,0.335092,127,514,379,?a
+?a  hasRelapse  Yes   ,?a  drug  Vinorelbine,0.095843,0.334677,0.334677,166,496,496,?a
+?a  drug  Nivolumab   ,?a  smokingHabit  NonSmoker,0.116951,0.257971,0.334586,89,345,266,?a
+?a  biomarker  ROS1_Positive   ,?a  drug  Cisplatin,0.060624,0.334395,0.334395,105,314,314,?a
+?a  comorbidity  Others   ,?a  smokingHabit  PreviousSmoker,0.147175,0.252252,0.333333,112,444,336,?a
+?a  hasRelapse  No   ,?a  drug  Afatinib,0.096998,0.333333,0.333333,168,504,504,?a
+?a  comorbidity  Others   ,?a  drug  Afatinib,0.08545,0.333333,0.333333,148,444,444,?a
+?a  ageCategory  young  ?a  hasRelapse  Yes   ,?a  smokingHabit  PreviousSmoker,0.07753,0.233202,0.333333,59,253,177,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Diabetes_Mellitus   ,?a  smokingHabit  PreviousSmoker,0.040736,0.258333,0.333333,31,120,93,?a
+?a  sex  female   ,?a  drug  Afatinib,0.101039,0.3327,0.3327,175,526,526,?a
+?a  ageCategory  old   ,?a  smokingHabit  NonSmoker,0.166886,0.261317,0.332461,127,486,382,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  smokingHabit  NonSmoker,0.137976,0.260546,0.332278,105,403,316,?a
+?a  sex  male   ,?a  drug  Afatinib,0.090647,0.331224,0.331224,157,474,474,?a
+?a  sex  male   ,?a  drug  Nivolumab,0.090647,0.331224,0.331224,157,474,474,?a
+?a  comorbidity  Others   ,?a  drug  Nivolumab,0.084873,0.331081,0.331081,147,444,444,?a
+?a  drug  Carboplatin  ?a  hasRelapse  No   ,?a  smokingHabit  NonSmoker,0.060447,0.244681,0.330935,46,188,139,?a
+?a  sex  female   ,?a  drug  Cisplatin,0.100462,0.330798,0.330798,174,526,526,?a
+?a  comorbidity  Depression  ?a  drug  Nivolumab   ,?a  smokingHabit  PreviousSmoker,0.056505,0.254438,0.330769,43,169,130,?a
+?a  hasRelapse  Yes   ,?a  drug  Afatinib,0.094688,0.330645,0.330645,164,496,496,?a
+?a  ageCategory  old  ?a  biomarker  EGFR_Positive   ,?a  smokingHabit  CurrentSmoker,0.053876,0.267974,0.330645,41,153,124,?a
+?a  comorbidity  Cardiopathy  ?a  drug  Carboplatin   ,?a  smokingHabit  NonSmoker,0.044678,0.220779,0.330097,34,154,103,?a
+?a  hasRelapse  No   ,?a  smokingHabit  CurrentSmoker,0.173456,0.261905,0.33,132,504,400,?a
+?a  hasRelapse  No   ,?a  smokingHabit  NonSmoker,0.173456,0.261905,0.33,132,504,400,?a
+?a  hasRelapse  Yes   ,?a  smokingHabit  CurrentSmoker,0.156373,0.239919,0.32964,119,496,361,?a
+?a  smokingHabit  PreviousSmoker   ,?a  drug  Vinorelbine,0.047921,0.329365,0.329365,83,252,252,?a
+?a  comorbidity  Depression   ,?a  drug  Carboplatin,0.087182,0.328976,0.328976,151,459,459,?a
+?a  biomarker  ALK_Positive  ?a  drug  Vinorelbine   ,?a  smokingHabit  CurrentSmoker,0.031537,0.25,0.328767,24,96,73,?a
+?a  comorbidity  Depression  ?a  drug  Vinorelbine   ,?a  smokingHabit  PreviousSmoker,0.053876,0.254658,0.328,41,161,125,?a
+?a  comorbidity  Cardiopathy   ,?a  smokingHabit  NonSmoker,0.131406,0.241546,0.327869,100,414,305,?a
+?a  drug  Vinorelbine   ,?a  smokingHabit  CurrentSmoker,0.116951,0.251412,0.327206,89,354,272,?a
+?a  drug  Nivolumab   ,?a  smokingHabit  PreviousSmoker,0.114323,0.252174,0.327068,87,345,266,?a
+?a  hasRelapse  Yes   ,?a  drug  Nivolumab,0.093533,0.326613,0.326613,162,496,496,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  drug  Nivolumab,0.075635,0.325062,0.325062,131,403,403,?a
+?a  ageCategory  old   ,?a  smokingHabit  CurrentSmoker,0.162943,0.255144,0.324607,124,486,382,?a
+?a  sex  male   ,?a  smokingHabit  PreviousSmoker,0.156373,0.251055,0.324251,119,474,367,?a
+?a  comorbidity  Cardiopathy   ,?a  drug  Cisplatin,0.077367,0.323671,0.323671,134,414,414,?a
+?a  biomarker  EGFR_Positive   ,?a  smokingHabit  CurrentSmoker,0.099869,0.250825,0.323404,76,303,235,?a
+?a  ageCategory  young  ?a  comorbidity  Depression   ,?a  smokingHabit  PreviousSmoker,0.068331,0.229075,0.322981,52,227,161,?a
+?a  hasRelapse  Yes   ,?a  smokingHabit  PreviousSmoker,0.152431,0.233871,0.32133,116,496,361,?a
+?a  comorbidity  Cardiopathy   ,?a  smokingHabit  CurrentSmoker,0.128778,0.236715,0.321311,98,414,305,?a
+?a  biomarker  ROS1_Positive  ?a  comorbidity  Depression   ,?a  smokingHabit  PreviousSmoker,0.045992,0.25,0.321101,35,140,109,?a
+?a  ageCategory  old   ,?a  drug  Cisplatin,0.090069,0.320988,0.320988,156,486,486,?a
+?a  ageCategory  young   ,?a  smokingHabit  PreviousSmoker,0.159001,0.235409,0.319261,121,514,379,?a
+?a  ageCategory  young   ,?a  drug  Carboplatin,0.094688,0.319066,0.319066,164,514,514,?a
+?a  comorbidity  Depression   ,?a  smokingHabit  PreviousSmoker,0.144547,0.239651,0.318841,110,459,345,?a
+?a  biomarker  ROS1_Positive   ,?a  smokingHabit  NonSmoker,0.101183,0.245223,0.318182,77,314,242,?a
+?a  comorbidity  Cardiopathy   ,?a  comorbidity  Others,0.076163,0.316425,0.316425,131,414,414,?a
+?a  drug  Afatinib   ,?a  smokingHabit  NonSmoker,0.101183,0.231928,0.315574,77,332,244,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  drug  Vinorelbine   ,?a  smokingHabit  PreviousSmoker,0.044678,0.25,0.314815,34,136,108,?a
+?a  comorbidity  Diabetes_Mellitus  ?a  smokingHabit  NonSmoker   ,?a  drug  Afatinib,0.019053,0.314286,0.314286,33,105,105,?a
+?a  biomarker  ROS1_Positive   ,?a  smokingHabit  PreviousSmoker,0.099869,0.242038,0.31405,76,314,242,?a
+?a  biomarker  ALK_Positive   ,?a  smokingHabit  CurrentSmoker,0.088042,0.235915,0.313084,67,284,214,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  drug  Afatinib,0.072748,0.312655,0.312655,126,403,403,?a
+?a  sex  female   ,?a  smokingHabit  NonSmoker,0.161629,0.23384,0.312183,123,526,394,?a
+?a  biomarker  EGFR_Positive  ?a  drug  Vinorelbine   ,?a  smokingHabit  PreviousSmoker,0.031537,0.230769,0.311688,24,104,77,?a
+?a  biomarker  EGFR_Positive   ,?a  smokingHabit  PreviousSmoker,0.095926,0.240924,0.310638,73,303,235,?a
+?a  comorbidity  Diabetes_Mellitus   ,?a  smokingHabit  PreviousSmoker,0.128778,0.243176,0.310127,98,403,316,?a
+?a  biomarker  ALK_Positive   ,?a  drug  Carboplatin,0.050808,0.309859,0.309859,88,284,284,?a
+?a  comorbidity  Others   ,?a  smokingHabit  CurrentSmoker,0.136662,0.234234,0.309524,104,444,336,?a
+?a  sex  male   ,?a  smokingHabit  CurrentSmoker,0.148489,0.238397,0.307902,113,474,367,?a
+?a  ageCategory  young   ,?a  drug  Afatinib,0.091224,0.307393,0.307393,158,514,514,?a
+?a  comorbidity  Others   ,?a  comorbidity  Diabetes_Mellitus,0.07907,0.306306,0.306306,136,444,444,?a
+?a  smokingHabit  PreviousSmoker   ,?a  drug  Cisplatin,0.044457,0.305556,0.305556,77,252,252,?a
+?a  drug  Vinorelbine   ,?a  smokingHabit  PreviousSmoker,0.109067,0.234463,0.305147,83,354,272,?a
+?a  comorbidity  Cardiopathy   ,?a  drug  Afatinib,0.072748,0.304348,0.304348,126,414,414,?a
+?a  drug  Afatinib   ,?a  smokingHabit  CurrentSmoker,0.09724,0.222892,0.303279,74,332,244,?a
+?a  comorbidity  Depression   ,?a  comorbidity  Diabetes_Mellitus,0.080814,0.302832,0.302832,139,459,459,?a
+?a  drug  Carboplatin   ,?a  smokingHabit  NonSmoker,0.102497,0.219718,0.302326,78,355,258,?a
+?a  smokingHabit  NonSmoker   ,?a  drug  Carboplatin,0.045035,0.302326,0.302326,78,258,258,?a
+?a  smokingHabit  NonSmoker   ,?a  drug  Afatinib,0.044457,0.29845,0.29845,77,258,258,?a
+?a  comorbidity  Others   ,?a  comorbidity  Cardiopathy,0.076163,0.295045,0.295045,131,444,444,?a
+?a  smokingHabit  CurrentSmoker   ,?a  drug  Afatinib,0.042725,0.294821,0.294821,74,251,251,?a
+?a  biomarker  EGFR_Positive   ,?a  biomarker  ROS1_Positive,0.098779,0.293729,0.293729,89,303,303,?a
+?a  drug  Cisplatin   ,?a  smokingHabit  PreviousSmoker,0.101183,0.222543,0.290566,77,346,265,?a
+?a  drug  Nivolumab   ,?a  drug  Carboplatin,0.056582,0.284058,0.284058,98,345,345,?a
+?a  biomarker  ROS1_Positive   ,?a  biomarker  EGFR_Positive,0.098779,0.283439,0.283439,89,314,314,?a
+?a  drug  Afatinib   ,?a  drug  Nivolumab,0.053695,0.28012,0.28012,93,332,332,?a
+?a  drug  Carboplatin   ,?a  drug  Nivolumab,0.056582,0.276056,0.276056,98,355,355,?a
+?a  drug  Cisplatin   ,?a  drug  Carboplatin,0.05485,0.274566,0.274566,95,346,346,?a
+?a  drug  Nivolumab   ,?a  drug  Afatinib,0.053695,0.269565,0.269565,93,345,345,?a
+?a  drug  Nivolumab   ,?a  drug  Cisplatin,0.053695,0.269565,0.269565,93,345,345,?a
+?a  drug  Cisplatin   ,?a  drug  Nivolumab,0.053695,0.268786,0.268786,93,346,346,?a
+?a  drug  Vinorelbine   ,?a  drug  Carboplatin,0.05485,0.268362,0.268362,95,354,354,?a
+?a  drug  Carboplatin   ,?a  drug  Cisplatin,0.05485,0.267606,0.267606,95,355,355,?a
+?a  drug  Carboplatin   ,?a  drug  Vinorelbine,0.05485,0.267606,0.267606,95,355,355,?a
+?a  drug  Afatinib   ,?a  drug  Carboplatin,0.050808,0.26506,0.26506,88,332,332,?a
+?a  biomarker  ALK_Positive   ,?a  biomarker  EGFR_Positive,0.082131,0.260563,0.260563,74,284,284,?a
+?a  drug  Cisplatin   ,?a  drug  Vinorelbine,0.051386,0.257225,0.257225,89,346,346,?a
+?a  biomarker  ALK_Positive   ,?a  biomarker  ROS1_Positive,0.081021,0.257042,0.257042,73,284,284,?a
+?a  drug  Vinorelbine   ,?a  drug  Cisplatin,0.051386,0.251412,0.251412,89,354,354,?a
+?a  drug  Afatinib   ,?a  drug  Vinorelbine,0.047921,0.25,0.25,83,332,332,?a
+?a  drug  Nivolumab   ,?a  drug  Vinorelbine,0.049654,0.249275,0.249275,86,345,345,?a
+?a  drug  Carboplatin   ,?a  drug  Afatinib,0.050808,0.247887,0.247887,88,355,355,?a
+?a  biomarker  EGFR_Positive   ,?a  biomarker  ALK_Positive,0.082131,0.244224,0.244224,74,303,303,?a
+?a  drug  Vinorelbine   ,?a  drug  Nivolumab,0.049654,0.242938,0.242938,86,354,354,?a
+?a  drug  Afatinib   ,?a  drug  Cisplatin,0.045612,0.237952,0.237952,79,332,332,?a
+?a  drug  Vinorelbine   ,?a  drug  Afatinib,0.047921,0.234463,0.234463,83,354,354,?a
+?a  biomarker  ROS1_Positive   ,?a  biomarker  ALK_Positive,0.081021,0.232484,0.232484,73,314,314,?a
+?a  drug  Cisplatin   ,?a  drug  Afatinib,0.045612,0.228324,0.228324,79,346,346,?a
+Mining done in 5.011 s,,,,,,,,
+Total time 5.332 s,,,,,,,,
+1452 rules mined.,,,,,,,,

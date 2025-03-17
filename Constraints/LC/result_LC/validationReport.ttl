@@ -1,0 +1,269 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> . 
+
+:report a sh:ValidationReport ;
+  sh:conforms false ;
+  sh:result
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/2845808_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/9588015_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/6751089_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/493434_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/82603790_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/1751089_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/8588015_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/2493434_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/3588015_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/62603790_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/31258242_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/2603790_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/51258242_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/42603790_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/11258242_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/52603790_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/41258242_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/72603790_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/7493434_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/4588015_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/751089_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/92845808_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/01258242_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/82845808_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/32845808_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/6493434_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/02845808_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/81258242_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/62845808_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/9751089_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/22603790_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/61258242_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/588015_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/8751089_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/21258242_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/1258242_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/0493434_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/0751089_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/02603790_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/2588015_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/2751089_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/9493434_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/42845808_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/0588015_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/1493434_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/3493434_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/52845808_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/3751089_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/32603790_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/12603790_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/22845808_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/5493434_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/4751089_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/1588015_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/71258242_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/7588015_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/12845808_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/5588015_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/6588015_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/7751089_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/8493434_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/4493434_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/92603790_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/91258242_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/5751089_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] ,
+    [ a  sh:ValidationResult ;
+      sh:resultSeverity  sh:Violation ;
+      sh:focusNode  <http://example.org/lungCancer/entity/72845808_Patient> ;
+      sh:sourceShape  <http://example.org/lungCancer/shapes/Protocol1> ] .

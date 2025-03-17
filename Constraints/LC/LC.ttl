@@ -1,0 +1,24 @@
+@prefix lungCancerE: <http://example.org/lungCancer/entity/> .
+@prefix lungCancerS: <http://example.org/lungCancer/shapes/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+lungCancerS:Protocol1 a sh:NodeShape ;
+       sh:targetClass lungCancerE:Patient ; 
+       sh:sparql [
+        sh:select """
+                SELECT ($this AS ?this)
+                WHERE {
+                    $this <http://example.org/lungCancer/entity/hasBiomarker> <http://example.org/lungCancer/entity/EGFR_Positive> .
+                    FILTER EXISTS {$this <http://example.org/lungCancer/entity/patientDrug> <http://example.org/lungCancer/entity/Nivolumab> .}
+                }""" ;]  .
+
+lungCancerS:Protocol2 a sh:NodeShape ;
+       sh:targetClass lungCancerE:Patient ; 
+       sh:sparql [
+        sh:select """
+                SELECT ($this AS ?this)
+                WHERE {
+                    $this <http://example.org/lungCancer/entity/hasBiomarker> <http://example.org/lungCancer/entity/EGFR_Negative> .
+                    FILTER EXISTS {$this <http://example.org/lungCancer/entity/patientDrug> <http://example.org/lungCancer/entity/Afatinib> .}
+                }""" ;]  .

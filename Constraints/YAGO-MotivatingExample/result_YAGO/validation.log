@@ -1,0 +1,37 @@
+Node order: ['<http://yago-knowledge.org/shapes/PoliticalCitizenshipShape>']
+
+
+>>>>>
+Retrieving (next) targets ...
+Evaluating target query for <http://yago-knowledge.org/shapes/PoliticalCitizenshipShape>:
+
+SELECT ?x WHERE { ?x a <http://yago-knowledge.org/resource/Person> }
+elapsed: 4.004150390625 ms
+
+Number of targets retrieved: 20
+
+Evaluating query for http://yago-knowledge.org/shapes/PoliticalCitizenshipShape_d1_c1:
+
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://yago-knowledge.org/resource/isPoliticianOf> ?politicianCountry .
+                FILTER EXISTS {
+                    $this <http://yago-knowledge.org/resource/isCitizenOf> ?politicianCountry .
+                }
+            }
+        
+elapsed: 183.790771484375 ms
+
+Number of solution mappings: 8
+
+
+>>>>> Starting validation of shape: <http://yago-knowledge.org/shapes/PoliticalCitizenshipShape>
+Starting saturation ...
+saturation ...
+elapsed: 0.0 ms
+Remaining targets: 0
+
+Maximal number or rules in memory: 0
+Total number of rules: 0
+Valid targets: 12
+Invalid targets: 8

@@ -1,0 +1,107 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix db: <http://dbpedia.org/resource/> .
+@prefix dbo: <http://db100k.org/> .
+@prefix dbS: <http://dbpedia.org/shapes/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Constraint 1: Musical Artist and Band Relationship Constraint
+dbS:MusicianBandShape
+    a sh:NodeShape ;
+    sh:targetClass dbo:Resource ;
+    sh:sparql [
+        sh:select """
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://db100k.org/associatedBand> ?band .
+                FILTER NOT EXISTS {
+                    ?band <http://db100k.org/associatedMusicalArtist> $this .
+                }
+            }
+        """ ;
+    ] .
+
+# Constraint 2: Birth Place and Country Relationship Constraint
+dbS:BirthPlaceCountryShape
+    a sh:NodeShape ;
+    sh:targetClass dbo:Resource ;
+    sh:sparql [
+        sh:select """
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://db100k.org/birthPlace> ?city .
+                ?city <http://db100k.org/country> ?country .
+                FILTER NOT EXISTS {
+                    $this <http://db100k.org/nationality> ?country .
+                }
+            }
+        """ ;
+    ] .
+
+
+# Constraint 3: Musical Genre Consistency Constraint
+dbS:MusicGenreShape
+    a sh:NodeShape ;
+    sh:targetClass dbo:Resource ;
+    sh:sparql [
+        sh:select """
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://db100k.org/genre> ?genre .
+                $this <http://db100k.org/associatedBand> ?band .
+                FILTER NOT EXISTS {
+                    ?band <http://db100k.org/genre> ?genre .
+                }
+            }
+        """ ;
+    ] .
+
+# Constraint 4: Team and League Relationship Constraint
+dbS:TeamLeagueShape
+    a sh:NodeShape ;
+    sh:targetClass dbo:SportsTeam ;
+    sh:sparql [
+        sh:select """
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://db100k.org/league> ?league .
+                FILTER NOT EXISTS {
+                    ?league <http://db100k.org/team> $this .
+                }
+            }
+        """ ;
+    ] .
+
+# Constraint 5: Location Time Zone Constraint
+dbS:LocationTimeZoneShape
+    a sh:NodeShape ;
+    sh:targetClass dbo:Resource ;
+    sh:sparql [
+        sh:select """
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://db100k.org/timeZone> ?timezone .
+                ?country <http://db100k.org/timeZone> ?timezone .
+                FILTER EXISTS {
+                    ?this <http://db100k.org/country> ?country .
+                    
+                }
+            }
+        """ ;
+    ] .
+
+# Constraint 6: Language and Region
+dbS:LanguageRegionShape
+    a sh:NodeShape ;
+    sh:targetClass dbo:Resource ;
+    sh:sparql [
+        sh:select """
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://db100k.org/spokenIn> ?region .
+                FILTER NOT EXISTS {
+                    ?region <http://db100k.org/language> $this .
+                }
+            }
+        """ ;
+    ] .
