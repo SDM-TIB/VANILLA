@@ -1,0 +1,7 @@
+pandas
+numpy
+pykeen
+rdflib
+pandasql
+TravSHACL
+SQLAlchemy==1.4.41
