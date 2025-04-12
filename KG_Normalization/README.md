@@ -1,5 +1,6 @@
 ## VANILLA - KG Normalization
-![Graphical Abstract](images/DesignPatterna.jpg)
+
+![KG Normalization](https://raw.githubusercontent.com/SDM-TIB/VANILLA/main/images/DesignPattern(a)VANILLA.png "KG Normalization")
 ## 🔍 Overview
 
 The design pattern components of VANILLA for KG Normalization process. <br>

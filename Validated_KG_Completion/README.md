@@ -1,6 +1,6 @@
 ## VANILLA: Validated KG Completion
 
-![Graphical Abstract](images/DesignPatternb.jpg)
+![Validated KG Completion](https://raw.githubusercontent.com/SDM-TIB/VANILLA/main/images/DesignPattern(b)VANILLA.png "Validated KG Completion")
 ## 🔍 Overview
 
 The design pattern components of VANILLA for Validated KG Completion process. <br>
