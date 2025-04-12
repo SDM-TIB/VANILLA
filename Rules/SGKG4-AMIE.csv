@@ -1,7 +1,0 @@
-Body,Head,Head Coverage,Standard_Confidence,Pca_Confidence,Support,Body Size,Pca Body Size,Functional_variable
-?b  sameAs  ?a   ,?a  sameAs  ?b,0.789088,0.789088,0.8,1938,2456,1938,?a
-?b  equal  ?a   ,?a  equal  ?b,0.791262,0.791262,0.8,1956,2472,1956,?a
-?b  equivalent  ?a   ,?a  equivalent  ?b,0.796071,0.796071,0.8,2026,2545,2026,?a
-?b  hasPredecessor  ?f  ?f  hasSuccessor  ?a   ,?a  hasSibling  ?b,0.756213,1,1,1917,1917,1917,?a
-?f  hasSibling  ?a  ?b  hasSuccessor  ?f   ,?a  hasPredecessor  ?b,1,0.756213,0.75,1917,2535,1917,?a
-?f  hasPredecessor  ?a  ?b  hasSibling  ?f   ,?a  hasSuccessor  ?b,0.608571,1,1,1917,1917,1917,?a

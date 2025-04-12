@@ -1,7 +1,0 @@
-{
-  "KG": "SynthLC-10000",
-  "prefix": "http://synthetic-LC.org/lungCancer/entity/",
-  "rules_file": "synLC_10000.csv",
-  "rdf_file": "SynthLC_10000.nt",
-  "constraints_folder": "SynthLC-10000"
-}

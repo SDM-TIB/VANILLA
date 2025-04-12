@@ -1,0 +1,9 @@
+{
+  "KG": "DB100K",
+  "prefix": "http://db100k.org/",
+  "rules_file": "DB100K.csv",
+  "rdf_file": "DB100K.nt",
+  "constraints_folder": "DB100K",
+  "log_level": "INFO",
+  "pca_threshold": 0.33
+}

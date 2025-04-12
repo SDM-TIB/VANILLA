@@ -1,5 +1,0 @@
-Body,Head,Head_Coverage,Std_Confidence,PCA_Confidence,Positive_Examples,Body_size,PCA_Body_size,Functional_variable
-?a isPoliticianOf ?b,?a isCitizenOf ?b,0.0577254,0.0919488,0.747212,201,2186,269,?a
-?e hasChild ?a ?e isPoliticianOf ?b,?a isCitizenOf ?b,0.0304423,0.0812883,0.84127,106,1304,126,?a
-?f isLocatedIn ?b ?a wasBornIn ?f,?a isCitizenOf ?b,0.490523,0.00163455,0.144763,217,132758,1499,?a
-?a hasChild ?f ?f isPoliticianOf ?b,?a isCitizenOf ?b,0.0347501,0.0939441,0.796053,121,1288,152,?a

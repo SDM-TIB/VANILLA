@@ -1,0 +1,82 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix sgkg: <http://SGKG4.org/> .
+@prefix sgkgS: <http://SGKG4.org/shapes/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sgkgS:Constraint1
+    a sh:NodeShape ;
+    sh:targetClass sgkg:Triangle ;
+    sh:sparql [
+        sh:select """
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://SGKG4.org/hasSibling> ?entity1 .
+                FILTER EXISTS {
+                    ?entity1 <http://SGKG4.org/hasSuccessor> $this .
+                }
+            }
+        """ ;
+    ] .
+    
+sgkgS:Constraint2
+    a sh:NodeShape ;
+    sh:targetClass sgkg:Triangle ;
+    sh:sparql [
+        sh:select """
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://SGKG4.org/hasSuccessor> ?entity1 .
+                FILTER EXISTS {
+                    $this <http://SGKG4.org/hasPredecessor> ?entity1 .
+            }
+            }
+        """ ;
+    ] .
+    
+    
+sgkgS:Constraint3
+    a sh:NodeShape ;
+    sh:targetClass sgkg:Triangle ;
+    sh:sparql [
+        sh:select """
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://SGKG4.org/hasSuccessor> ?entity1 .
+                FILTER NOT EXISTS {
+                    ?entity2 <http://SGKG4.org/hasPredecessor> $this .
+                }
+            }
+        """ ;
+    ] .
+
+sgkgS:Constraint4
+    a sh:NodeShape ;
+    sh:targetClass sgkg:Triangle ;
+    sh:sparql [
+        sh:select """
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://SGKG4.org/hasPredecessor> ?entity1 .
+                FILTER EXISTS {
+                    ?entity1 <http://SGKG4.org/hasPredecessor> $this .
+                }
+            }
+        """ ;
+    ] .
+
+sgkgS:Constraint5
+    a sh:NodeShape ;
+    sh:targetClass sgkg:Triangle ;
+    sh:sparql [
+        sh:select """
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://SGKG4.org/hasPredecessor> ?entity1 .
+                FILTER EXISTS {
+                    $this <http://SGKG4.org/hasPredecessor> ?entity2 .
+                }
+            }
+        """ ;
+    ] .
+

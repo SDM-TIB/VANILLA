@@ -1,0 +1,14 @@
+{
+  "kg_path": "data/YAGO3-10/TransformedKG/TransformedKG_YAGO3-10.tsv",
+  "results_path": "data/YAGO3-10/TransformedKG",
+  "models": ["TuckER"],
+  "num_epochs": 100,
+  "embedding_dim": 50,
+  "batch_size": 32,
+  "random_seed": 1235,
+  "create_inverse_triples": false,
+  "filtered_negative_sampling": true,
+  "save_splits": true,
+  "log_level": "INFO",
+  "create_inverse_triples": false
+}

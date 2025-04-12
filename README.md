@@ -12,7 +12,8 @@ VANILLA is a comprehensive framework designed to enhance **Knowledge Graph Compl
 
 ```
 .
-├── KG/                         # Benchmark knowledge graphs
+├── KG_Normalization/                         # KG Normalization
+│   ├── KG/                         # Benchmark knowledge graphs
 │   ├── French_Royalty/
 │   ├── SGKG/
 │   ├── SynthLC-1000/
@@ -20,14 +21,14 @@ VANILLA is a comprehensive framework designed to enhance **Knowledge Graph Compl
 │   ├── YAGO3-10/
 │   └── DB100K/
 │
-├── Rules/                      # Symbolic horn rules for each benchmark
+|   ├── Rules/                      # Symbolic horn rules for each benchmark
 │   ├── French_Royalty/
 │   ├── SGKG/
 │   ├── SynthLC-1000/
 │   ├── SynthLC-10000/
 │   ├── YAGO3-10/
 │   └── DB100K/
-├── Constraints/                # SHACL constraints
+|   ├── Constraints/                # SHACL constraints
 │   ├── French_Royalty/
 │   ├── SGKG/
 │   ├── SynthLC-1000/
@@ -35,14 +36,20 @@ VANILLA is a comprehensive framework designed to enhance **Knowledge Graph Compl
 │   ├── YAGO3-10/
 │   └── DB100K/
 │
-├── Predictions/                # Output predictions
-├── LICENSE.txt
-├── README.md
-├── input.json
-├── requirements.txt
-├── symbolic_predictions_updated.py
-├── transform_new.py
-└── validation.py
+│   ├── Predictions/                # Output predictions
+│   ├── LICENSE.txt
+│   ├── README.md
+│   ├── input.json
+│   ├── symbolic_predictions_updated.py
+│   ├── transform_new.py
+│   └── validation.py
+│   ├── Validated_KG_Completion/
+│
+├── KG_Normalization/
+│   ├── input_KGC.json
+│   ├── KGC.py
+│   ├── input_KGC_hpo.json
+│   ├── KGC_hpo.py
 ```
 ---
 ## 📊 Benchmark Statistics
@@ -77,26 +84,13 @@ VANILLA is a comprehensive framework designed to enhance **Knowledge Graph Compl
    pip install -r requirements.txt
    ```
 
-3. **Configure input**
-   Modify `input.json` to select the benchmark KG and rule/constraint files.
+3. **KG_Normalization**
 
----
+Navigate to `KG_Normalization` folder and follow the steps in README of that folder
 
-## 🚀 Running the Pipeline
+4. **Validated_KG_Completion**
 
-### 1. Symbolic Predictions & Constraint Validation
-Run the script to generate predictions and validate them:
-```bash
-python symbolic_predictions_updated.py
-```
-This will:
-- Generate inferred predictions using logical rules.
-- Validate them against SHACL constraints.
-- Output:
-  - Transformed KGs
-  - Constraint validation reports in `Constraints/`
-  - Predictions in `Predictions/`
----
+Navigate to `Validated_KG_Completion` folder and follow the steps in README of that folder
 
 ## 📈 Evaluation Metrics
 

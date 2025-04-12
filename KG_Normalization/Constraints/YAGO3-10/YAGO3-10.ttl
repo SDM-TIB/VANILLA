@@ -1,0 +1,66 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix yago: <http://yago-knowledge.org/resource/> .
+@prefix yagoS: <http://yago-knowledge.org/shapes/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+yagoS:PoliticalCitizenshipShape
+    a sh:NodeShape ;
+    sh:targetClass yago:Person ;
+    sh:sparql [
+        sh:select """
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://yago-knowledge.org/resource/isPoliticianOf> ?politicianCountry .
+                FILTER EXISTS {
+                    $this <http://yago-knowledge.org/resource/isCitizenOf> ?politicianCountry .
+                }
+            }
+        """ ;
+    ] .
+
+yagoS:BirthplaceCitizenshipShape
+    a sh:NodeShape ;
+    sh:targetClass yago:Person ;
+    sh:sparql [
+        sh:select """
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://yago-knowledge.org/resource/wasBornIn> ?city .
+                ?city <http://yago-knowledge.org/resource/isLocatedIn> ?country .
+                FILTER EXISTS {
+                    $this <http://yago-knowledge.org/resource/isCitizenOf> ?country .
+                }
+            }
+        """ ;
+    ] .
+
+yagoS:AthleteCountryShape
+    a sh:NodeShape ;
+    sh:targetClass yago:Person ;
+    sh:sparql [
+        sh:select """
+            SELECT ($this AS ?this) 
+            WHERE {
+                $this <http://yago-knowledge.org/resource/playsFor> ?team .
+                ?team <http://yago-knowledge.org/resource/isLocatedIn> ?country .
+                FILTER EXISTS {
+                    $this <http://yago-knowledge.org/resource/isCitizenOf> ?country .
+                }
+            }
+        """ ;
+    ] .
+
+yagoS:PlayerShape
+    a sh:NodeShape ;
+    sh:targetClass yago:Person ;
+    sh:sparql [
+        sh:select """
+            SELECT ($this AS ?this) 
+            WHERE {
+                $this <http://yago-knowledge.org/resource/playsFor> ?team .
+                FILTER EXISTS { 
+                    $this <http://yago-knowledge.org/resource/isAffiliatedTo> ?team .
+                }
+            }""" ;
+    ] .

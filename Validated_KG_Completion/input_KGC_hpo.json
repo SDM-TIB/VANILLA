@@ -1,0 +1,12 @@
+{
+  "dataset_path": "data/DB100K/OriginalKG/DB100K.tsv",
+  "output_dir": "data/DB100K/OriginalKG/CompGCN-HPO",
+  "models": ["CompGCN"],
+  "n_trials": 10,
+  "train_ratio": 0.8,
+  "test_ratio": 0.1,
+  "val_ratio": 0.1,
+  "random_state": 1234,
+  "num_epochs": 100,
+  "log_level": "INFO"
+}
