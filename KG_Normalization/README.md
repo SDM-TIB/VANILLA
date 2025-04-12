@@ -1,49 +1,44 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-# VANILLA: Validated Knowledge Graph Completion - A Normalization-based Framework for Integrity, Link Prediction, and Logical Accuracy
-![Graphical Abstract](images/DesignPattern(a)-VANILLA.png)
+## VANILLA - KG Normalization
+![Graphical Abstract](images/DesignPattern(a)VANILLA.png)
 ## 🔍 Overview
 
-VANILLA is a comprehensive framework
+The design pattern components of VANILLA for KG Normalization process. <br>
+VANILLA demonstrates the use of symbolic rules in conjunction with symbolic constraint validation to
+normalize the KGs and eliminate anomalies. <br>
+Normalized KGs improve the predictive performance of numerical inductive learning approaches.
 
+## 🚀 Running the Pipeline of KG Normalization
 
-3. **Configure input**
+1. **Configure input**
    Modify `input.json` to select the benchmark KG and rule/constraint files.
+```json
+{
+  "KG": "FrenchRoyalty",
+  "prefix": "http://FrenchRoaylty.org/",
+  "rules_file": "french_royalty.csv",
+  "rdf_file": "french_royalty.nt",
+  "constraints_folder": "FrenchRoaylty",
+  "log_level": "INFO",
+  "pca_threshold": 0.75
+}
+```
+2. **Executing KG Normalization**
 
----
-
-## 🚀 Running the Pipeline
-
-### 1. Symbolic Predictions & Constraint Validation
-Run the script to generate predictions and validate them:
-```bash
+```python
 python Symbolic_predictions.py
 ```
+
 This will:
-- Generate inferred predictions using logical rules.
+- Generate inferred predictions using symbolic rules.
 - Validate them against SHACL constraints.
 - Output:
   - Transformed KGs
   - Constraint validation reports in `Constraints/`
   - Predictions in `Predictions/`
----
-
-## 📈 Evaluation Metrics
-
-We evaluate KG completion using embedding models:
-- **TransE**, **TransH**, **TransD**
-- **RotatE**, **ComplEx**, **TuckER**
-- **CompGCN**
-
-Metrics reported:
-- Hits@1, Hits@3, Hits@5, Hits@10
-- Mean Reciprocal Rank (MRR)
-
----
 
 ## 🧠 Graphical Summary
 
-The VANILLA framework integrates **symbolic rules**, **domain constraints**, and **neural embeddings** for high-quality knowledge graph completion. It identifies valid and invalid triples using evolving logical constraints and employs numerical models to infer missing links, ensuring semantic consistency and logical soundness in the normalized KG.
+The VANILLA framework integrates **symbolic rules**, **domain constraints** for knowledge graph normalization. <br>
 
 ---
 

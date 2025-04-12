@@ -1,9 +1,9 @@
 {
-  "KG": "DB100K",
-  "prefix": "http://db100k.org/",
-  "rules_file": "DB100K.csv",
-  "rdf_file": "DB100K.nt",
-  "constraints_folder": "DB100K",
+  "KG": "FrenchRoyalty",
+  "prefix": "http://FrenchRoaylty.org/",
+  "rules_file": "french_royalty.csv",
+  "rdf_file": "french_royalty.nt",
+  "constraints_folder": "FrenchRoaylty",
   "log_level": "INFO",
-  "pca_threshold": 0.33
+  "pca_threshold": 0.75
 }
