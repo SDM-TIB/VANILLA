@@ -1,13 +1,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-# VANILLA: Validated Knowledge Graph Completion
-**A Normalization-based Framework for Integrity, Link Prediction, and Logical Accuracy**
----
-![Graphical Abstract](images/GraphicalAbstract_Vanilla.png)
+# VANILLA: Validated Knowledge Graph Completion- A Normalization-based Framework for Integrity, Link Prediction, and Logical Accuracy
+
+![Graphical Abstract](images/GraphicalAbstract-Vanilla.png)
 ## 🔍 Overview
 
 VANILLA is a comprehensive framework designed to enhance **Knowledge Graph Completion (KGC)** by validating inferred facts using **logical constraints** derived from domain knowledge and normalizing the exisiting anomalies in KGs. Unlike traditional methods that rely solely on vector embeddings, VANILLA integrates **symbolic reasoning** with numerical learning to ensure logical **validity**, **integrity**, and **accuracy** of predictions. The framework uses **SHACL constraints** to validate predictions and supports **symbolic rule mining**, **constraint checking**, and **KGC evaluation** with state-of-the-art embedding models.
----
 ## 📁 Repository Structure
 
 ```

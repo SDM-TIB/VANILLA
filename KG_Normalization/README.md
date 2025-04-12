@@ -1,13 +1,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-# VANILLA: Validated Knowledge Graph Completion
-**A Normalization-based Framework for Integrity, Link Prediction, and Logical Accuracy**
----
-![Graphical Abstract](images/GraphicalAbstract_Vanilla.png)
+# VANILLA: Validated Knowledge Graph Completion - A Normalization-based Framework for Integrity, Link Prediction, and Logical Accuracy
+![Graphical Abstract](images/DesignPattern(a)-VANILLA.png)
 ## 🔍 Overview
 
 VANILLA is a comprehensive framework
----
 
 
 3. **Configure input**
