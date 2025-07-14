@@ -57,7 +57,30 @@ def detect_rule_type(rules_df):
 
 
 def rdflib_query_with_constants(rule_df, prefix_query, rdf_data, head_val, predictions_folder):
-    """Handle rules with constants"""
+    """
+    Executes an RDFLib query involving constants and returns results in a DataFrame.
+    The function processes given rule-based DataFrame, manipulates terms,
+    constructs SPARQL queries based on functional variables, executes them, and
+    formats the results.
+
+    Args:
+        rule_df (pd.DataFrame): DataFrame containing rules with columns 'Functional_variable',
+            'Body', and 'Head'. The 'Functional_variable' column defines the context of
+            the query, while the 'Body' and 'Head' columns represent SPARQL components.
+        prefix_query (str): Namespace prefix used in SPARQL query generation.
+        rdf_data (str): Path to the RDF data file to be queried.
+        head_val (str): Predicate value to associate with the query results.
+        predictions_folder (str): Path to the folder where prediction outputs are stored.
+
+    Returns:
+        pd.DataFrame: DataFrame containing query results with columns 'subject',
+            'predicate', and 'object'. If no results are found, returns an empty DataFrame.
+
+    Raises:
+        Multiple exceptions could potentially arise due to issues like RDF data loading errors,
+        syntax issues in rules, or query execution problems.
+    """
+
     all_results = []
 
     for _, rule in rule_df.iterrows():
@@ -126,7 +149,24 @@ def rdflib_query_with_constants(rule_df, prefix_query, rdf_data, head_val, predi
 
 
 def rdflib_query_without_constants(rule_df, prefix_query, rdf_data, head_val, predictions_folder):
-    """Handle rules without constants"""
+    """
+    Executes RDFLib query operations without constants, based on provided SPARQL rules and RDF data,
+    and returns results in a structured DataFrame. The function constructs and executes SPARQL queries
+    by dynamically modifying query elements based on rules, prefixes, and functional variables.
+
+    Args:
+        rule_df (pd.DataFrame): A DataFrame containing rules with columns 'Functional_variable', 'Body',
+            and 'Head' that define SPARQL query components.
+        prefix_query (str): A string prefix to be used for namespace in SPARQL queries.
+        rdf_data (str): Path to the RDF data file to query against.
+        head_val (str): Value used as the 'predicate' in the results to describe the relation.
+        predictions_folder (str): Path to the folder where query predictions are stored.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing results of the executed RDFLib queries with columns
+            ['subject', 'predicate', 'object'].
+    """
+
     all_results = []
 
     for _, rule in rule_df.iterrows():
@@ -199,120 +239,27 @@ def rdflib_query_without_constants(rule_df, prefix_query, rdf_data, head_val, pr
         return pd.DataFrame(columns=['subject', 'predicate', 'object'])
 
 
-# def process_rules(file, prefix, rdf_data, predictions_folder, kg, pca_threshold):
-#     """Process rules and generate predictions based on rule type"""
-#     print(f"Reading rules from {file}")
-#     rules = pd.read_csv(file)
-#
-#     # Verify required columns exist
-#     required_columns = ['Body', 'Head', 'PCA_Confidence', 'Pca_Confidence', 'Pca Confidence',
-#                         'Standard_Confidence', 'Std_Confidence', 'Standard Confidence']
-#     found_columns = [col for col in required_columns if col in rules.columns]
-#     if not any(col in rules.columns for col in ['PCA_Confidence', 'Pca_Confidence', 'Pca Confidence']):
-#         raise ValueError("Neither 'PCA_Confidence' nor 'Pca_Confidence' column found in rules file")
-#     if not any(col in rules.columns for col in ['Standard_Confidence', 'Std_Confidence', 'Standard Confidence']):
-#         raise ValueError("Neither 'Standard_Confidence' nor 'Std_Confidence' column found in rules file")
-#
-#     print(f"Found columns: {found_columns}")
-#     rule_type = detect_rule_type(rules)
-#     print(f"Detected rule type: {rule_type}")
-#
-#     # Identify confidence columns
-#     confidence_col = 'Standard_Confidence' if 'Standard_Confidence' in rules.columns else 'Std_Confidence'
-#     pca_col = 'PCA_Confidence' if 'PCA_Confidence' in rules.columns else 'Pca_Confidence'
-#
-#     # First filter rules that meet PCA confidence threshold
-#     q_filter = f"""SELECT DISTINCT Head, COUNT(*) AS num FROM rules WHERE {pca_col} < 1 AND {pca_col} > {pca_threshold} GROUP BY Head ORDER BY num DESC"""
-#     head_df = sqldf(q_filter, locals())
-#
-#     if head_df.empty:
-#         print("No rules found meeting the PCA confidence threshold criteria.")
-#         return pd.DataFrame(), Graph()
-#
-#     final_result_df = pd.DataFrame()
-#
-#     # Initialize RDF graph
-#     g = Graph()
-#     g.parse(rdf_data, format='nt')
-#
-#     for _, val in head_df.iterrows():
-#         head = val['Head']
-#         if head and isinstance(head, str):  # Check if head is valid
-#             head_val = head.split()[1]
-#             print(f"\nProcessing rules for predicate: {head_val}")
-#
-#             # Select rules for current head predicate with PCA confidence threshold
-#             q2 = f"""
-#                 SELECT * FROM rules
-#                 WHERE Head LIKE '%{head}%'
-#                 AND {pca_col} < 1 AND {pca_col} > {pca_threshold}
-#                 ORDER BY {confidence_col} DESC
-#             """
-#             rule_subset = sqldf(q2, locals())
-#
-#         print(f"Found {len(rule_subset)} rules for predicate {head_val}")
-#         try:
-#             if logger:
-#                 logger.info(f"Found {len(rule_subset)} rules for predicate {head_val}")
-#         except NameError:
-#             # If logger is not defined, just continue without logging
-#             pass
-#
-#         # Process rules based on type
-#         if rule_type == 'constant':
-#             result_df = rdflib_query_with_constants(rule_subset, prefix, rdf_data, head_val, predictions_folder)
-#         else:
-#             result_df = rdflib_query_without_constants(rule_subset, prefix, rdf_data, head_val, predictions_folder)
-#
-#         if not result_df.empty:
-#             print(f"Generated {len(result_df)} predictions for predicate {head_val}")
-#
-#             # Add predictions to graph
-#             for _, row in result_df.iterrows():
-#                 subject = URIRef(prefix + row['subject'])
-#                 predicate = URIRef(prefix + row['predicate'])
-#                 object = URIRef(prefix + row['object'])
-#                 g.add((subject, predicate, object))
-#
-#             final_result_df = pd.concat([final_result_df, result_df], ignore_index=True)
-#
-#             # Save individual predicate results
-#             if not os.path.exists(predictions_folder):
-#                 os.makedirs(predictions_folder)
-#             result_df.to_csv(f"{predictions_folder}/{head_val}.tsv", sep='\t', index=False, header=None)
-#         else:
-#             print(f"No predictions generated for predicate {head_val}")
-#
-#     # Print total number of predictions
-#     total_predictions = len(final_result_df)
-#     print(f"\n=== SUMMARY ===")
-#     print(f"Total number of predictions generated: {total_predictions}")
-#
-#     # Only log if logger is properly initialized
-#     try:
-#         if logger:
-#             logger.info(f"Total number of predictions generated: {total_predictions}")
-#     except NameError:
-#         # If logger is not defined, just continue without logging
-#         pass
-#
-#     # Save enriched knowledge graph
-#     enriched_kg_path = os.path.join(os.path.dirname(predictions_folder), f"{kg}_EnrichedKG", f"{kg}_Enriched_KG.nt")
-#     os.makedirs(os.path.dirname(enriched_kg_path), exist_ok=True)
-#     g.serialize(destination=enriched_kg_path, format='nt')
-#     print(f"Enriched knowledge graph saved to: {enriched_kg_path}")
-#     try:
-#         if logger:
-#             logger.info(f"Enriched KG successfully generated")
-#             logger.info(f"Enriched KG saved to: {enriched_kg_path}")
-#     except NameError:
-#         # If logger is not defined, just continue without logging
-#         pass
-#
-#     return final_result_df, g
-
 def process_rules(file, prefix, rdf_data, predictions_folder, kg, pca_threshold):
-    """Process rules and generate predictions based on rule type"""
+    """
+    Processes rules, validates them against a PCA confidence threshold, generates predictions,
+    and enriches an RDF knowledge graph based on the rules. The function also produces a
+    summary of the rules and predictions utilized during the process.
+
+    Args:
+        file: Path to the file containing rules in CSV format.
+        prefix: Prefix for constructing URIs for RDF triples.
+        rdf_data: Path to the RDF data file in NT format.
+        predictions_folder: Path to the folder where prediction outputs will be stored.
+        kg: Identifier for the knowledge graph.
+        pca_threshold: PCA confidence threshold for filtering rules.
+
+    Returns:
+        Tuple containing a DataFrame with generated predictions and the enriched RDF graph.
+
+    Raises:
+        ValueError: If required columns are missing from the rules file.
+    """
+
     print(f"Reading rules from {file}")
     rules = pd.read_csv(file)
 
@@ -443,7 +390,25 @@ def process_rules(file, prefix, rdf_data, predictions_folder, kg, pca_threshold)
     return final_result_df, g
 
 def initialize(input_config):
-    """Initialize configuration from input file"""
+    """
+    Initializes the system using the configuration provided in the input file. It reads
+    the configuration file, extracts necessary parameters, constructs paths for various
+    files and folders, and logs the loaded configuration details.
+
+    Args:
+        input_config (str): The path to the configuration file in JSON format.
+
+    Returns:
+        tuple: A tuple containing the following elements in order:
+            - prefix (str): The prefix specified in the configuration file.
+            - rules (str): Path to the rules file.
+            - rdf (str): Path to the RDF file.
+            - path (str): Path to the knowledge graph (KG) directory.
+            - predictions_folder (str): Path to the predictions folder.
+            - constraints (str): Path to the constraints folder.
+            - kg (str): Name of the knowledge graph (KG).
+            - pca_threshold (float): PCA threshold value from the configuration file.
+    """
     print(f"Reading configuration from {input_config}")
     with open(input_config, "r") as input_file_descriptor:
         input_data = json.load(input_file_descriptor)
@@ -506,20 +471,21 @@ if __name__ == '__main__':
         logger = logging.getLogger(__name__)
         logger.info(f"Starting symbolic prediction process with config: {input_config}")
 
+        #Initializaing from the input.json file
         prefix, rulesfile, rdf_data, path, predictions_folder, constraints, kg, pca_threshold = initialize(input_config)
 
-        # Process rules and generate predictions
+        # Process rules and generate symbolic predictions
         print("\nProcessing rules and generating predictions...")
         logger.info(f"Processing rules from {rulesfile} and generating predictions")
         result_df, enriched_kg = process_rules(rulesfile, prefix, rdf_data, predictions_folder, kg, pca_threshold)
 
-        # Validate results
-        # print("\nValidating results...")
-        # val_results = travshacl(enriched_kg, constraints, kg)
-        #
-        # # Transform results
-        # print("\nTransforming results...")
-        # transform(enriched_kg, kg)
+        # Validate SHACL constraints
+        print("\nValidating results...")
+        val_results = travshacl(enriched_kg, constraints, kg)
+
+        # Normalizing enriched KG (enrichedKG obtained from symbolic predictions)
+        print("\nTransforming results...")
+        transform(enriched_kg, kg)
 
         # Print execution time
         end_time = time.time()

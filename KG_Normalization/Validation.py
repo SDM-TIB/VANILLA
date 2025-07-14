@@ -1,6 +1,22 @@
 from TravSHACL import parse_heuristics, GraphTraversal, ShapeSchema
 
 def travshacl(enrichedKG, constraints, kg):
+    """
+    Validates a SHACL shape schema against a given enriched knowledge graph with constraints
+    and prioritization heuristics.
+
+    This function utilizes the `ShapeSchema` class and its methods to perform validation.
+    The validation results are saved to a specified directory. The prioritization is
+    determined based on target definitions, in-degree, or constraints size.
+
+    Args:
+        enrichedKG: Endpoint of the enriched knowledge graph to validate against.
+        constraints: Path to the directory containing SHACL constraint shapes.
+        kg: Identifier of the knowledge graph; used in constructing the results path.
+
+    Returns:
+        Validation results as provided by the `ShapeSchema.validate` method.
+    """
     prio_target = 'TARGET'  # shapes with target definition are preferred, alternative value: ''
     prio_degree = 'IN'  # shapes with a higher in-degree are prioritized, alternative value 'OUT'
     prio_number = 'BIG'  # shapes with many constraints are evaluated first, alternative value 'SMALL'
