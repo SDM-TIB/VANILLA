@@ -1,6 +1,7 @@
 ## VANILLA - KG Normalization
 
-![KG Normalization](https://raw.githubusercontent.com/SDM-TIB/VANILLA/main/images/DesignPattern(a)VANILLA.png "KG Normalization")
+![KG Normalization](<https://raw.githubusercontent.com/SDM-TIB/VANILLA/main/images/DesignPattern(a)VANILLA.png> "KG Normalization")
+
 ## 🔍 Overview
 
 The design pattern components of VANILLA for KG Normalization process. <br>
@@ -12,17 +13,19 @@ Normalized KGs improve the predictive performance of numerical inductive learnin
 
 1. **Configure input**
    Modify `input.json` to select the benchmark KG and rule/constraint files.
+
 ```json
 {
   "KG": "FrenchRoyalty",
-  "prefix": "http://FrenchRoaylty.org/",
+  "prefix": "http://FrenchRoyalty.org/",
   "rules_file": "french_royalty.csv",
   "rdf_file": "french_royalty.nt",
-  "constraints_folder": "FrenchRoaylty",
+  "constraints_folder": "FrenchRoyalty",
   "log_level": "INFO",
   "pca_threshold": 0.75
 }
 ```
+
 2. **Executing KG Normalization**
 
 ```python
@@ -30,6 +33,7 @@ python Symbolic_predictions.py
 ```
 
 This will:
+
 - Generate inferred predictions using symbolic rules.
 - Validate them against SHACL constraints.
 - Output:
@@ -48,6 +52,7 @@ The VANILLA framework integrates **symbolic rules**, **domain constraints** for 
 This project is licensed under the terms of the [LICENSE.txt](LICENSE.txt).
 
 ## Authors
+
 VANILLA has been developed by members of the Scientific Data Management Group at TIB, as an ongoing research effort.
 The development is co-ordinated and supervised by Maria-Esther Vidal.
 We strongly encourage you to report any issues you have with VANILLA.
